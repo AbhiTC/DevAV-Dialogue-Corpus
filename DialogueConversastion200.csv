@@ -1,0 +1,1937 @@
+User ,Agent,Intent,Slot,User Sentiment
+25,25,25,25,25
+I wanna buy a phone which fulfills all my requirements.,What are your basic needs?,Phn_SelReq,null,Neu
+Camera should be excellent,Model Y67 by Vivo has very good camera.,Slt_Info,"P_Camera-Good,S_Camera-Good",Neu
+How much storage does it offer?,It has 4 GB Internal RAM and 32 GB RAM,Query_Slot,null,Neu
+And how about the Camera?,The camera Quality is 13 MP for primary and 16 MP for Secondary,Query_Slot,null,Neu
+"Oh, that’s great. How much is the price?",The price is 270 Euro,Query_Slot,null,Neu
+What other phones do you have if I want more storage?,4 GB Internal RAM and 32 GB RAM is more than enough to solve your purpose. You won't require much space.,Slt_Info,"RAM-Good,Internal_RAM-Good",Neu
+Still 32 GB seems too less as I watch lot of movies after downloading them in my phone so need more space.,You can take V5 Plus by Vivo,Feedback,null,Neg
+How much storage does it offer?,It has got the storage of $R$ GB RAM and $IR$ GB internal RAM,Query_Slot,null,Neu
+How much is it for?,It’s for 450 Euro,Query_Slot,null,Neu
+"Okay, can you pack this phone?",Ok booking confirmed,Booking_Req,null,Neu
+Thanks for help,Welcome,Gratitude,null,Pos
+26,26,26,26,26
+"Hello, I want a Mobile Phone.","Hello, Sure we have many mobiles available in our store. Do you have any specific requirements?",Phn_SelReq,null,Neu
+"Yes, the Phone should have a good battery and memory.",Xplay6 by Vivo has very good battery life of 4080 mAH and RAM of 6 GB.,Slt_Info,"Battery-Good,RAM-Good",Neu
+What is it's colour?,It's Gold in color.,Query_Slot,null,Neu
+oh! But I am looking for a silver colour phone.,Gold color has been preferred by many of our customers. This phone is getting very good reviews,Slt_Info,Color-Silver,Neg
+What does it cost?,Price is 700 Euro.,Query_Slot,null,Neu
+"Ok, book this one for me.","Yeah Sure, Completing the booking process . Its done. Your Ref no. is 1212_26",Booking_Req,null,Neu
+Thanks for helping me.,Welcome anytime,Gratitude,null,Pos
+27,27,27,27,27
+"Hello, I want a reliable phone as I do most of my office work on the phone.","Sure, is there any other feature you want in your phone?",Phn_SelReq,null,Neu
+"Yes, the display size should be big and the battery should last long as I travel a lot.","Well, then iPhone 7 Plus by Apple will be perfect for you as it has screen size of 401 and battery lasts for two days",Slt_Info,"Battery-Good,Display_Size-Big",Neu
+What is it's weight?,It is 188gms,Query_Slot,null,Neu
+"oh, that's a bit heavy. Can you suggest some other phone with a lightweight.","Sir, it's not that heavy and this phone is getting very good review",Slt_Info,Weight_g-Light,Neg
+"Yes I understand your point but still, I would prefer a lightweight phone.",Then you should go for Zenfone 2 Deluxe ZE551ML by Asus. It is light weight and also has large screen size,Feedback,null,Neg
+What is it's colour?,It's available in white.,Query_Slot,null,Neu
+I will take it then.,"Sure, I am booking this for you and your reference number is 1212_27",Booking_Req,null,Neu
+Thannks a ton. You have been very helpful.,My pleasure,Gratitude,null,Pos
+28,28,28,28,28
+"Hey, I want to buy a phone.",Any specific phone you want?,Phn_SelReq,null,Neu
+I want to buy Paradise by HTC.,"Sure, sorry sir this phone is out of stock in our store. But We have Desire 10 Pro by HTC. It is also a very good phone. It has very good camera.",Slt_Info,"Brand-HTC,Model-Paradise",Neu
+How is the camera quality?,Front camera is 20 MP and back camera is 13 MP.,Query_Slot,null,Neu
+That's very good. What is it's display screen size?,It is 400 pixel,Query_Slot,null,Neu
+what is it's colour?,It's stone black.,Query_Slot,null,Neu
+"oh, this colour is not of my liking. I want it in blue.",Black looks stylish and many customers are prefering black over other color,Slt_Info,Color-Blue,Neg
+"Perfect, I will take it. Kindly gift wrap it.","Sure, I will gift wrap it. Your booking reference number is 1212_28",Booking_Req,null,Pos
+Thanks a ton.,My pleasure.,Gratitude,null,Pos
+29,29,29,29,29
+"Hi, I am looking for a good phone.","Hello, what are your requirements for the same?",Phn_SelReq,null,Neu
+I want to buy Yoga Tab 3 Plus by Lenovo.,"Nice choice , here it is",Slt_Info,"Brand-Lenovo,Model-Yoga Tab 3",Neu
+"I often listen to Radio. Radio also works on it, right?","Sorry sir, radio does not work on the tab. But you can take Desire 10 Pro by HTC. Radio jack is available in this phone",Confirm_Q,Radio-Yes,Neg
+How is the battery life?,It is 3000 mAH.,Query_Slot,null,Neu
+What is it's colour?,It's stone black.,Query_Slot,null,Neu
+What is it's cost?,it's 460 euro.,Query_Slot,null,Neu
+"Sorry, I can't take this phone that's too costly for me. My budget is 400.",But for higher price you will get superior and satisfactory compatible hardware with latest technology and OS.,Slt_Info,Cost-400-,Neg
+"ok, can you book it for me?","Yes done, Ref No is 1212-29",Booking_Req,null,Neu
+Thanks for help,Welcome and thank you so much for shopping with us.,Gratitude,null,Pos
+30,30,30,30,30
+I am in urgent need of a phone.,What type of Phone you want?,Phn_SelReq,null,Neu
+I want a lightweight phone with an internal RAM of 64 GB.,"Sure, ZUK Z2 Pro by Lenovo. It has 64 GB RAM and 145 gms weight.",Slt_Info,"Weight_g- Light,Internal_RAM-64GB",Neu
+Sounds good. Does it have a Radio jack?,"Sorry sir, Radio does not work on this phone.",Query_Slot,null,Neu
+"My bad luck, do you have some other brand's phone with the same feature?","If you leave Radio Jack aside , this phone is really good",Slt_Info,Radio-Y,Neg
+Does it has DualSim?,Yes it has DualSim.,Confirm_Q,Sim-D,Neu
+"Okay, can you pack this phone?",Ok booking confirmed,Booking_Req,null,Neu
+Thanks for your help.,Welcome,Gratitude,null,Pos
+31,31,,,
+I want to buy a phone which fulfils all my requirements.,What are your basic needs?,Phn_SelReq,null,Neu
+The camera should be excellent.,model Lumia 950 by Microsoft is a good phone,Slt_Info,"P_Camera-Good,S_Camera-Good",Neu
+How much storage does it offer?,It has 3 GB RAM and 32 GB Internal RAM,Query_Slot,null,Neu
+And how about the Primary Camera?,The camera Quality is 20 MP primary,Query_Slot,null,Neu
+"Oh, that’s great. How much is the price?",The price is 350 Euro,Query_Slot,null,Neu
+it's not that good. What other phones do you have if I want more storage?,ZUK Z1 by Lenovo can be a good option,Slt_Info,Internal_Ram-Good,Neg
+How much storage does it offer?,It has got the storage of 64 GB internal RAM,Query_Slot,null,Neu
+How much is it for?,It’s for 320 Euro,Query_Slot,null,Neu
+"Oh no, that’s very expensive, help me with a cost-effective phone which has got both a good camera and good storage.","If you overlook the price, this phone is in great demand these days. Its battery will last long and it runs smoothly. It will not hang",Slt_Info,Cost-Less,Neg
+"Okay, can you pack this phone?",Ok booking confirmed,Booking_Req,null,Neu
+Thanks for the help.,Welcome,Gratitude,null,Pos
+32,32,32,32,32
+"Hey, I want to gift a phone to my brother","Lovely, Any specific features you are looking for in your phone?",Phn_SelReq,null,Neu
+"yes, I want a big display size GPS operated phone",DTEK60 by Blackberry has display size of 534 and is widely used for GPS.,Slt_Info,"Display_Size-Big,GPS-Y",Neu
+What is it's price?,It's 530 Euro.,Query_Slot,null,Neu
+"Unfortunately, that's too costly for me. Do you have something in less?","At this price you will definitely get a better possesor, more ram and more storage",Slt_Info,Cost-Less,Neg
+"Yes, but I can't spend that much on my phone.",You can buy One ME by HTC. It also has display screen of 565 and price is also 340 Euro,Feedback,null,Neg
+What is it's colour?,it's Meteor Grey,Query_Slot,null,Neu
+what is it's weight?,It is 155 gms,Query_Slot,null,Neu
+It looks good. Please book it for me.,"Sure, I am booking One ME by HTC for you. Your reference number is 2012_32",Booking_Req,null,Neu
+Thanks for all your time.,My pleasure,Gratitude,null,Pos
+33,33,33,33,33
+"Good Evening, I am looking for a trending phone.","sure, please tell me your model no or requirements",Phn_SelReq,null,Neu
+I need to have a phone that has a high memory and good battery life.,Moto Maxx by Motorola will be a good choice. Its internal RAM is 64 GB.,Slt_Info,"Internal_RAM-Good,Battery-Good",Neu
+What is it's colour?,It is Black Ballistic Nylon.,Query_Slot,null,Neu
+What is it's weight?,It is 176 gms.,Query_Slot,null,Neu
+"Oh,that's a bit on heavier side. Do you have something in light weight?",Most of the good phone has weight around this only,Slt_Info,Weight_g-Light,Neg
+Yeah but I don't find it comfortable to keep a heavy phone in my pocket.,Then sir R11 by Oppo will be a perfect choice for you with good memory.,Feedback,null,Neu
+What is it's price?,It is 400 Euro. It's a new phone in the market. You will love it.,Query_Slot,null,Neu
+"Okay, I will take this phone.","great choice , I am booking it for you. Your reference number is 2012_33",Booking,null,Neu
+Thanks a ton.,My pleasure,Gratitude,null,Pos
+34,34,34,34,34
+"Hey, I want to buy a phone.","Sure, any speciifc requirements you have for the phone?",Phn_SelReq,null,Neu
+I want a tripel sim phone.,Liquid X2 by Acer is a triple sim phone.,Slt_Info,Sim-T,Neu
+what is it's camera quality?,it's 13 MP for both front and back.,Query_Slot,null,Neu
+What is it's colour?,It's black in color.,Query_Slot,null,Neu
+I don't like the black colour. Do you have it in some other colour?,It is available in black only and this phone is selling like hot cake.Don't leave this phone just for the color. Black color is also easy to maintain.,Slt_Info,Color-Non Black,Neg
+what is it's cost?,its cost is 230 euro,Query_Slot,null,Neu
+"Okay, I will take this phone.","great choice , I am booking it for you. Your reference number is 2012_34",Booking_Req,null,Neu
+You are a very good salesman. Thanks a lot.,My pleasure,Gratitude,null,Pos
+35,35,35,35,35
+I am looking for a good phone.,"Sure, any specific features you have in your mind?",Phn_SelReq,null,Neu
+I want a small display size phone with a good memory.,"Sure, Is the all requirement ?",Slt_Info,"Display_Size-Small,Internal_RAM-Good",Neu
+I want it in black colour.,"Great , Fonepad 8 FE380CG by Asus is a good phone",Slt_Info,Color-Black,Neu
+What is its OS?,It's Android.,Query_Slot,null,Neu
+I don't want an android phone.,Its an user friendly OS where you can easily get new and updated thousands of apps.,Slt_Info,OS-Non And,Neg
+My previous was Android. This time I want to try other OS.,"Then, Advantage X7510 by HTC can be a good option",Feedback,null,Neg
+What colour is it available in your store?,It is available in black,Query_Slot,null,Neu
+"Okay, I will book a black phone.","great, I am booking your order and your reference number is 2012_35",Booking_Req,null,Neu
+Thanks a lot.,My pleasure.,Gratitude,null,Pos
+36,36,36,36,36
+"Good evening, I am looking for a good phone.","Sure, Any specific model or features you are looking for?",Phn_SelReq,null,Neu
+I am looking for a blue color Samsung phone,Galaxy J7 (2017) by Samsung is a good option.,Slt_Info,"Brand-Samsung,Color-Blue",Neu
+What is it's internal Ram storage?,It is 32 GB RAM.,Query_Slot,null,Neu
+I want a Samsung phone with more internal RAM space.,You can increase the space using memory card.,Slt_Info,Internal_RAM-Good,Neu
+But I am not comfortable with an external memory card.,Okay then Samsung Galaxy S8 has 64 GB internal RAM and 4 GB RAM. It's also available in Midnight Black color.,Feedback,null,Neg
+"Lovely, what is it's cost?",it is 700 Euro.,Query_Slot,null,Neu
+Book it for me.,"Sure, your booking reference number is 2012_36",Booking_Req,null,Neu
+Thanks dear.,You are welcome.I am happy to help. Do visit us again.,Gratitude,null,Pos
+37,37,37,37,37
+"Hi, I am looking for a sturdy phone.","Hello, Any specific company mobile you have in mind?",Phn_SelReq,null,Neu
+"Hey, I am looking for a Samsung mobile.","Sure, it is available in our store. Do you want Samsung mobile only?",Slt_Info,Brand-Samsung,Neu
+Yes I am sure. I want a samsung phone only.,Galaxy J7 Max by Samsung is available in black color.,Confirm,Brand-Samsung,Neu
+oh I want in other than black.,But black is the most popular color in cell phones,Slt_Info,Color-Non Black,Neg
+But Black is not my favourite.,Galaxy J3 (2017) by Samsung is available in white color in our store,Feedback,null,Neg
+What is it's price?,It is 220 Euro,Query_Slot,null,Neu
+What is it's battery?,It is 2400 mAH,Query_Slot,null,Neu
+"Fine, i will take it.",your booking reference number is 2012_37,Booking_Req,null,Neu
+Thanks a ton.,Welcome always.My pleasure.,Gratitude,null,Pos
+38,38,38,38,38
+"Good Evening, I want to buy a cell Phone","Sure, any specific model you are looking for?",Phn_SelReq,null,Neu
+I want to buy an HTC phone.,One Max by HTC is a very good phone.,Slt_Info,Brand-HTC,Neu
+What is it's battery?,Its battery is 3300 mAH.It lasts for for more than 24 hrs.,Query_Slot,null,Neu
+What is it's cost?,It is 370 Euro.,Query_Slot,null,Neu
+My budget is more. Do you have an expensive phone with more benefits?,At 370 Euro phone also has fingerprint sensor.,Slt_Info,Cost-Expensive,Neg
+I am not interested in this phone. Higher priced phone will have more additional features with the good operating system.,10 evo by HTC's price is 570 Euro.,Feedback,null,Neg
+What is it's color?,Its color is silver,Query_Slot,null,Neu
+I will take it.,"cool, your booking reference number is 2012_38",Booking_Req,null,Neu
+I am very happy today. Thanks a lot.,My pleasure. You are always welcome,Gratitude,null,Pos
+39,39,39,39,39
+"Hi, I want to buy a new phone.",Any specific feature are you looking for ?,Phn_SelReq,null,Neu
+I want a 128 GB internal RAM phone.,Xiaomi Redmi Pro has 128 GB internal RAM,Slt_Info,Internal_RAM-128,Neu
+What is it's colour?,Its color is silver.,Query_Slot,null,Neu
+"oh, I am not fond of silver color. Do you have some other colour?",Silver colour is different and is not common,Slt_Info,Color-Non Silver,Neg
+True but somehow i have aversion towards silver color.,"Same model we have in silver only. But, You can buy Mi 5 by Xiaomi. Its internal RAM is also 128 GB.",Feedback,null,Neg
+"Lovely, What is it's colour?",It's black,Query_Slot,null,Neu
+What is it's price?,It is 240 Euro.,Query_Slot,null,Neu
+"Cool, I will take it.","Great, your booking number is 2012_39",Booking_Req,null,Pos
+Thanks a lot.,My pleasure. Welcome,Gratitude,null,Pos
+40,40,40,40,40
+"Hello, I am in urgent need of a good phone.","Sure, you are at right place. What kind of phone are you looking for?",Phn_SelReq,null,Neu
+I don't have much requirement. Primary and Secondary Camera quality is my primary focus.,A1 by Gionee is a good phone.,Slt_Info,"P_Camera-Good,S_Camera-Good",Neu
+What is its primary and secondary camera quality?,It is 13 MP-Primary and 16 MP-Secondary.,Query_Slot,null,Neu
+"oh, I take too many selfies so I want higher quality secondary phone i.e 16 MP+.",This phone's picture quality is very good.,Slt_Info,S_Camera-16+,Neg
+True but my friend have suggested going for a phone with a 16 MP+ secondary camera.,A1 Plus by Gionee has 20 MP secondary camera.,Feedback,null,Neg
+What is it's price?,It is 370 Euro,Query_Slot,null,Neu
+I will buy it.,"Great, your reference number is 2012-40",Booking_Req,null,Neu
+Thank you for your time.,I am happy to help you,Gratitude,null,Pos
+41,41,41,41,41
+"Hi, I want to buy a phone.","Sure, is there any specific requirements you have?",Phn_SelReq,null,Neu
+I want the 2016 released HTC phone.,U Ultra by HTC is very good phone in the market. It is getting very good response from the public,Slt_Info,"Released_Yr-2016,Brand-HTC",Neu
+What is it's cost?,It is 750 Euro.,Query_Slot,null,Neu
+I am looking for a phone which is less than 500 Euro.,Buy this phone it comes with a sapphire glass screen for extra protection against scratches and it has a space for microsd card also,Slt_Info,Cost-500-,Neu
+Yeah but I have limited money so can't afford it.,U Play by HTC's price is only 470 Euro but its internal RAM is 32 GB compared to 64GB of HTC Ultra U phone,Feedback,null,Neg
+I have no problem with storage. I will buy U play.,"No problem, i am booking it for you. Your reference number is 2012-41",Booking_Req,null,Neg
+Thanks a lot,You are always welcome.It's my pleasure to serve you.,Gratitude,null,Pos
+42,42,42,42,42
+"Hello, I am in search of a good phone.",You are at the right place. Any specific phone you need?,Phn_SelReq,null,Neu
+"No, It should be a Dual Sim and GPS operated phone.","Sure, many phones are available at our store. Pixel V2 by Lava will be a good choice",Slt_Info,"Sim-D,GPS-Y",Neu
+"Great, what is its Released Year and Released Month?",It is September 2015,Query_Slot,null,Neu
+"Oh, that's an old phone. Do you have a 2017 released phone?",Even though it is old but this phone is still very much in demand and its price has also decreased,Slt_Info,Released_Yr-2017,Neg
+What is it's cost?,Its cost is 120 Euro,Query_Slot,null,Neu
+What is it's weight,It is 128 gms. It's a light weight smartphone.,Query_Slot,null,Neu
+"Okay, I like this phone. Pack it for me.","Good choice, I am booking it for you. Your reference number is 2012-42",Booking_Req,null,Neu
+Thanks a lot for your time.,Welcome always.,Gratitude,null,Pos
+43,43,43,43,43
+"Hi, I want to buy a phone","Yes, please tell your model no or requirements",Phn_SelReq,null,Neu
+I am not restricted to any particular model but I need to have a phone that has high memory.,Mate 9 Porsche Design by Huawei will be a good choice for you.,Slt_Info,"RAM-Good,Internal_RAM-Good",Neu
+What is it's internal RAM?,It is 256 GB internal Ram.,Query_Slot,null,Neu
+"Superb, What is it's cost?",It is 1400 Euro,Query_Slot,null,Neu
+"Unfortunately, that's too costly for me. Do you have a 128 GB internal memory phone at a lower price?","Cost is bit high but Mate 9 Porsche Design's camera has features like Digital Zoom, Auto Flash, Digital image stabilization, Face detection, Touch to focus.",Slt_Info,"Internal_RAM-128 GB,Cost-Less",Neg
+What is it's colour?,Graphite Black is its color.,Query_Slot,null,Neu
+I will take it.,"Nice, I am booking it for you. Your reference number is 2012-43",Booking_Req,null,Neu
+Thanks a ton.,My pleasure,Gratitude,null,Pos
+44,44,44,44,44
+"Hi, I am interested in buying a phone.","Good Evening, any specific feature you want in your phone",Phn_SelReq,null,Neu
+"Yes, it should be lightweight and should have a small screen.",Liquid Z520 by Acer is a light weight phone with small screen size,Slt_Info,"Weight_g-Light,Display_Size-Small",Neu
+Is it a Dual Sim phone?,"Sorry, it's a single sim phone.",Confirm_Q,Sim-D,Neu
+"Can you recommend Dual Sim, a lightweight and small screen phone?",Specifically for dualsim don't leave this phonebecause it is really good performance wise,Slt_Info,Sim-D,Neu
+I am not interested in a single sim phone. I require a Dual Sim phone.,You can take Zenfone C ZC451CG by Asus.,Feedback,null,Neg
+What is it's price?,its price 90 Euro.,Query_Slot,null,Neu
+"Lovely, it is under my budget. I will buy it.","Thanks, I am booking it for you. Your reference number is 2012-44",Booking_Req,null,Neu
+Thank you so much.,You are most welcome,Gratitude,null,Pos
+45,45,45,45,45
+"Good Evening, I am in urgent need of a phone.","Good evening, any specific model model are you looking for?",Phn_SelReq,null,Neu
+I don't have any specific mobile in my mind. Can you suggest to me the latest phone.,One X10 by HTC is a very good phone. It's very much in demand these days.,Slt_Info,Released_Yr-Latest,Neu
+What is it's memory?,It is 32 GB internal RAM.,Query_Slot,null,Neu
+What is it's price?,It is 330 Euro,Query_Slot,null,Neu
+But my budget is more around 800 Euro. Can you suggest a higher range?,X10 is very good phone. At less price company has tried to incorporate many features,Slt_Info,Cost-800+,Neg
+But I want in higher range.,U11 by HTC is also a very good phone.It's price is 750 Euro.,Feedback,null,Neu
+What is it's color?,Its color is also unique. It is Amazing Silver.,Query_Slot,null,Neu
+"Lovely, I will buy it.","Great choice , I am booking it for you. Your reference number is 2012-45",Booking_Req,null,Pos
+Thanks a ton.,My pleasure.,Gratitude,null,Pos
+46,46,46,46,46
+"Hello, I want a good phone.","Good morning, what type of phone you want?",Phn_SelReq,null,Neu
+I want an apple phone.,"Sure, iPhone 7 Plus is getting very good response.",Slt_Info,Brand-Apple,Neu
+What is it's price?,It is 900 Euro.,Query_Slot,null,Neu
+It is very costly. Do you have a phone under 700 Euro?,Price of this phone has decreased because of it many customers are buying it.,Slt_Info,Cost-700-,Neg
+But I can't go beyond 700 Euro.,iPhone 6s by Apple is 620 Euro.,Feedback,null,Neu
+What is it's colour?,It is unique. The color is space Grey,Query_Slot,null,Neu
+What is it's internal RAM.,It is 16 GB.,Query_Slot,null,Neu
+I will take it.,"yes, I am booking it for you. Your reference number is 2012-46",Booking_Req,null,Neu
+Thanks a lot.,My pleasure,Gratitude,null,Pos
+47,47,47,47,47
+I wanna buy a phone which fulfils all my requirements.,What are your basic needs?,Phn_SelReq,null,Neu
+The camera should be excellent and it should be in gold colour.,Have a look at Galaxy C7 Pro by Samsung,Slt_Info,"P_Camera-Good,S_Camera-Good,Color-Gold",Neu
+How much storage does it offer?,It has 4 GB RAMand 64 GB internal RAM,Query_Slot,null,Neu
+And how about the Camera?,The camera Quality is 16 MP for both primary and secondary,Query_Slot,null,Neu
+Can you suggest a phone with 128 GB internal RAM?,64 GB itself is an impressive amount of RAM. 128 won't be of much use,Slt_Info,Internal RAM-128,Neu
+"Sorry, I can't buy this I need more storage.",Mi 5 by Xiomi is a good phone,Feedback,null,Neg
+How much storage does it offer?,It has got the storage of 4 GB RAM and 128 internal RAM.,Query_Slot,null,Neu
+How much is it for?,It’s for 260 Euro,Query_Slot,null,Neu
+"Okay, can you pack this phone?",Ok booking confirmed. Your reference number is 2012-47,Booking_Req,null,Neu
+Thanks for your help.,Welcome,Gratitude,null,Pos
+48,48,48,48,48
+"Hi, I need a new phone.","hello, what kind of phone you want?",Phn_SelReq,null,Neu
+I want GPS operated phone with more space.,"Sure, X4 Soul by Allview is a good phone. It has 64 GB internal RAM",Slt_Info,"GPS-Y,Internal_RAM-Good",Neu
+What is it's Display Size?,It is 401 Pixel,Query_Slot,null,Neu
+"oh, it is small. Do you have a big display size phone?",This size is good enough to watch videos and movies,Slt_Info,Display_Size-Big,Neg
+what is it's battery?,It is 3000 mAH,Query_Slot,null,Neu
+What is its color?,It is black in color.,Query_Slot,null,Neu
+"Okay, can you pack this phone?",Ok booking confirmed. Your reference number is 2012-48,Booking_Req,null,Neu
+Thanks for the help.,Welcome,Gratitude,null,Pos
+49,49,49,49,49
+"Hi, I want a phone.","Sure,which brand mobile you want?",Phn_SelReq,null,Neu
+I want to buy a Samsung phone.,Galaxy C7 Pro by Samsung is a good phone to use.,Slt_Info,Brand-Samsung,Neu
+What is it's camera quality?,It is 16 MP Primary and 16 MP Secondary.,Query_Slot,null,Neu
+"Oh, it is too less, I want at least a 20 MP Primary Camera.",The 16-megapixel rear-facing camera is fast and reliable.,Slt_Info,P_Camera-20,Neg
+"Still, I would go for a higher MP phone. Show me a phone in another brand.","Okay, Xperia Z1 by Sony has 20.7 MP camera for Primary. Also in samsung we don't have 20 MP phone.",Feedback,null,Neg
+"Cool, what is it's memory?",It is 4 GB RAM and 64 GB internal RAM.,Query_Slot,null,Neu
+What is it's cost?,Its cost is 550 EURO,Query_Slot,null,Neu
+"Cool, I will purchase it.","Great choice, I am booking your order. Your order number is 2012-49",Booking_Req,null,Pos
+Thanks a lot,My pleasure,Gratitude,null,Pos
+50,50,50,50,50
+"Good Evening, I am looking for the best smartphone.","Sure, any special feature you are looking for?",Phn_SelReq,null,Neu
+"Nothing in Particular, I want a 2017 released android phone which is heavily in demand.",Redmi Note Prime by Xiomi is trending these days,Slt_Info,"Released_ Yr-2017,OS-And",Neu
+What is it's colour?,It's white color. It looks very classy.,Query_Slot,null,Neu
+"oh, I can't maintain white color. Do you have it in blue or black colour?",We have back cover for the phone so it will keep your phone new,Slt_Info,Color-Black&Blue,Neg
+"I take your point but still, I would go for Black or Blue.",Okay then Mi 4s by Xiomi also in great demand these days,Feedback,null,Neg
+What is it's price?,It is 220 Euro,Query_Slot,null,Neu
+What is it's battery capacity?,It is 3260 mAH,Query_Slot,null,Neu
+Is it a Dual Sim phone?,Yes it is,Confirm_Q,Sim-D,Neu
+"Okay, I think I will buy it.","Great, I am booking it for you. Your booking reference is 2012-50",Booking_Req,null,Pos
+Thanks a lot for helping me in choosing a good phone.,"My pleasure, I love suggesting good phone. Do visit us again",Gratitude,null,Pos
+51,51,51,51,51
+I want a technologically advanced mobile phone.,"Good Evening, we have many variety. Any specific model you are looking for?",Phn_SelReq,null,Neu
+I want an apple phone that fits my budget.,what is your budget? Do you have any other requirements?,Slt_Info,Brand-Apple,Neu
+It should be under 650 Euro.,iPhone 6s by Apple will fit your budget. It is 620 Euro,Slt_Info,Cost-650-,Neu
+What is it's storage?,It is 16 GB internal RAM,Query_Slot,null,Neu
+That will not fulfil my need. I need a phone with more space at least 64 GB of internal RAM.,This phone has memory card slot. It will increase your storage. Then you will have to buy a phone in some other brand,Slt_Info,Internal_RAM-64+,Neu
+But I don't want to use a memory slot. I am okay with another brand.,M6s Plus by Gionee is a good phone,Feedback,null,Neg
+What is it's price?,It is 460 Euro.,Query_Slot,null,Neu
+I will take it,"nice, your booking number is 2020-51",Booking_Req,null,Pos
+Thanks a lot for your help.,My pleasure.,Gratitude,null,Pos
+52,52,52,52,52
+"Hello, I want to buy a phone.",Sure. May i know what are your requirements?,Phn_SelReq,null,Neu
+"Yes, I need a GPS operated phone with less weight.",You can take RAZR D1 by Motorola,Slt_Info,"GPS-Y,Weight_g-Light",Neu
+How much?,Its costs is only 150 EURO.,Query_Slot,null,Neu
+whats is it's battery?,It's 1785 mAH,Query_Slot,null,Neu
+"Oh, but this is less.",This is the best phone as per your primary requirements,Feedback,null,Neg
+"Ok, can you please book it for me?",Yeah Sure done.,Booking_Req,null,Pos
+Thank you.,You are most welcome .,Gratitude,null,Pos
+53,53,53,53,53
+"Hey, I need phone info.","Yes, what are your requirements?",Phn_Info,null,Neu
+It should be HTC company with lightweight.,Is the all requirement ?,Slt_Info,"Brand-HTC,Weight_g-Light",Neu
+"Yes, it should be May 2017 released phone.",U11 by HTC is May 2017 released phone,Slt_Info,"Released_Yr-2017,Released_Month-May",Neu
+What is it's battery capacity,It has battery capacity of 3000 mAH,Query_Slot,null,Neu
+Only 3000? Quite less Capacity.,3000 mAH usually lasts for 48 hrs and also you can use battery saving mode.,Slt_Info,Battery-4000+,Neg
+"Ok, Book it for me.",Yeah Sure done.,Booking_Req,null,Pos
+"Ok,Thanks for the information.",You are most welcome,Gratitude,null,Pos
+54,54,54,54,54
+I need to buy a phone.,"Sure, any specific phone you are looking for?",Phn_SelReq,null,Neu
+Phone with a good primary camera and high battery capacity.,"Ok, we have phones available meeting your specifications, Do have any other requirement also?",Slt_info,"P_Camera-Good,Battery-Good",Neu
+No that's all.,You can buy X9 Plus by Vivo which has 16 MP,Confirm,null,Neu
+what about the secondary camera?,It is also 16 MP.,Query_Slot,null,Neu
+What is its Released Year?,It is 2016,Query_Slot,null,Neu
+"oh, but I want a 2017 released phone",This phone is still very much in demand and company has slashed its price also,Slt_Info,Released_Yr-2017,Neg
+But I want a new released phone with a good camera and battery.,Then you should try V5s by Vivo,Feedback,null,Neu
+what is it's both cameras?,It's back camera is 13 MP & front camera is 20 MP,Query_Slt,null,Neu
+It sounds great.,Yes it is one of the best phone for camera.,Feedback,null,Pos
+"Ok, can you book it for me?","Yeah , Booking done, Thanks for buying with us",Booking_Req,null,Neu
+Thanks for assistance.,"Welcome , Please visit again.",Gratitude,null,Pos
+55,55,55,55,55
+"Good Evening, I am looking for a trending phone.","sure, please tell me your model no or requirements",Phn_SelReq,null,Neu
+I need to have a phone that has less weight and good battery life.,Zenfone 3 Zoom ZE553KL by Asus will be a good choice. Its weight is 170gms,Slt_Info,"Battery-Good,Weight_g-Light",Neu
+What is it's colour?,It is Navy Black color,Query_Slot,null,Neu
+Whta is it's internal RAM?,It is 32 GB,Query_Slot,null,Neu
+"Oh, that's too less. I want at least 64 GB of internal RAM",Memory card can be used to increase the space,Slt_Info,Internal_RAM-64+,Neg
+Yeah but I am not comfortable with a memory card.,Then Zenfone AR ZS571KL by Asus will be a perfect choice for you with good battery.,Feedback,null,Neu
+What is it's price?,It is 800 Euro. It's a very good phone. You will love it.,Query_Slot,null,Neu
+"Okay, I will take this phone.","great choice , I am booking it for you.",Booking,null,Neu
+Thanks a ton.,My pleasure,Gratitude,null,Pos
+56,56,56,56,56
+"Good Evening, I am looking for a trending phone.","sure, please tell me your model no or requirements",Phn_SelReq,null,Neu
+I need to have a phone that has a high memory and good battery life.,Moto Maxx by Motorola will be a good choice. Its internal RAM is 64 GB.,Slt_Info,"RAM-Good,Internal_RAM-Good,Battery-Good",Neu
+What is it's colour?,It is Black Ballistic Nylon.,Query_Slot,null,Neu
+What is it's weight?,It is 176 gms.,Query_Slot,null,Neu
+That's a bit on the heavier side. Do you have something in lightweight?,Most of the good phone has weight around this only,Slt_Info,Weight_g-Light,Neg
+Yeah but I don't find it comfortable to keep a heavy phone in my pocket,Then sir R11 by Oppo will be a perfect choice for you with good memory.,Feedback,null,Neu
+What is it's price?,It is 400 Euro. It's a new phone in the market. You will love it.,Query_Slot,null,Neu
+"Okay, I will take this phone.","great choice , I am booking it for you. Your reference number is 2012_33",Booking,null,Neu
+Thanks a ton.,My pleasure,Gratitude,null,Pos
+57,57,57,57,57
+"Hello, can you help me in selecting a phone?",Sure. Can i know what are your requirements?,Phn_SelReq,null,Neu
+I want a pink coloured dual sim phone.,F3 Plus by Oppo is a double sim phone.,Slt_Info,"Color-Pink,Sim-D",Neu
+what is it's camera quality?,it's 16 MP for primary and dual for secondary,Query_Slot,null,Neu
+What is it's weight?,It's weight is 185 gm,Query_Slot,null,Neu
+It's a bit heavy. I want a lighter phone.,It's not that heavy and also this is also a limited edition phone and is selling like hot cake. You should buy this phone only,Slt_Info,Weight_g-Light,Neu
+But I don't feel comfortable carrying a heavy phone.,You can buy Classic Enjoy 6 by Huawei,Feedback,null,Neg
+what is it's cost?,its cost is 200 euro,Query_Slot,null,Neu
+"Okay, I will take this phone.","great choice , I am booking it for you. Your reference number is 2012_34",Booking_Req,null,Neu
+You are a very good salesman. Thanks a lot.,My pleasure,Gratitude,null,Pos
+58,58,58,58,58
+"Hello, I am in search of a good phone.",You are at the right place. Any specific phone you need?,Phn_SelReq,null,Neu
+It should have a big display and high memory.,"Ok , Do you have any other requirements ?",Slt_Info,"Display_Size-Big,RAM-Good,Internal_RAM-Good",Neu
+"No, I want a high memory phone.","Okay, you can buy P8max by Huawei which has internal Ram of 64 GB and display size 326 pixel.",Confirm,null,Neu
+What is it's Primary Camera?,It is 13MP,Query_Slot,null,Neu
+"Oh, I need a 16 MP or more camera phone.",Its picture quality is very good.,Slt_Info,P_Camera-16+,Neg
+"But still, I would go for a 16 MP+ camera phone.",Okay then PRO 5 by Meizu is perfect for you.,Feedback,null,Neg
+What is it's cost?,Its cost is 390 Euro,Query_Slot,null,Neu
+What is it's weight,It is 168 gms. It's a light weight smartphone.,Query_Slot,null,Neu
+"Okay, I like this phone. Pack it for me.","Good choice, I am booking it for you. Your reference number is 2012-42",Booking_Req,null,Neu
+Thanks a lot for your time,Welcome always.,Gratitude,null,Pos
+59,59,59,59,59
+"Hi, I want to buy a phone.","Yes, please tell your model no or requirements",Phn_SelReq,null,Neu
+It should be a Samsung company and should have a good memory.,Galaxy C9 Pro by Samsung will be a good choice for you.,Slt_Info,"Brand-Samsung,RAM-Good,Internal_RAM-Good",Neu
+What is it's memory?,It is 6 GB RAM and 64 GB internal Ram.,Query_Slot,null,Neu
+"Superb, What is its cost?",It is 620 Euro,Query_Slot,null,Neu
+"Unfortunately, that's too costly for me. Do you have a phone with the same specifications at a lower price?","Cost is bit high but Galaxy C9 Pro by Samsung's camera has features like Digital Zoom, Auto Flash, Digital image stabilization, Face detection, Touch to focus.",Slt_Info,Cost-Less,Neg
+That is good to know but I can't afford it.,Galaxy C7 Pro by Samsung price is 420 Euro,Feedback,null,Neu
+What is it's colour?,Gold is its color.,Query_Slot,null,Neu
+I will take it.,"Nice, I am booking it for you. Your reference number is 2012-43",Booking_Req,null,Neu
+Thanks a ton.,My pleasure,Gratitude,null,Pos
+60,60,60,60,60
+"Hi,can you help me with buying a phone?","Hey, sure , what kind of phone do you need?",Phn_SelReq,null,Neu
+It should have a good camera and battery capacity.,R9s Plus by Oppo is one of the best phone for camera as well as battery,Slt_Info,"P_Camera-Good,S_Camera-Good,Battery-Good",Neu
+How much does it cost?,it cost 570 Euro,Query_Slot,null,Neu
+what is it's colour?,The color of Oppo AA is Black,Query_Slot,null,Neu
+"Oh, is it possible in Gold?",This model has strong features but available in Black only.,Slt_Info,Color-Gold,Neg
+But I like Gold.,You can take R9 Plus by Oppo,Feedback,null,Neu
+what is it's cost ?,it's of 550 Euro.,Query_Slot,null,Neu
+"Ok, can you book it for me?",Yes done,Booking_Req,null,Neu
+Thanks for your help.,Welcome and thank you so much for shopping with us.,Gratitude,null,Pos
+61,61,61,61,61
+"Hi, I want to buy a new phone.","hello, what kind of phone do you want?",Phn_SelReq,null,Neu
+It should have OS android and dual sim features.,"Sure, is there other features you want in your phone?",Slt_Info,"OS-And,SIM-D",Neu
+"No, that's it.",F1 Plus by Oppo meets your requirements,Confirm,null,Neu
+what is it's cost?,It cost Rs 350 Euro.,Query_Slot,null,Neu
+what colour is it?,The color of the phone is Gold,Query_Slot,null,Neu
+"Oh, is it possible to get in white?",This model is available in black only. 80% people prefer black over any other color,Slt_Info,Color-White,Neg
+But I would prefer in white.,You can go for Galaxy On8 by Samsung,Feedback,null,Neg
+what's the price?,it costs 300 Euro,Query_Slot,null,Neu
+"Okay, Can you book it for me?","Sure, I am booking it for you.",Booking_Req,null,Neu
+Thanks a lot.,Welcome and do visit us again,Gratitude,null,Pos
+62,62,62,62,62
+"Hey, I am looking for a good phone.","Hi, What sort of phone are you looking for?",Phn_SelReq,null,Neu
+It should be a 2017 released phone with good internal RAM and high primary camera quality.,F3 by Oppo suits your requirements,Slt_Info,"Released_Yr-2017,Internal_RAM-Good,P_Camera-Good",Neu
+What is the price?,It is of 380 Euro,Query_Slot,null,Neu
+Does it have a dual sim?,"Yes , this phone has dual sim.",Confirm_Q,Sim-D,Neu
+What is it's released year?,It's release year is 2017,Query_Slot,null,Neu
+What about the radio?,Sorry it does not support Radio,Query_Slot,null,Neu
+"Oh, but I often listen to Radio.","If you leave aside Radio, this phone is selling like hot cake",Slt_Info,Radio-Y,Neg
+But I would prefer the radio feature on my new phone.,"Okay, then Desire 10 Pro by HTC is a good option",Feedback,null,Neg
+What is the cost?,It's 460 Euro,Query_Slot,null,Neu
+"Ok, can you book it for me?",Yes done,Booking_Req,null,Neu
+Thanks for the help.,Welcome and thank you so much for shopping with us.,Gratitude,null,Pos
+63,63,63,63,63
+"Hey, can you help me with buying a new phone?","hello, what type of phone you want to purchase?",Phn_SelReq,null,Neu
+I want to buy a grey color phone with a good camera.,Honor MX6 by Meizu meets your requirements.,Slt_Info,"Color-Grey,P_Camera-Good",Neu
+What is it's primary camera quality?,"Yes , picture quality is very good of this phone. 12 MP is its primary camera",Query_Slot,null,Neu
+Does it contain a dual sim?,"Yes, DualSim feauture is there on this phone.",Confirm_Q,Sim-D,Neu
+what is it's cost?,it's of 300 Euro.,Query_Slot,null,Neu
+"Oh, 300 is too costly for me. Can you suggest some other phone at a cheaper price?",Even though it is costly customers are prefering this phone as it does not need any maintainance,Slt_Info,Cost-Less,Neg
+My budget restricts me to buy this phone.,M3 Note by Meizu is also a good phone,Feedback,null,Neu
+"Ok, can you book it for me?",Yes done,Booking_Req,null,Neu
+Thanks a lot for your time,Welcome and thank you so much for choosing us,Gratitude,null,Pos
+64,64,64,64,64
+"Hello, I want to buy a new phone.","hello, what phone are you looking for?",Phn_SelReq,null,Neu
+I want to buy a lightweight phone with good camera quality.,"Sure, V5s by Vivo would be a good option for you",Slt_Info,"P_Camera-Good,Weight_g-Light",Neu
+What is it's battery?,3000mAH is its battery. Your phone will last for long.,Query_Slot,null,Neu
+What colour is it?,It's in Crown Gold color.,Query_Slot,null,Neu
+what is it's released year?,It came in 2017,Query_Slot,null,Neu
+What is its price?,It costs 280 Euro,Query_Slot,null,Neu
+I want in the higher range. My budget is 400 plus.,At this price you are getting a very good deal.,Slt_Info,Cost-400+,Neu
+But I don't want to buy this phone I want in the higher range.,No problem then you can buy Galaxy A5 (2017) by Samsung,Feedback,null,Neg
+What is its price?,It costs 420 Euro,Query_Slot,null,Neu
+"Ok, I will take this phone.",Yes done,Booking_Req,null,Neu
+Thanks a lot for your time.,Welcome and thank you so much for choosing us,Gratitude,null,Pos
+65,65,65,65,65
+"Hi, I want to buy a new phone.",Any specific feature are you looking for ?,Phn_SelReq,null,Neu
+I want a 64 GB internal RAM phone.,Oneplus 3T has 64 GB internal RAM,Slt_Info,Internal_RAM-64,Neu
+What is it's colour?,Its color is Gunmetal.,Query_Slot,null,Neu
+"Oh, I am not fond of Gunmetal color. Do you have some other colour?",Gunmetal colour is different and is not common,Slt_Info,Color-Non Gunmetal,Neg
+True but somehow I have an aversion towards Gunmetal colour.,"Same model we have in Gunmetal only. But, You can buy R9s by Oppo. Its internal RAM is also 64 GB.",Feedback,null,Neg
+"Lovely, What is it's colour?",It's black,Query_Slot,null,Neu
+What is its price?,It is 450 Euro.,Query_Slot,null,Neu
+"Cool, I will take it.","Great, I am booking it for you",Booking_Req,null,Pos
+Thanks a lot.,My pleasure. Welcome,Gratitude,null,Pos
+66,66,66,66,66
+"Hi, can you please help me in selecting a phone?","Yeah Sure, May I know what kind of phone you need?",Phn_SelReq,null,Neu
+I want to buy a GPS operated phone with a 15MP primary camera.,Xperia X Performance by Sony is very good for camera .,Slt_Info,"GPS-Y,P_Camera-15",Neu
+How is camera quality?,23 MP for primary camera and 13 for secondary camera,Query_Slot,null,Neu
+How much does it cost ?,it will cost 420 Euro.,Query_Slot,null,Neu
+What is its memory?,It is 3 GB RAM and 32 GB for internal RAM,Query_Slot,null,Neu
+"Oh, It will not solve my purpose. I want a GPS operated phone with higher internal memory.",But it is getting very good response.,Slt_Info,"RAM-Good,Internal_RAM-Good",Neg
+Maybe but I have faced problem in the past with less storage.,Then I would recommend Xperia XZ Premium by Sony,Feedback,null,Neu
+"Okay, book this model for me.",Yes done,Booking_Req,null,Neu
+Thanks for helping me.,Welcome and thank you so much for shopping with us.,Gratitude,null,Pos
+67,67,67,67,67
+"Hello, I want to buy a new phone.","hello, what phone are you looking for?",Phn_SelReq,null,Neu
+"Yes, I need a phone with a double sim at less cost.",You can take Liquid Jade Primo by Acer,Slt_Info,"Sim-D,Cost-Less",Neu
+What is it's battery?,2870mAh is its battery. Your phone will last for long.,Query_Slot,null,Neu
+What colour is it?,It's in black color.,Query_Slot,null,Neu
+What is it's released year?,It came in 2015,Query_Slot,null,Neu
+"Oh, I don't want an old phone. I want the latest mobile phone.",That will cost you more. This phone is giving very good performance,Slt_Info,Released_Yr-Latest,Neg
+Yeah but still I would go for the latest phone.,"Sure, then you can buy Zenfone 3s Max ZC521TL by Asus",Feedback,null,Neg
+What is it's price?,It is 230 Euro.,Query_Slot,null,Neu
+"Ok, can you book it for me?","Yes sure,your booking is done",Booking_Req,null,Neu
+Thanks a lot for your time.,Welcome and thank you so much for choosing us,Gratitude,null,Pos
+68,68,68,68,68
+"Hi, I want to buy a phone.","Sure, any specific model you are looking for?",Phn_SelReq,null,Neu
+I want a dual sim phone in which the radio works.,Yes we have one latest phone MS1 by Sharp . Youngeters are preferring this over many,Slt_Info,"Sim-D,Radio-Y",Neu
+Is it so?,"yeah, its rating is also very good priced at 240 Euro",Confirm,null,Neu
+But I don't want a Sharp phone I want a Samsung company phone.,This mobile performance is very good. Try it once.,Slt_Info,Brand-Samsung,Neg
+It looks good enough.,"Yup, it has also a special feature Hands-Free Speaker.",Feedback,null,Pos
+"Ok, please complete the booking process.",It's done.Thank for buying.,Booking_Req,null,Neu
+Thanks a lot for your time.,Welcome and thank you so much for choosing us,Gratitude,null,Pos
+69,69,69,69,69
+"I need to buy a phone, am I at the right place?","Yes, We will asssist you in buying phone. Can you please tell what kind of phone you are looking?",Phn_SelReq,null,Neu
+I want to buy a Sony Xperia XA Ultra phone.,It is available in our store. Anything you want to know about this phone?,Slt_Info,"Brand-Sony,Model-Xperia XA Ultra",Neu
+What is it's battery?,2700mAh is its battery.,Query_Slot,null,Neu
+"Oh, I thought it must be around 4000 mAH. Can you suggest to me a phone with a 4000 mAH battery?",2700mAH is good enough to lasts for a day.,Slt_Info,Battery-4000+,Neg
+But I travel a lot so need a high power battery phone.,A1 Plus by Gionee phone's battery is 4550mAH,Feedback,null,Neu
+What colour is it available?,It's available in grey color.,Query_Slot,null,Neu
+What is it's price?,It is 370 Euro.,Query_Slot,null,Neu
+"Okay, I will buy it then.","Great choice, i am booking it for you.",Booking_Req,null,Neu
+Thanks a lot for teaching me its operation.,My pleasure.,Gratitude,null,Pos
+70,70,70,70,70
+I want to buy a phone which fulfils all my requirements.,What are your basic needs?,Phn_SelReq,null,Neu
+I want to buy a lightweight phone with good performance.,R11 by Oppo is a very good phone,Slt_Info,Weight_g-Light,Neu
+What are it's specifications?,It has 4 GB memory and has a dual front camera and back camera of 20MP. Android is its operating system.,Query_Slot,null,Neu
+I am not sure about Oppo phone. I don't want Oppo phone. Do you have some other company phone?,"It comes with additional features. It has options for long screen shot, eye protection changing to a warmer color temperature",Slt_Info,Brand-Non Oppo,Neg
+It looks good.,Also it has a battery capacity of 3000mAH. .,Feedback,null,Pos
+"Ok, book this one for me.","Yeah Sure, Completing the booking process . Its done.",Booking_Req,null,Neu
+Thanks for helping me.,Welcome and thanks for visiting us.,Gratitude,null,Pos
+71,71,71,71,71
+"Hello, can you help me in selecting a phone?",Sure. May i know what are your requirements?,Phn_SelReq,null,Neu
+I want to buy a gold colour phone with a good primary camera for my son.,"Hello, sure we have Gold color phone. Is there any features you want in your phone?",Slt_Info,"Color-Gold,P_Camera-Good",Neu
+"I have budget constraints, it should be under 400 Euro.","No problem, Model F3 by Oppo is a good phone in the market meeting all your requirements.",Slt_Info,Cost-400-,Neu
+What is it's display size?,It is 401 Pixel,Query_Slot,null,Neu
+"Oh, but I want a phone which has a small display size.","If you leave aside display size, it is a fantastic phone",Slt_Info,Display_Size-Small,Neg
+But still I am not comfortable with a big display size phone.,Model V5 by Vivo is getting good response from people and it meets all your requirements.,Feedback,null,Neg
+What is it's price?,It is 250 Euro,Query_Slot,null,Neu
+"Perfect, I will take it. Kindly gift wrap it.","Sure, I will gift wrap it. Your booking reference number is 1212_25",Booking_Req,null,Pos
+Thanks a ton.,My pleasure.,Gratitude,null,Pos
+72,72,72,72,72
+I am looking for a good phone.,"Sure, any specific features you have in your mind?",Phn_SelReq,null,Neu
+I want a small display size phone with a good memory.,"Sure, Is the all requirement ?",Slt_Info,"Display_Size-Small,RAM-Good,Internal_RAM-Good",Neu
+I want in black color.,"Great , N97 mini by Nokia is a good phone",Slt_Info,Color-Black,Neu
+What is it's OS?,It's Symphony,Query_Slot,null,Neu
+"Oh, I am not comfortable with Symphony but I want android phone.",The operating system stands out through its real-time microkernel and its multi- processor ability.,Slt_Info,OS-And,Neg
+My previous phone was android so I feel comfortable with the android phone.,nubia Z11 Max by ZTE can be a good option,Feedback,null,Neu
+What colour is it available in your store?,It's color is Silver,Query_Slot,null,Neu
+"Okay, I will book this phone.","great, I am booking your order",Booking_Req,null,Neu
+Thanks a lot.,My pleasure.,Gratitude,null,Pos
+73,73,73,73,73
+"Good evening, I am looking for a good phone.","Sure, Any specific model or features you are looking for?",Phn_SelReq,null,Neu
+I am looking for a silver colour LG phone.,K8 (2017) by LG is a good option.,Slt_Info,"Brand-LG,Color-Silver",Neu
+What is its internal Ram storage?,It is 16 GB RAM.,Query_Slot,null,Neu
+I want an LG phone with more internal RAM space.,16 GB RAM is Ideal for professional work and more demanding games.,Slt_Info,Internal_RAM-Good,Neu
+But I have faced a storage problem in a 16 GB phone.,LG X venture Pro has 32 GB internal RAM and 2 GB RAM. But it is avilable in Black color,Feedback,null,Neg
+"Lovely, what is it's cost?",it is 400 Euro.,Query_Slot,null,Neu
+Book it for me.,"Sure, I am booking it for you.",Booking_Req,null,Neu
+Thanks dear.,You are welcome.I am happy to help. Do visit us again.,Gratitude,null,Pos
+74,74,74,74,74
+"Hi, I am looking for a good mobile","Hello, Any specific company tab you have in mind?",Phn_SelReq,null,Neu
+"Hey, I am looking for an Acer mobile.","Sure, it is available in our store. Are you sure you want Acer Tab only?",Slt_Info,Brand-Acer,Neu
+Iconia Tab A700 by Acer is in demand these days.,"Yes, it is available in Titanium Grey color.",Slt_Info,"Brand-Acer,Model-Iconia Tab A700",Neu
+"Oh, Grey is not my color so I want in some other colour.",But Titanium Gray color. is in demand these days.,Slt_Info,Color-Non Grey,Neg
+But titanium Gray colour is not my favourite.,Iconia Tab A3 by Acer is available in Black color in our store,Feedback,null,Neg
+What is it's price?,It is 190 Euro,Query_Slot,null,Neu
+What is it's battery?,It is 7300mAH,Query_Slot,null,Neu
+"Fine, I will take it.",I am booking it for you,Booking_Req,null,Neu
+Thanks a ton.,Welcome always.My pleasure.,Gratitude,null,Pos
+75,75,75,75,75
+"Good Evening, I want to buy a cell phone.","Sure, any specific model you are looking for?",Phn_SelReq,null,Neu
+I want to buy an oppo phone.,N3 by Oppo is a very good phone.,Slt_Info,Brand-Oppo,Neu
+What is it's battery?,Its battery is 3000 mAH.It lasts for for than32 hrs.,Query_Slot,null,Neu
+What is it's cost?,It is 550 Euro.,Query_Slot,null,Neu
+"Sorry, that's too expensive for me. My budget is a lttle less somewhere around 400 Euro.",Though it is a bit costly but it is a phone with amazing features.,Slt_Info,Cost-400-,Neg
+I take your point but I don't have that much budget.,R1S by Oppo's price is 290 Euro.,Feedback,null,Neu
+What is it's colour?,Its color is white,Query_Slot,null,Neu
+I will take it.,"cool, your booking reference number is 2020_75",Booking_Req,null,Neu
+I am very happy today. Thanks a lot.,My pleasure. You are always welcome,Gratitude,null,Pos
+76,76,76,76,76
+"Good Evening, I am looking for a trending phone.","Ssure, please tell me your model no or requirements",Phn_SelReq,null,Neu
+I need to have a phone that has a high memory and good battery life.,Galaxy C9 Pro by Samsung will be a good choice. Its internal RAM is 64 GB.,Slt_Info,"RAM-Good,Internal_RAM-Good,Battery-Good",Neu
+What is it's colour?,It is Gold.,Query_Slot,null,Neu
+What is it's weight?,It is 189 gms.,Query_Slot,null,Neu
+That's a bit on the heavier side. Do you have something in lightweight?,Most of the good phone has weight around this only,Slt_Info,Weight_g-Light,Neg
+Yeah but I don't find it comfortable to keep a heavy phone in my pocket,Then K80 by Lenovo will be a perfect choice for you with good memory.,Feedback,null,Neu
+What is it's price?,It is 280 Euro. You will love this phone.,Query_Slot,null,Neu
+"Okay, I will take this phone.","great choice , I am booking it for you.",Booking,null,Neu
+Thanks a ton.,My pleasure,Gratitude,null,Pos
+77,77,77,77,77
+"Hey, I want to buy a phone.","Sure, any speciifc requirements you have for the phone?",Phn_SelReq,null,Neu
+I want a latest phone under 350 Euro,V5s by Vivo is a latest phone priced at 280 Euro,Slt_Info,"Released_Yr-Latest,Cost-350-",Neu
+what is its camera quality?,it's 13 MP for primary and 20 MP for secondary.,Query_Slot,null,Neu
+What is its color?,It's Crown Gold in color.,Query_Slot,null,Neu
+I don't like this color. Do you have in some other color?,This is limited edition phone and is selling like hot cake. You should buy this phone only,Slt_Info,Color-Non Crown Gold,Neg
+But Crown Gold is not my choice. Show me some other phone,"Sorry, this model we have in Crown Gold only. You can buy nova 2 by Huawei in Aurora Bluecolor",Feedback,null,Neu
+what is its cost?,its cost is 330 euro,Query_Slot,null,Neu
+"Okay, I will take this phone.","great choice , I am booking it for you.",Booking_Req,null,Neu
+You are a very good salesman. Thanks a lot,My pleasure,Gratitude,null,Pos
+78,78,78,78,78
+I am looking for a good phone,"Sure, any specific features you have in your mind?",Phn_SelReq,null,Neu
+I want a grey color phone with radio facility,"Sure, Is the all requirement ?",Slt_Info,"Color-Grey,Radio-Y",Neu
+I want a dualsim phone.,"Great , A1 Plus by Gionee is a good phone",Slt_Info,Sim-D,Neu
+What is its OS,It's Android.,Query_Slot,null,Neu
+Sorry I don't want android phone this time.,Its an user friendly OS where you can easily get new and updated thousands of apps.,Slt_Info,OS-Non And,Neg
+My previous was Android. This time I want to try other OS,Liquid Jade Primo by Acer can be a good option but it is not available in grey color,Feedback,null,Neu
+What color is it available in your store/?,It is black in color.,Query_Slot,null,Neu
+"Okay, I will book black phone","great, I am booking your order.",Booking_Req,null,Neu
+Thanks a lot.,My pleasure.,Gratitude,null,Pos
+79,79,79,79,79
+"Good evening, I am looking for a good phone","Sure, Any specific model or features are you looking for?",Phn_SelReq,null,Neu
+I am looking for a Sony mobile,Xperia Z4 Tablet LTE by Sony is a good option.,Slt_Info,Brand-Sony,Neu
+What is its price?,It is 500 Euro.,Query_Slot,null,Neu
+Sorry I can not buy this Tab that's little expensive for me. Do you have other phone in lower cost around 400?,With additional cost comes extra features so you can give it a try. It's a very good tab.,Slt_Info,Cost-400-,Neg
+Yeah but I don't have that much budget. Do you have Sony Tab under 400 Euro,Xperia Z4 Tablet WiFi by Sony will solve your purpose.,Feedback,null,Neu
+"Lovely, what is its cost?",it is 400 Euro.,Query_Slot,null,Neu
+Book it for me.,"Sure, I will do that right now.",Booking_Req,null,Neu
+Thanks dear,You are welcome.I am happy to help. Do visit us again.,Gratitude,null,Pos
+80,80,80,80,80
+"hi,can you help me in buying a phone ?","Hey, sure , what kind of phone do you need?",Phn_SelReq,null,Neu
+it should have small display size and high battery capacity,3T by OnePlus is one of the best known phone for camera as well as battery,Slt_Info,"Display_Size-Small,Battery-Good",Neu
+how much does it cost ?,it cost 440 Euro,Query_Slot,null,Neu
+what is it's color ?,The color of Oppo AA is Gunmetal,Query_Slot,null,Neu
+"oh , is it possible in Gold?",Sir this model has strong features but available in Gunmetal only.,Slt_Info,Color-Gold,Neg
+but I like Gold,Then you can take Galaxy C7 Pro by Samsung,Feedback,null,Neg
+what is it's cost ?,it's 420 Euro,Query_Slot,null,Neu
+ok can you book it for me,Yes done.,Booking_Req,null,Neu
+Thanks for help,Welcome and thank you so much for shopping with us.,Gratitude,null,Pos
+81,81,81,81,81
+"hi, I want to buy a new phone","hello, what kind of phone do you want?",Phn_SelReq,null,Neu
+It should have OS android and dual sim features,Galaxy J7 Max by Samsung is one of the best phone suited to your need.,Slt_Info,"OS-And,Sim-D",Neu
+what is its cost?,Its cost is 250 Euro.,Query_Slot,null,Neu
+what color is it?,The color of the phone is black,Query_Slot,null,Neu
+"Oh, is it possible to get in Pearl White color?",This model is available in black only. Black is prefered by most of the customers,Slt_Info,Color-Pearl White,Neg
+but I would prefer in Pearl White,You can go for Galaxy A9 (2016) by Samsung,Feedback,null,Neg
+what's the price?,it costs 460 Euro,Query_Slot,null,Neu
+"Okay, I will book this model","Sure, I am booking it for you",Booking_Req,null,Neu
+Thanks a lot,Welcome and do visit us again,Gratitude,null,Pos
+82,82,82,82,82
+"Hey, I am looking for a good phone","Hi, What sort of phone are you looking for?",Phn_SelReq,null,Neu
+It should be gps phone with good memory and secondary high camera quality,X9 by Sony suits your requirements,Slt_Info,"GPS-Y,RAM-Good,Internal_RAM-Good,S_Camera-Good",Neu
+What is the price?,It is of 460 Euro,Query_Slot,null,Neu
+Does it has DualSim?,"Yes , this phone has dual sim.",Query_Slot,null,Neu
+Is it new released phone?,It's release year is 2016,Query_Slot,null,Neu
+Oh I don't want old phone. I want recent released phone,This phone is still very much in demand because of its performance,Slt_Info,Released_Yr-Recent,Neg
+I understand but I want a recent released phone,"Okay, then Model V5 Plus by Vivo is a good option",Feedback,null,Neg
+What is the cost?,It's 450 Euro,Query_Slot,null,Neu
+ok can you book it for me,Yes done,Booking_Req,null,Neu
+Thanks for help,Welcome and thank you so much for shopping with us.,Gratitude,null,Pos
+83,83,83,83,83
+"Hey, can you help me in buying a new phone?","hello, what type of phone you want to purchase?",Phn_SelReq,null,Neu
+I want to buy a phone under 300 Euro with good memory backup.,V5s by Vivo meets your requirements.,Slt_Info,"Cost-300-,RAM-Good,Internal_RAM-Good",Neu
+Does it has good camera ?,"Yes , picture quality is very good of this phone. It is 13 for primary and 20 for secondary camera",Query_Slot,null,Neu
+I hope it has DualSim feature in it.,"Yes, DualSim feauture is there on this phone.",Confirm_Q,Sim-D,Neu
+what is its Display Size ?,it's of 401 Pixel,Query_Slot,null,Neu
+Oh that's big. I want small display size phone.,It has clear screen and big screen is very good for video watching,Slt_Info,Display_Size-Small,Neg
+ok can you book it for me,Yes done,Booking_Req,null,Neu
+Thanks a lot for your time,Welcome and thank you so much for choosing us,Gratitude,null,Pos
+84,84,84,84,84
+"Hello, I want to buy a new phone.","hello, what phone are you looking for?",Phn_SelReq,null,Neu
+I want to buy a phone with good camera quality and less weight,"Sure,A57 by Oppo would be a good option for you",Slt_Info,"P_Camera-Good,S_Camera-Good,weight_g-Less",Neu
+What is its battery?,2900mAH is its battery. Your phone will last for long.,Query_Slot,null,Neu
+What color is it?,It's in gold color.,Query_Slot,null,Neu
+what is its released year?,It came in 2016,Query_Slot,null,Neu
+What is its price?,It costs 260 Euro,Query_Slot,null,Neu
+It is too costly for me. Do you have something in less?,This phone is very good. Don't leave it for price.,Slt_Info,Cost-Less,Neg
+I have budget constraints,No problem then you can buy Honor Holly 3 by Huawei,Feedback,null,Neg
+What is its price?,It costs 140 Euro,Query_Slot,null,Neu
+ok can you book it for me,Yes done,Booking_Req,null,Neu
+Thanks a lot for your time,Welcome and thank you so much for choosing us,Gratitude,null,Pos
+85,85,85,85,85
+"I need to buy a phone, am i at right place?","Yes, We will asssist you in buying phone. Can you please tell what kind of phone you are looking?",Phn_SelReq,null,Neu
+A Phone which is good for selfie and high battery capacity,"Ok, we have excellent phone meeting your requirements. Do have any other requirement also?",Slt_info,"S_Camera-Good,Battery-Good",Neu
+No thats all.,You can buy 3T by Oneplus which has 16MP secondary camera,Confirm,null,Neu
+what about primary camera ?,It is also 16 MP.,Query_Slot,null,Neu
+Oh much lesssss! I want atleast 20 MP,It's Quality is very good and clear.,Feedback,P_Camera-20+,Neg
+still i need high camera phone,Then you should try Xperia Z2a by Sony,Slt_Info,null,Neg
+what is its both camera ?,It's back camera is 20.7 & front camera is VGA,Query_Slt,null,Neu
+It sounds great.,Yes it is one of the best phone for camera.,Feedback,null,Pos
+Ok can you book it for me?,"Yeah , Booking done, Thanks for buying with us",Booking_Req,null,Neu
+Thanks for assistance.,"Welcome , Please visit again.",Gratitude,null,Pos
+86,86,86,86,86
+I want a technologically advanced mobile phone,"Good Evening, we have many variety. Any specific model you are looking for?",Phn_SelReq,null,Neu
+I want Oppo phone.,what is your budget? Do you have any other requirements?,Slt_Info,Brand-Oppo,Neu
+It should be under 350 Euro,A37 by Oppo will fit your budget. It is 220 Euro,Slt_Info,Cost-350-,Neu
+What is its storage,It is 16 GB internal RAM,Query_Slot,null,Neu
+oh that is less and it will not fulfill my need. I need a phone with more space at least 32 GB,This phone has memory card slot. It will increase your storage,Slt_Info,Internal_RAM-32+,Neg
+Not good for me.,M6s Plus by Gionee is a good phone,Feedback,null,Neu
+What is its price?,It is 460 Euro.,Query_Slot,null,Neu
+I will take it,"nice, I am booking it for you.",Booking_Req,null,Neu
+Thanks a lot for your help,My pleasure.,Gratitude,null,Pos
+87,87,87,87,87
+"Hey, I need phone info.","Yes, Please tell your specifications",Phn_Info,null,Neu
+Phone should have more memory and less weight,Is the all requirement ?,Slt_Info,"Internal_RAM-Good,Weight_G-Light",Neu
+"Yes, Color should be Blue or Gold",These are some matching phone with your specification : X9 Plus by Vivo is in Gold with internal RAM memory of 64GB and weight of 199 gm,Slt_Info,Color-Blue||Gold,Neu
+What is its battery capacity,They have battery capacity of 4000 mAH,Query_Slot,null,Neu
+but I need 8000mAH minimum,For 8000 mAH you will have to buy Tablet.4000 mAH battery will last for at lease 2 days.,Slt_Info,Battery-8000+,Neg
+Okay then I will buy X9 Plus by Vivo,Okay I am booking it for you.,Booking_Req,null,Neu
+"OK,Thanks for information.",You are most welcome,Gratitude,null,Pos
+88,88,88,88,88
+"Good Evening, I am in urgent need of a phone.","Good evening, any specific model are you looking for?",Phn_SelReq,null,Neu
+I don't have any specific mobile in my mind. You suggest me a good phone with internal ram of at least 32 GB,Nova 2 plus by Huawei is a very good phone. It's very much in demand these days.,Slt_Info,Internal_RAM-32+,Neu
+What is its memory?,It is 128 GB internal RAM.,Query_Slot,null,Neu
+What is its price?,It is 380 Euro,Query_Slot,null,Neu
+oh that's a bit on expensive side.My budget is less around 300 Euro. Can you suggest in less price?,With great price comes many features.You will not regret a penny for this phone.,Slt_Info,Cost-300-,Neg
+But my budget is limited.,Y67 by vivo is a very good phone. At less price company has tried to incorporate many features. Its price is 270 Euro,Feedback,null,Neg
+What is its color?,Its color is also unique. It is Gold.,Query_Slot,null,Neu
+"Lovely, I will buy it.","Great choice , I am booking it for you.",Booking_Req,null,Pos
+Thanks a ton,My pleasure.,Gratitude,null,Pos
+89,89,89,89,89
+"Hello, I want a good phone.","Good morning, what type of phone you want?",Phn_SelReq,null,Neu
+I want to buy a Motorola phone.,"Sure, Moto Maxx by Motorola is getting very good response.",Slt_Info,Brand-Motorola,Neu
+What is its price?,It is 300 Euro.,Query_Slot,null,Neu
+"Sorry I can't buy this , It is very costly. Do you have phone under 150 Euro?",Price of this phone has decreased because of it many customers are buying it.Earlier it was costlier,Slt_Info,Cost-150-,Neg
+But I can't go beyond 150 Euro,Moto E4 (USA) by Motorola is 130 Euro.,Feedback,null,Neg
+What is its color?,Licorice Black is its color.,Query_Slot,null,Neu
+What is its internal RAM,It is 16 GB.,Query_Slot,null,Neu
+I will take it .,I am booking it for you.,Booking_Req,null,Neu
+Thanks a lot.,My pleasure,Gratitude,null,Pos
+90,90,90,90,90
+I wanna buy a phone which fulfills all my requirements.,What are your basic needs?,Phn_SelReq,null,Neu
+Camera should be excellent and it should be in gold color,Have a look at A57 by Oppo,Slt_Info,"P_Camera-Good,S_Camera-Good,Color-Gold",Neu
+How much storage does it offer?,It has 3 GB RAMand 32 GB internal RAM,Query_Slot,null,Neu
+"oh,it seems less to me.Can you suggest a phone with 64GB internal RAM",34GB itself is an impressive amount of RAM. 64 won't be of much use,Slt_Info,Internal_RAM-64,Neg
+How much is it for?,It’s for 260Euro,Query_Slot,null,Neu
+"Okay, can you pack this phone?",Ok booking confirmed.,Booking_Req,null,Neu
+Thanks for help,Welcome,Gratitude,null,Pos
+91,91,91,91,91
+"hi, i am in need of a new phone","hello, what kind of phone you want?",Phn_SelReq,null,Neu
+I want gps operated phone with more space,"Sure, Galaxy C9 Pro by Samsung is a good phone. It has 64 GB internal RAM",Slt_Info,"GPS-Y,RAM-Good,Internal_RAM-Good",Neu
+What is its Display_Size?,It is 367 Pixel,Query_Slot,null,Neu
+oh that seems less.Do you have higher display size?,This size is good enough to watch videos and movies,Slt_Info,Display_Size-Big,Neg
+what is its battery?,It is 4000 mAH,Query_Slot,null,Neu
+What is its color?,It is Gold in color.,Query_Slot,null,Neu
+"Okay, can you pack this phone?",Ok booking confirmed.,Booking_Req,null,Neu
+Thanks for help,You are most welcome,Gratitude,null,Pos
+92,92,92,92,92
+"Hi, I want a phone.","Sure,which brand mobile you want?",Phn_SelReq,null,Neu
+I want to buy a Vivo phone,X5Max Platinum Edition by Vivo is a good phone to use.,Slt_Info,Brand-Vivo,Neu
+What is its camera quality?,It is 13 MP Primary and 5 MP Secondary.,Query_Slot,null,Neu
+"But, I want 12 megapixel for Secondary Camera as well 5 MP seems very less",The 5megapixel rear-facing camera takes good selfie.,Slt_Info,S_Camera-12+,Neg
+Still I would go for higher MP phone,"Okay, in vivo we don't have higher MP phone but in MS1 by Sharp we have 13 MP secondary camera",Feedback,null,Neg
+"Cool, what is its memory?",It is 4 GB RAM and 32 GB internal RAM.,Query_Slot,null,Neu
+What is its cost?,Its cost is 240 EURO,Query_Slot,null,Neu
+"Cool, I will purchase it.","Great choice, I am booking your order.",Booking_Req,null,Pos
+Thanks a lot,My pleasure,Gratitude,null,Pos
+93,93,93,93,93
+I wanna buy a phone which fulfills all my requirements.,What are your basic needs?,Phn_SelReq,null,Neu
+Camera should be excellent,Model Xperia XA1 Ultra by Sony has very good camera.,Slt_Info,"P_Camera-Good,S_Camera-Good",Neu
+How much storage does it offer?,It has 32 GB Internal RAM and 4 GB RAM,Query_Slot,null,Neu
+And how about the Camera?,The camera Quality is 23MP for primary and 16 for Secondary,Query_Slot,null,Neu
+"Oh, that’s great. How much is the price?",The price is 380 Euro,Query_Slot,null,Neu
+What other phones do you have if I want more storage?,32 GB Internal RAM and 4 GB RAM is more than enough to solve your purpose. You won't require much space.,Slt_Info,"RAM-Good,Internal_RAM-Good",Neu
+Still 32 GB seems too less as I watch lot of movies after downloading them in my phone so need more space.,Xperia XZ Premium by Sony is one other good option,Feedback,null,Neg
+How much storage does it offer?,It has got the storage of 4 GB RAM and 64 GB internal RAM,Query_Slot,null,Neu
+How much is it for?,It’s for 750 Euro,Query_Slot,null,Neu
+"Okay, can you pack this phone?",Ok booking confirmed,Booking_Req,null,Neu
+Thanks for help,Welcome anytime,Gratitude,null,Pos
+94,94,94,94,94
+"hi,can you help me in buying a phone ?","Hey, sure , what kind of phone do you need?",Phn_SelReq,null,Neu
+it should have good primary camera and battery capacity,Xperia XZ Premium by Sony is one of the best phone for camera as well as battery,Slt_Info,"P_Camera-Good,Battery-Good",Neu
+how much does it cost ?,it cost 750 Euro,Query_Slot,null,Neu
+what is it's color ?,The color is Luminous Chrome,Query_Slot,null,Neu
+"oh , is it possible in black?",This model has strong features but available in gold only.,Slt_Info,Color-Black,Neg
+ok can you book it for me,Yes done,Booking_Req,null,Neu
+Thanks for help,Welcome and thank you so much for shopping with us.,Gratitude,null,Pos
+95,95,95,95,95
+"Hi, can you please help me in selecting a phone?","Yeah Sure, can i know what kind of phone you need?",Phn_SelReq,null,Neu
+It should have big display and high memory.,"Ok , Do you have any other requirements ?",Slt_Info,"Displa_Size-Big,RAM-Good,Internal_RAM-Good",Neu
+"No, That's all.",You can buy Galaxy S8 by Samsung which has internal RAM of 64 GB and display size of 570 pixel.,Confirm,null,Neu
+what about it's RAM?,It's RAM size is 4 GB.,Query_Slot,null,Neu
+Only 4 GB RAM ?,"Yes, it is of 4GB RAM",Confirm_Q,null,Neu
+It is very low.,But it has 64 GB internal Memory too.,Feedback,null,Neg
+I need phone with 6GB RAM,for this Xplay5 Elite by Vivo will be the best choice.,Slt_Info,RAM-6,Neg
+How much it cost ?,It is of 610 EURO.,Query_Slot,null,Neu
+Ok book it for me.,Successful,Booking_Req,null,Neu
+Thank you,It's our pleasure. Most Welcome,Gratitude,null,Pos
+96,96,96,96,96
+"Hello , can you help me in selecting a phone ?",Sure. Can i know what are your requirements?,Phn_SelReq,null,Neu
+I want to buy a Gold color dualsim phone for my son.,"Hello, sure we have GOLD color phone. Is there any features you want in your phone?",Slt_Info,"Color-Gold,Sim-D",Neu
+"I have budget constraints, it should be under 500 Euro","No problem, Z10 by Lava is a good phone in the market meeting all your requirements.",Slt_Info,Cost-500-,Neu
+What is its storage?,It is 2 GB RAM and 16 GB internal RAM,Query_Slot,null,Neu
+"Oh, that is too less, I want a phone of 3 GB RAM and 32 GB internal RAM",But this phone is performing very well.,Slt_Info,"RAM-3,Internal_RAM-32",Neg
+But still I would opt for higher ram,Model A59 by Oppo is getting good response from people.,Feedback,null,Neg
+What is its price?,It is 290 Euro,Query_Slot,null,Neu
+"Perfect, I will take it. Kindly gift wrap it.","Sure, I will gift wrap it.",Booking_Req,null,Pos
+Thanks a ton,My pleasure.,Gratitude,null,Pos
+97,97,97,97,97
+"Hi, I want to buy a phone for my daughter","Hello, Sure we have many phones. Do you have any specific requirements?",Phn_SelReq,null,Neu
+"Yes, mobile should have good battery and internal storage.",Galaxy Tab Pro 12.2 3G by Samsung has very good battery life of 7000mAH and RAM of 3 GB.,Slt_Info,"Battery-Good, Internal_RAM-Good",Neu
+What is its color?,It's black in color.,Query_Slot,null,Neu
+Oh but I am looking for white color,Black is easy to maintain,Slt_Info,Color-White,Neg
+But White is my favourite color,"Okay, then I will recommend Galaxy Tab Pro 10.1 LTE by Samsung. This tab is very much in demand",Feedback,null,Neg
+What is its cost?,Price is 280 Euro.,Query_Slot,null,Neu
+Ok book this one for me,"Yeah Sure, Completing the booking process . Its done.",Booking_Req,null,Neu
+Thanks for helping me.,Welcome,Gratitude,null,Pos
+98,98,98,98,98
+"Hello, I am looking for a good phone","Sure, is ther any other features you want in your phone?",Phn_SelReq,null,Neu
+"Yes, battery should lasts long as I have a field job","Well, then Xperia XZ Premium by Sony will be perfect for you as it has screen size of 807 pixel and its battery lasts for two days",Slt_Info,Battery-Good,Neu
+What is its cost?,It is 750,Query_Slot,null,Neu
+Oh that's out of my budget,With addtional costs com great features and this phone has that,Slt_Info,Cost-Less,Neg
+Yes I understand your point but still I don't have that much money to spend on,Then you should go for Galaxy S6 edge by Samsung. It has good battery life and large screen size,Feedback,null,Neg
+What is its color?,It's available in Black Sapphire,Query_Slot,null,Neu
+I will take it then,"Sure, I am booking this for you and your reference number is 1212_27",Booking_Req,null,Neu
+Thannks a ton. You have been very helpful.,My pleasure,Gratitude,null,Pos
+99,99,99,99,99
+"Hey, I want to buy a phone",Any specific phone you want?,Phn_SelReq,null,Neu
+I want to buy Galaxy Note7 by Samsung,"Sure, sorry this phone is out of stock in our store. But We have Galaxy C7 Pro by Samsung. It is also a very good phone. It has very good camera.",Slt_Info,"Brand-Samsung,Model-Galaxy Note7",Neu
+How is the camera quality?,Front camera is 13 MP and back camera is 13 MP.,Query_Slot,null,Neu
+That's very good. What is its display screen size?,It is 294 pixel,Query_Slot,null,Neu
+what is its internal RAM?,It's 64GB,Query_Slot,null,Neu
+"oh, I want high storage phone at lease 128 GB",You can use expandable memory card for the same,Slt_Info,"RAM-Good,Internal_RAM-Good",Neg
+What is its price?,It is 420 Euro.,Query_Slot,null,Neu
+"Perfect, I will take it. Kindly gift wrap it.","Sure, I will gift wrap it.",Booking_Req,null,Pos
+Thanks a ton,My pleasure.,Gratitude,null,Pos
+100,100,100,100,100
+"Hello, I am in urgent need of a good phone.","Sure, you are at right place. What kind of phone are you looking for?",Phn_SelReq,null,Neu
+I don't have much requirement. Camera quality is my primary focus.,Xperia XZ by Sony is a good phone.,Slt_Info,"P_Camera-Good,S_Camera-Good",Neu
+What is its primary and secondary camera quality?,19 MP-Primary and 13 MP-Secondary,Query_Slot,null,Neu
+What is its ReleasedYear?,it is 2017,Query_Slot,null,Neu
+"oh, I want 2016 Released Year phone",This is our customer's favourite phone. It is still very popular in market today.,Slt_Info,Released_Yr-2016,Neg
+But I am interested in buying old phone as I will get it at less cost,Xperia XA Ultra by Sony has 21.5 primary camera and 16 secondary camera.,Feedback,null,Neg
+What is its price?,It is 300 Euro,Query_Slot,null,Neu
+I will buy it.,"Great, I am booking it for you.",Booking_Req,null,Neu
+Thank you for your time,I am happy to help you,Gratitude,null,Pos
+101,101,101,101,101
+Hello. I want a good phone,"Yeah Sure, can i know what kind of phone you need?",Phn_SelReq,null,Neu
+I want to buy phone with at least 15MP primary camera,Liquid Jade Primo by Acer is very good for camera .,Slt_Info,P_Camera-15+,Neu
+How much does it cost ?,it will cost 220 Euro.,Query_Slot,null,Neu
+Does it uses Android OS?,"No, it works on its own operating system that is Mic",Confirm_Q,OS-And,Neu
+I want in Android OS only.,It has many advanced features in its operating system,Slt_Info,OS-And,Neu
+I am sorry I am not comfortable in Mic OS phone,Then I would recommend Xperia XA Ultra by Sony,Feedback,null,Neg
+Okay book this model for me.,"Yes done, I have booked it.",Booking_Req,null,Neu
+Thanks for helping me.,Welcome and thank you so much for shopping with us.,Gratitude,null,Pos
+102,102,102,102,102
+"Hello, I want to buy a new phone.","hello, what phone are you looking for?",Phn_SelReq,null,Neu
+I want to buy a 2017 released phone with radio facility,"Sure, Xperia L1 by Sony would be a good option for you",Slt_Info,"Released_Yr-2017,Radio-Y",Neu
+What is its battery?,2620mAh is its battery.,Query_Slot,null,Neu
+What color is it?,It's in Black color.,Query_Slot,null,Neu
+What is its price?,It costs 200 Euro,Query_Slot,null,Neu
+It is too costly for me. Do you have something in less?,This is quite less compared to other phone in the market,Slt_Info,Cost-Less,Neg
+ok can you book it for me,Yes done,Booking_Req,null,Neu
+Thanks a lot for your time,Welcome and thank you so much for choosing us,Gratitude,null,Pos
+103,103,103,103,103
+"Hey, I need phone info.","Yes, Please tell your specifications",Phn_Info,null,Neu
+I want a DualSim Android phone,Yes we have one latest phone MS1 by Sharp. Youngeters are preferring this over many,Slt_Info,"Sim-D,OS-And",Neu
+What is its price?,It costs 240 Euro,Query_Slot,null,Neu
+but it is out of my budget,You will not regret with the great features it come,Slt_Info,Cost-Less,Neg
+it looks good enough.,"Yup, it is also famous for its gaming app.",Feedback,null,Pos
+Ok please complete the booking process.,It's done. Thank for buying.,Booking_Req,null,Neu
+Thanks a lot for your time,Welcome and thank you so much for choosing us,Gratitude,null,Pos
+104,104,104,104,104
+"I need to buy a phone, am i at right place?","Yes, We will asssist you in buying phone. Can you please tell what kind of phone you are looking?",Phn_SelReq,null,Neu
+Phone which is good for selfie and high battery capacity,"Ok, we have excellent phone for such, Do have any other requirement also?",Slt_info,"S_Camera-Good,Battery-Good",Neu
+No thats all.,You can buy F1 Plus by Oppo which has 16 MP secondary camera,Confirm,null,Neu
+what about battery ?,It is 2850 mAH,Query_Slot,null,Neu
+Oh much lesssss!,It's battery life is very good .,Feedback,null,Neg
+Could it be 3000mAH or so ?,Then you should try Galaxy A5 (2017) by Samsung,Slt_Info,Battery-3000+,Neg
+what is it's both camera ?,It's back camera is 16 MP for both front and back camera,Query_Slt,null,Neu
+It sounds great.,Yes it is one of the best phone for camera.,Feedback,null,Pos
+Ok can you book it for me?,"Yeah , Booking done, Thanks for buying with us",Booking_Req,null,Neu
+Thanks for assistance.,"Welcome , Please visit again.",Gratitude,null,Pos
+105,105,105,105,105
+I wanna buy a phone which fulfills all my requirements.,What are your basic needs?,Phn_SelReq,null,Neu
+I want to buy a trending latest phone,Xperia XA1 Ultra by Sony is a good phone,Slt_Info,Released_Yr-Latest,Neu
+what are its specification?,It has 4 GB memory and has a front camera of 23MP and back camera of 16MP. It has Android as its operating system.,Query_Slot,null,Neu
+oh but I want 6 GB RAM phone,The optimal RAM needed for Android phone is 4GB and it has that,Slt_Info,RAM-6,Neg
+But I do multitasking in my phone for which I would need 6 GB RAM Phone,3T by OnePlus is a very good phone,Feedback,null,Neg
+it looks good.,Also it has a battery capacity of 3400mAH. And it costs only 440 Euro.,Feedback,null,Pos
+Ok book this one for me,"Yeah Sure, Completing the booking process . Its done.",Booking_Req,null,Neu
+Thanks for helping me.,Welcome,Gratitude,null,Pos
+106,106,106,106,106
+"Hello , can you help me in selecting a phone ?",Sure. Can i know what are your requirements?,Phn_SelReq,null,Neu
+I want to buy a white color dualsim phone for my son.,"Hello, sure we have blue color phone. Is there any features you want in your phone?",Slt_Info,"Color-White,Sim-D",Neu
+"I have budget constraints, it should be under 400 Euro","No problem, nubia Prague S by ZTE is a good phone in the market meeting all your requirements.",Slt_Info,Cost-400-,Neg
+What is its display size?,It is 424 pixel,Query_Slot,null,Neu
+"oh, I want a phone which has less display size",A larger screen provides many benefits. It makes viewing movies and playing games more enjoyable,Slt_Info,Display_Size-Small,Neg
+But I am not comfortable carrying big phone,"okay no problem, G2 Lite by LG is a good phone too",Feedback,null,Neg
+What is its price?,It is 100 Euro,Query_Slot,null,Neu
+"Perfect, I will take it. Kindly gift wrap it.","Sure, I will gift wrap it. Your booking reference number is 1212_25",Booking_Req,null,Pos
+Thanks a ton,My pleasure.,Gratitude,null,Pos
+107,107,107,107,107
+I am in urgent need of a phone,What type of Phone you want?,Phn_SelReq,null,Neu
+I want a small Display Size phone with the internal RAM of 64 GB.,"Sure, Mate 9 by Huawei. It has 64 GB RAM and 373 Pixel",Slt_Info,"Display_Size-Small,Internal_RAM-64GB",Neu
+Sounds good. Does it has Radio jack?,"Sorry, Radio does not work on this phone.",Query_Slot,null,Neu
+"My bad luck,do you have some other brand phone with same feature?","If you leave Radio Jack aside , this phone is really good",Slt_Info,Radio-Y,Neg
+Suggest me some other phone coz often listen to Radio,W909 by Gionee is in great demand these days.,Feedback,null,Neg
+Does GPS works on it?,Yes it works.,Query_Slot,nll,Neu
+"Okay, can you pack this phone?",Ok booking confirmed,Booking_Req,null,Neu
+Thanks for help,Welcome,Gratitude,null,Pos
+108,108,108,108,108
+I wanna buy a phone which fulfills all my requirements.,What are your basic needs?,Phn_SelReq,null,Neu
+Camera should be excellent,You can buy Xplay6 by Vivo,Slt_Info,"P_Camera-Good,S_Camera-Good",Neu
+How much storage does it offer?,It has 6GB RAM.,Query_Slot,null,Neu
+And how about the Primary Camera?,The camera Quality is 16MP front.,Query_Slot,null,Neu
+How much storage does it offer?,It has got the storage of 128 GB internal RAM,Query_Slot,null,Neu
+How much is it for?,It’s for 700 Euro,Query_Slot,null,Neu
+"Oh no, that’s very expensive, help me with a cost-effective phone which has got both good camera and good storage.","If you overlook the price, this phone is in great demand these days. Its battery will last long and it runs smoothly. It will not hang",Slt_Info,Cost-Less,Neg
+Yeah but my budget is less. I can't afford it,"Then, you can buy Xplay5 by Vivo. It has 128GB Memory. It cost only 520 Euro.",Feedback,null,Neg
+"Okay, can you pack this phone?",Ok booking confirmed,Booking_Req,null,Neu
+Thanks for help,Welcome,Gratitude,null,Pos
+109,109,109,109,109
+"Hey, I want to gift a phone to my brother","Lovely, Any specific features you are looking for in your phone?",Phn_SelReq,null,Neu
+"yes, I want a big display size GPS operated phone",Xperia XZ Premium by Sony has display size of 807 pixel and is widely used for GPS.,Slt_Info,"Display_Size-Big,GPS-Y",Neu
+What is its price?,It's 750Euro.,Query_Slot,null,Neu
+Unfortunately that's too costly for me. Do you have something in less?,"At this price you will definitely get better possesor, more ram and more storage",Slt_Info,Cost-Less,Neg
+"Yes, but i can't spend that much on my phone",You can buy Xperia Z5 Premium Dual by Sony. It also has display screen of 801 pixeland price is also 510 Euro,Feedback,null,Neg
+What is its color?,it's Chrome,Query_Slot,null,Neu
+what is its weight?,It is 180 gms,Query_Slot,null,Neu
+Sounds good to me. Please book it for me,"Sure, I am booking it for you.",Booking_Req,null,Pos
+Thanks for all your time.,You are always welcome.My pleasure,Gratitude,null,Pos
+110,110,110,110,110
+"Good Evening, I am looking for a phone","sure, please tell me your model no or requirements",Phn_SelReq,null,Neu
+I need to have a phone that has high RAM and good battery life.,Mate 9 by Huawei will be a good choice. Its internal RAM is 64 GB.,Slt_Info,"RAM-Good,Battery-Good",Neu
+What is its color?,It is Agate Red,Query_Slot,null,Neu
+what about radio ?,No it does not work,Query_Slot,null,Neu
+"Oh, I want radio in my phone",Most of the good phone does not have radio.,Slt_Info,Radio-Y,Neg
+But I often listen to Radio,Then G4 Stylus by LG will be a perfect choice for you with good memory.,Feedback,null,Neg
+What is its price?,It is 250Euro. It's a new phone in the market. You will love it.,Query_Slot,null,Neu
+"Okay, I will take this phone.","great choice , I am booking it for you.",Booking,null,Pos
+thanks a ton,My pleasure,Gratitude,null,Pos
+111,111,111,111,111
+"Hey, I want to buy a phone.","Sure, any speciifc requirements you have for the phone?",Phn_SelReq,null,Neu
+I want a tripel sim phone.,Liquid X2 by Acer is a triple sim phone.,Slt_Info,Sim-T,Neu
+what is its camera quality?,it's 13 MP for both front and back.,Query_Slot,null,Neu
+What is its color?,It's black in color.,Query_Slot,null,Neu
+I don't like black color. Do you have in some other color?,This is limited edition phone and is selling like hot cake. You should buy this phone only,Slt_Info,Color-Non Black,Neg
+what is its cost?,its cost is 190 euro,Query_Slot,null,Neu
+"Okay, I will take this phone.","great choice , I am booking it for you. Your reference number is 2012_34",Booking_Req,null,Neu
+You are a very good salesman. Thanks a lot,My pleasure,Gratitude,null,Pos
+112,112,112,112,112
+I am looking for a good phone,"Sure, any specific features you have in your mind?",Phn_SelReq,null,Neu
+I want a small display size phone with good internal RAM,"Sure, Is the all requirement ?",Slt_Info,"Display_Size-Small,Internal_RAM-Good",Neu
+I want in black color.,"Great , Porsche Design P'9983 by Blackberry is a good phone",Slt_Info,Color-Black,Neu
+What is its OS,It's BlackBerry.,Query_Slot,null,Neu
+I don't want BlackBerry OS phone. I am comfortable with Android operating phone,Its an user friendly OS where you can easily get new and updated thousands of apps.,Slt_Info,OS-And,Neg
+What color is it available in your store/?,It's in black only,Query_Slot,null,Neu
+"Okay, I will book it","great, I am booking your order",Booking_Req,null,Neu
+Thanks a lot.,Welcome My pleasure.,Gratitude,null,Pos
+113,113,113,113,113
+"Hello, I am in urgent need of a good phone.","Sure, you are at right place. What kind of phone are you looking for?",Phn_SelReq,null,Neu
+I don't have much requirement. Camera quality is my primary focus.,One E9+ by HTC is a good phone.,Slt_Info,"P_Camera-Good,S_Camera-Good",Neu
+What is its primary and secondary camera quality?,It is 20 MP-Primary and 13 MP-Secondary,Query_Slot,null,Neu
+"oh, I take too many selfie so I want higher quality secondary phone i.e 13 MP+.",This phone's picture quality is very good.,Slt_Info,S_Camera-13+,Neg
+True but my friend have suggested to go for phone with 13 MP secondary camera,R11 Plus by Oppo has dual camera and 20 secondary camera.,Feedback,null,Neg
+What is its price?,It is 500 Euro,Query_Slot,null,Neu
+I will buy it.,"Great, I am booking it for you.",Booking_Req,null,Neu
+Thank you for your time,I am happy to help you,Gratitude,null,Pos
+114,114,114,114,114
+"Hi, I want to buy a phone","Sure, is there any specific requirements you have?",Phn_SelReq,null,Neu
+I want recent released HTC phone.,One X10 by HTC is very good phone in the market. It is getting very good response from the public,Slt_Info,Brand-HTC,Neu
+What is its cost?,It is 330 Euro.,Query_Slot,null,Neu
+I am looking for a phone which is less that 250 Euro,Buy this phone it has very good memory.,Slt_Info,Cost-250-,Neg
+Yeah but I have limited money so can't afford it,Desire 650 by HTC's price is only 200 Euro.,Feedback,null,Neg
+I will buy it.,"No problem, i am booking it for you.",Booking_Req,null,Neu
+Thanks a lot,You are always welcome.It's my pleasure to serve you.,Gratitude,null,Pos
+115,115,115,115,115
+"Hello, I am in search of a good phone.",You are at the right place. Any specific phone you need?,Phn_SelReq,null,Neu
+"No, It should be DualSim and GPS operated phone","Sure, many phones are available at our store. Marathon M5 Plus by Gionee will be a good choice",Slt_Info,"Sim-D,GPS-Y",Neu
+"Great, what is its ReleasedYear and ReleasedMonth?",It is jan 2015,Query_Slot,null,Pos
+"oh, that's an old phone. Do you have recently released phone?",Even though it is old but this phone is still very much in demand and its price has also decreased,Slt_Info,Released_Yr-Recent,Neg
+But I would go for recently released phone,Y7 Prime by Huawei is one choice for you. It was launched in June 2017.,Feedback,null,Neg
+What is its cost?,Its cost is 250 Euro,Query_Slot,null,Neu
+What is its weight,It is 165 gms. It's a light weight smartphone.,Query_Slot,null,Neu
+"Okay, I like this phone. Pack it for me.","Good choice, I am booking it for you.",Booking_Req,null,Neu
+Thanks a lot for your time,Welcome always.,Gratitude,null,Pos
+116,116,116,116,116
+"Hi, I want to buy a phone","Yes, please tell your model no or requirements",Phn_SelReq,null,Neu
+"Actually, I am not restricted to any particular model but i need to have a phone that have high memory.",W909 by Gionee will be a good choice for you.,Slt_Info,"RAM-Good,Internal_RAM-Good",Neu
+What is its memory?,It is 64 GB internal Ram.,Query_Slot,null,Neu
+"Superb, What is its cost?",It is 550Euro,Query_Slot,null,Neu
+"Unfortunately, that's too costly for me. Do you have 64 GB internal memory phone with lower price?","Cost is bit high but this phone's camera has features like Digital Zoom, Auto Flash, Digital image stabilization, Face detection, Touch to focus.",Slt_Info,"Internal_RAM-64,Cost-Less",Neg
+That is good to know but can't afford it,Porsche Design P'9982 by Blackberry has memory of 64GB and its price is 390,Feedback,null,Neg
+What is its color?,Silver is its color.,Query_Slot,null,Neu
+I will take it.,"Nice, I am booking it for you.",Booking_Req,null,Neu
+Thanks a ton,My pleasure,Gratitude,null,Pos
+117,117,117,117,117
+"Hi, I am interested in buying a phone.","Good Evening, any specific feature you want in your phone",Phn_SelReq,null,Neu
+"Yes, it should be light weight and should have small screen",Zenfone Live ZB501KL by Asus is a light weight phone with small screen size,Slt_Info,"Weight_g-Light,Display_Size-Small",Neu
+What is its color?,Shimmer Gold is its color.,Query_Slot,null,Neu
+Can you recommend black color light weight and small screen phone?,Specifically for color don't leave this phonebecause it is really good performance wise,Slt_Info,Color-Black,Neu
+But Gold color is not my choice,You can take Noir Z8 by QMobile.,Feedback,null,Neg
+What is its price?,its price 170 Euro.,Query_Slot,null,Neu
+Lovely it is under my budget. I will buy it.,"Thanks, I am booking it for you.",Booking_Req,null,Pos
+Thank you so much,You are most welcome,Gratitude,null,Pos
+118,118,118,118,118
+"Good Evening, I am in urgent need of a phone.","Good evening, any specific model model are you looking for?",Phn_SelReq,null,Neu
+I don't have any specific mobile in my mind. You suggest me a good phone,Xplay6 by Vivo is a very good phone. It's very much in demand these days.,Slt_Info,null,Neu
+What is its memory?,It is 128 GB internal RAM.,Query_Slot,null,Neu
+What is its price?,It is 700 Euro,Query_Slot,null,Neu
+But my budget is less around 300 Euro. Can you suggest in this range?,It is very good phone. At less price company has tried to incorporate many features,Slt_Info,Cost-300-,Neg
+I can't afford it,Idol 4 by Alcatel is also a very good phone.It's price is 250 Euro.,Feedback,null,Neu
+What is its color?,Its color is also unique. It is Aurora Blue.,Query_Slot,null,Neu
+"Lovely, I will buy it.","Great choice, I am booking it for you.",Booking_Req,null,Pos
+Thanks a ton,"Welcome,my pleasure.",Gratitude,null,Pos
+119,119,119,119,119
+"Hello , can you help me in selecting a phone ?",Sure. Can i know what are your requirements?,Phn_SelReq,null,Neu
+I want to buy a Aquamarine Green color singlesim phone for my son.,"Hello, sure we have brown color phone. Is there any features you want in your phone?",Slt_Info,"Color-Aquamarine Green,Sim-S",Neu
+"I have budget constraints, it should be under 200 Euro","No problem, Model Liquid Z500 by Acer is a good phone in the market meeting all your requirements.",Slt_Info,Cost-200-,Neu
+What is its display size?,It is 294 pixel,Query_Slot,null,Neu
+I want a phone which has big display size,But this phone has done a great job in making things look easy to use.,Slt_Info,Display_Size-Big,Neu
+"Perfect, I will take it. Kindly gift wrap it.","Sure, I will gift wrap it.",Booking_Req,null,Pos
+Thanks a ton,My pleasure.,Gratitude,null,Pos
+120,120,120,120,26
+"Hi, I want to buy a phone","Hello, Sure we have many models available in our store. Do you have any specific requirements?",Phn_SelReq,null,Neu
+"Yes, it should have good battery and storage.",Mate 9 by Huawei has very good battery life of 4000mAH and RAM of 4 GB.,Slt_Info,"Battery-Good,RAM-Good,Internal_RAM-Good",Neu
+What is its color?,It's Agate Red in color.,Query_Slot,null,Neu
+I am looking for Pearl White color,But agate Red is very unique.,Slt_Info,Color-Pearl White,Neu
+I don't find comfortable in carrying red phone,"Okay, then I will recommend Iconia Honor 8 Pro by Huawei. This phone is very much in demand",Feedback,null,Neg
+What is its cost?,Price is 550 Euro.,Query_Slot,null,Neu
+Ok book this one for me,"Yeah Sure, Completing the booking process .",Booking_Req,null,Neu
+Thanks for helping me.,Welcome,Gratitude,null,Pos
+121,121,121,121,121
+"Hello, I want a good phone as I do most of my office work on phone.","Sure, is there any features you want in your phone?",Phn_SelReq,null,Neu
+"Yes, battery should lasts long as I travel a lot.","Well, then Axon Lux by ZTE will be perfect for you as it has screen size of 534 and its battery lasts for two days",Slt_Info,Battery-Good,Neu
+What is its weight?,It is 168gms,Query_Slot,null,Neu
+Oh that's a bit heavy. Can you suggest some other phone with light weight,"Sir, it's not that heavy and this phone is getting very good review",Slt_Info,Weight_g-Light,Neg
+Yes I understand your point but still I would prefer light weight phone,Then you should go for One Dual Sim by HTC. It is light weight and also has large screen size,Feedback,null,Neg
+What is its color?,It's available in Silver,Query_Slot,null,Neu
+I will take it then,"Sure, I am booking this for you",Booking_Req,null,Neu
+Thanks a ton. You have been very helpful.,My pleasure,Gratitude,null,Pos
+122,122,122,122,122
+"Hey, I want to buy a phone",Any specific phone you want?,Phn_SelReq,null,Neu
+I want to buy U8150 IDEOS by Huawei,"Sure, sorry this phone is out of stock in our store. But We have Honor 7 by Huawei. It is also a very good phone. It has very good battery.",Slt_Info,"Brand-Huawei,Model-U8150 IDEOS",Neu
+How is the camera quality?,Front camera is 8 MP and back camera is 20 MP.,Query_Slot,null,Neu
+That's very good. What is its display screen size?,It is 424 pixel,Query_Slot,null,Neu
+what is its color?,It's gray.,Query_Slot,null,Neu
+"oh, I want it in silver.",Gray looks stylish and many customers are prefering Gray over other color,Slt_Info,Color-Silver,Neg
+Silver is my favourite color,Y7 Prime by Huawei also has very good camera.,Feedback,null,Neu
+What is its price?,It is 250 Euro.,Query_Slot,null,Neu
+"Perfect, I will take it. Kindly gift wrap it.","Sure, I will gift wrap it.",Booking_Req,null,Pos
+Thanks a ton,My pleasure.,Gratitude,null,Pos
+123,123,123,123,123
+"Hi, I am looking for a good phone","Hello, what are your requirements for the same?",Phn_SelReq,null,Neu
+Show me a light weight nice phone,"Sure, Galaxy A5 Duos by Samsung is very light weight phone",Slt_Info,Weight_g-Light,Neu
+"oh,I don't want Samusng phone. can it be blackberry brand?",Samsung takes best features from both Android and iOS and this phone is highly secure,Slt_Info,Brand-Blackberry,Neg
+How is the battery life?,It is 2300 mAH. It has also DualSim slots.,Query_Slot,null,Neu
+What is its color?,It's Pearl White,Query_Slot,null,Neu
+What is its cost?,it's 290 euro.,Query_Slot,null,Neu
+ok can you book it for me,Yes done,Booking_Req,null,Neu
+Thanks for help,Welcome and thank you so much for shopping with us.,Gratitude,null,Pos
+124,124,124,124,124
+I am in urgent need of a phone,What type of Phone you want?,Phn_SelReq,null,Neu
+I want a light weight phone with the internal RAM of 64 GB.,"Sure, A1 by Gionee. It has 64 GB RAM and 182 gms weight.",Slt_Info,"Weight_g- Light,Internal_RAM-64",Neu
+What is its battery?,It is 4010 mAH,Query_Slot,null,Neu
+"oh that's less,do you have some other brand phone with better battery around 6000 mAH?",4010 mAH battery is good enough .,Slt_Info,Battery-6000+,Neg
+Does it has DualSim?,Yes it has DualSim.,Confirm_Q,Sim-D,Neu
+"Okay, can you pack this phone?",Ok booking confirmed,Booking_Req,null,Neu
+Thanks for help,Welcome,Gratitude,null,Pos
+125,125,125,125,125
+"Hello , can you help me in selecting a phone ?",Sure. Can i know what are your requirements?,Phn_SelReq,null,Neu
+I want to buy a phone that is small in size.,you should buy Iconia Talk S by Accer.,Slt_Info,Display_Size-small,Neu
+How much does it cost?,It costs 260 Euro,Query_Slot,null,Neu
+My budget is limited. Do you any Smartphone less than 150 euro,It is one of the best selling phone of last few years.,Slt_Info,Cost-150-,Neg
+It's out of my budget. Do you have any other phone in cheaper price?,"Yes, You can buy Max XL by ZTE. Its cost is only 120 Euro",Feedback,null,Neg
+What color is it available?,It's available in black color.,Query_Slot,null,Neu
+"Okay, I will buy it then.","perfect choice, i am booking it for you.",Booking_Req,null,Neu
+Thanks a lot for teaching me its operation.,My pleasure.,Gratitude,null,Pos
+126,126,126,126,126
+"Hi, I want to buy a phone whose battery lasts for two days.","Sure, Is there any other specific features you want in your phone?",Phn_SelReq,null,Neu
+My requirements are good battery life and good camera,"okay, do you have any budget constraints?",Slt_Info,"Battery-Good,P_Camera-Good,S_Camera-Good",Neu
+I want something under 350 Euro,One E9+ by HTC will be perfect for you.,Slt_Info,Price-350-,Neu
+What is its Display Size?,It is 534 Pixel,Query_Slot,null,Neu
+Oh I want small display size phone,"The bigger screen is always preferred for internet surfing and Live streaming, online TV shows & movies.",Slt_Info,Display_Size-Small,Neg
+Yes but I don't find comfortable holding it in my hand.,N1 mini by Oppo phone can be a perfect choice.,Feedback,null,Neg
+What is its cost?,Its price is 330 Euro.,Query_Slot,null,Neu
+"Okay, can you pack this phone?",Ok booking confirmed,Booking_Req,null,Neu
+Thanks for help,"Welcome, it's my pleasure",Gratitude,null,Pos
+127,127,127,127,127
+"hi,can you help me in choosing a good phone ?","Hey, sure , what kind of phone do you need?",Phn_SelReq,null,Neu
+it should be multisim phone and 2017 launched phone,Model Galaxy J3 Emerge by Samsung is one of the best phone meeting your requirements,Slt_Info,"Sim-M,Released_Yr-2017",Neu
+how much does it cost ?,it costs 260 Euro only,Query_Slot,null,Neu
+what is it's color ?,The color is Gray,Query_Slot,null,Neu
+"oh , is it possible in black?",Its available in gray only. Are you sure you want in black only?,Slt_Info,Color-Black,Neg
+Yes but grey is not favorite of me.,But gray is very much in demand these days and we have limited stocks also in this color as customers are prefering white over any other color,Feedback,null,Neg
+ok can you book it for me,Yes done. I am booking it for you,Booking_Req,null,Neu
+Thanks for help,Welcome and thank you so much for visiting us.,Gratitude,null,Pos
+128,128,128,128,128
+"Hi, I want to buy a mobile.","Hello,sure any specific features you want in that phone",Phn_SelReq,null,Neu
+I am looking for a simple phone simply with good battery life,"sure, Liquid Jade Primo by Acer will be a good option for you. It is a sturdy phone also.",Slt_Info,Battery-Good,Neu
+What is its price?,Its cost is 220 Euro.,Query_Slot,null,Neu
+That's out of my budget. Do have any phone under 200 Euro,It is a top-notch performance phone with a very good battery life to keep up with most of the competition.,Slt_Info,Cost-200-,Neg
+It is a bit costly for me.My budget is 200,"Ok, then you can go for Zenfone Max ZC550KL (2016) by Asus Phone. Its cost is only 170 Euro",Feedback,null,Neg
+Sounds perfect. I will buy it.,"Okay, i am booking this phone for you",Booking_Req,null,Pos
+It was nice interacting with you. Thanks for your patience and help.,Its my job and I am happy to serve my customer.,Gratitude,null,Pos
+129,129,129,129,129
+"Hello, I want to buy a best selling model phone.",Definitely I will help you in choosing one. Do you have any specific requirements?,Phn_SelReq,null,Neu
+"Yes, i need a phone with DualSim in less cost",You can take Note 5 Lite by CoolPad,Slt_Info,"Sim-D,Cost-Less",Neu
+What is its memory?,It's 3 GB Ram.,Query_Slot,null,Neu
+That is too less. Can you suggest a phone with 6 GB Ram and being widely used.,There aren’t many apps that can fully utilize 3GB RAM in a smartphone so 6 GB won't be of any use to you,Slt_Info,RAM-6,Neg
+I need 6 GB phone only,Then you should buy Model Mi 6 by Xiaomi. It has very good picture quality.,Feedback,null,Neg
+What is its cost?,Its 400 Euro.,Query_Slot,null,Neu
+Sounds good to me. I will take it.,Perfect choice. I will pack it for you.,Booking_Req,null,Pos
+Thanks a lot for your patience and time.,It's my job and I love doing it.,Gratitude,null,Pos
+130,130,130,130,130
+"Hi, can you please help me in selecting a phone?","Yeah Sure, can i know what kind of phone you need?",Phn_SelReq,null,Neu
+I want to buy a phone with 13MP primary camera,Xperia XA Ultra by Sony is very good for camera .,Slt_Info,P_Camera-13+,Neu
+What is its internal RAM?,It is 16 GB,Query_Slot,null,Neu
+Oh that is too less,It has extra memory slot and you can increase the space with it.,Feedback,null,Neg
+But I want a phone with 64GB internal RAM and good camera,Le Max by LeEco will solve your purpose,Slt_Info,Internal_RAM-64,Neg
+How much does it cost ?,It's cost is 350 Euro,Query_Slot,null,Neu
+Okay book this model for me.,Yes done,Booking_Req,null,Neu
+Thanks for helping me.,Welcome and thank you so much for shopping with us.,Gratitude,null,Pos
+131,131,131,131,131
+"Good Evening, I am looking for a trending phone","sure, please tell me your model no or requirements",Phn_SelReq,null,Neu
+I need to have a phone that has less weight and good battery life.,Xperia E4 Dual by Sony will be a good choice. Its weight is 144 gms,Slt_Info,"Battery-Good,Weight_g-Less",Neu
+What is its color?,It is black color,Query_Slot,null,Neu
+Whta is its internal RAM?,It is 8 GB,Query_Slot,null,Neu
+oh that's too less. I want at least 16 GB internal RAM,It's performance is good.,Slt_Info,Internal_RAM-16,Neg
+Yeah but I need more space for smooth functioning of the phone,Then Life One X2 Mini by Blu will be a perfect choice for you with good battery.,Feedback,null,Neg
+What is its price?,It is 170 Euro. It's a very good phone. You will love it.,Query_Slot,null,Neu
+"Okay, I will take this phone.","great choice , I am booking it for you.",Booking,null,Neu
+thanks a ton,My pleasure,Gratitude,null,Pos
+132,132,132,132,132
+"Hello , can you help me in selecting a phone ?",Sure. Can i know what are your requirements?,Phn_SelReq,null,Neu
+I want a Onyx Black colored dualsim phone.,Vibe P1m by Lenovo is a double sim phone.,Slt_Info,"Color-Onyx Black,Sim-D",Neu
+what is its camera quality?,it's 8 MP for primary and 5 MP for secondary,Query_Slot,null,Neu
+Oh that's too less. I take many pictures too,Its other features are very good,Slt_Info,"P_Camera-Good,S_Camera-Good",Neg
+Yes I understand but these days we take photos from phone only,A7000 Plus by Lenovo is available in this color and has good camera too,Feedback,null,Neg
+what is its cost?,its cost is 190 euro,Query_Slot,null,Neu
+"Okay, I will take this phone.","great choice , I am booking it for you.",Booking_Req,null,Neu
+You are a very good salesman. Thanks a lot,My pleasure,Gratitude,null,Pos
+133,133,133,133,133
+"Hello, I am in search of a good phone.",You are at the right place. Any specific phone you need?,Phn_SelReq,null,Neu
+it should have big display and high memory.,"Ok , Do you have any other requirements ?",Slt_Info,"Display_Size-Big,Memory-High",Neu
+"No, that's all","Okay, you can buy Galaxy S7 active by Samsung which has internal Ram of 32 GB and display size 576 pixel.",Confirm,null,Neu
+What is its Primary Camera?,It is 12MP,Query_Slot,null,Neu
+Oh I need 16 MP or more camera phone,Its picture quality is very good.,Slt_Info,P_Camera-16+,Neg
+But still I would go for 16 MP+ camera phone,Okay then Xperia XZ Premium by Sony is perfect for you.,Feedback,null,Neg
+What is its cost?,Its cost is 750Euro,Query_Slot,null,Neu
+What is its weight,It is 195 gms. It's a light weight smartphone.,Query_Slot,null,Neu
+"Okay, I like this phone. Pack it for me.","Good choice, I am booking it for you.",Booking_Req,null,Neu
+Thanks a lot for your time,Welcome always.,Gratitude,null,Pos
+134,134,134,134,134
+"Hi, I want to buy a phone","Yes, please tell your model no or requirements",Phn_SelReq,null,Neu
+It should be Vivo company and good memory,Xplay6 by Vivo will be a good choice for you.,Slt_Info,"Brand-Vivo,RAM-Good,Internal_RAM-Good",Neu
+What is its memory?,It is 6 GB RAM and 128 GB internal Ram.,Query_Slot,null,Neu
+"Superb, What is its cost?",It is 700 Euro,Query_Slot,null,Neu
+"Unfortunately, that's too costly for me. Do you have phone with same specification at lower price?","Cost is bit high but it has features like Digital Zoom, Auto Flash, Digital image stabilization, Face detection, Touch to focus.",Slt_Info,Cost-Less,Neg
+That is good to know but can't afford it,V3Max by Vivo price is 300 Euro,Feedback,null,Neg
+What is its color?,Black Ballistic Nylon is its color.,Query_Slot,null,Neu
+I will take it.,"Nice, I am booking it for you.",Booking_Req,null,Neu
+Thanks a ton,My pleasure,Gratitude,null,Pos
+135,135,135,135,135
+"hi,can you help me in buying a phone ?","Hey, sure , what kind of phone do you need?",Phn_SelReq,null,Neu
+it should have good camera and battery capacity,Blade S7 by ZTE is one of the best phone for camera as well as battery,Slt_Info,"P_Camera-Good,S_Camera-Good,Battery-Good",Neu
+how much does it cost ?,it cost 280 Euro,Query_Slot,null,Neu
+what is it's color ?,It is avilable in various color,Query_Slot,null,Neu
+Is it possible in Green?,This model has strong features but available in many other color other than Green,Slt_Info,Color-Green,Neg
+ok can you book black color for me,Yes done,Booking_Req,null,Neu
+Thanks for help,Welcome and thank you so much for shopping with us.,Gratitude,null,Pos
+136,136,136,136,136
+"Good Evening, I am looking for a phone which is trending these days","sure, please tell me your model no or requirements",Phn_SelReq,null,Neu
+I need to have a phone that has high internal RAM of 64 GB and good battery life.,X4 Soul by Allview will be a good choice. Its internal RAM is 64 GB.,Slt_Info,"Internal_RAM-64,Battery-Good",Neu
+What is its color?,It is black.,Query_Slot,null,Neu
+Whta is its weight?,It is 167.5 gms.,Query_Slot,null,Neu
+That's a bit on lighter side. Do you have something in more weight?,Light weight phones are easy to carry and very handy too,Slt_Info,Weight_g-Heavy,Neg
+Yeah but I want heavy weight phone coz it incorporates many features in it,Then P8 Energy Pro by Allview will be a perfect choice for you with good internal memory.,Feedback,null,Neg
+What is its price?,It is 420 Euro.You will love this phone.,Query_Slot,null,Neu
+"Okay, I will take this phone.",Booking done,Booking,null,Neu
+thanks a ton,"Welcome,My pleasure",Gratitude,null,Pos
+137,137,137,137,137
+"hi,can you help me in buying a phone ?","Hey, sure , what kind of phone do you need?",Phn_SelReq,null,Neu
+it should have radio facility and battery should be long lasting,Zenfone 3s Max ZC521TL by Asus is one of the best phone for battery. Radio also works on it.,Slt_Info,"Radio-Y,Battery-Good",Neu
+how much does it cost ?,Its cost is 230 Euro only,Query_Slot,null,Neu
+What is its weight?,Weight is 175 gms,Query_Slot,null,Neu
+oh that's a bit heavy. I want light weight phone.,This model has strong features. It has longer battery life and fast cahrging facility.,Slt_Info,Weight_g-Light,Neg
+ok can you book it for me,Yes done. I am booking it for you.,Booking_Req,null,Neu
+Thanks for help,Welcome and thank you so much for shopping with us.,Gratitude,null,Pos
+138,138,138,138,138
+"hi, I want to buy a new phone","hello, what kind of phone do you want?",Phn_SelReq,null,Neu
+It should have OS android and multi sim features,POP 7 LTE by Alcatel is one of the best phone suited to your need.,Slt_Info,"OS-And,Sim-M",Neu
+what is its cost?,Its costs is 130 Euro,Query_Slot,null,Neu
+what color is it?,The color of the phone is white,Query_Slot,null,Neu
+"Oh, is it possible to get in Black color?",This model is available in white only. white is in most demand these days,Slt_Info,Color-Black,Neg
+but I would prefer in Black,You can go buy PadFone by Asus,Feedback,null,Neg
+what's the price?,it costs 300 Euro,Query_Slot,null,Neu
+"Okay, I will book it","Sure, I have booked it",Booking_Req,null,Neu
+Thanks a lot,Welcome and do visit us again,Gratitude,null,Pos
+139,139,139,139,139
+"Hey, I am looking for a good phone","Hi, What sort of phone are you looking for?",Phn_SelReq,null,Neu
+It should be 2016 released year phone with good internal RAM and high primary camera quality,DTEK60 by Blackberry suits your requirements,Slt_Info,"Released_Yr-2016,Internal_RAM-Good,P_Camera-Good",Neu
+What is the price?,It is of 530 Euro,Query_Slot,null,Neu
+What is its OS?,"Yes , this phone has Android",Query_Slot,null,Neu
+Oh I have heard And has unattractive interface .I want Bla Operating phone,And OS is getting good review. Buyers are liking it.,Slt_Info,OS-Bla,Neg
+But I am comfortable with Bla Operating phone,"Okay, then Leap by Blackberry is a good option but its released year is 2015",Feedback,null,Neg
+What is the cost?,Its cost is 170 Euro.,Query_Slot,null,Neu
+ok can you book it for me,Yes done,Booking_Req,null,Neu
+Thanks for help,Welcome and thank you so much for shopping with us.,Gratitude,null,Pos
+140,140,140,140,140
+"Hey, can you help me in buying a new phone?","hello, what type of phone you want to purchase?",Phn_SelReq,null,Neu
+I want to buy a gps phone with good memory backup.,$M$ meets your requirements.,Slt_Info,"GPS-Y,RAM-Good,Internal_RAM-Good",Neu
+Does it has good camera ?,"Yes , picture quality is very good of this phone. $PC$ MP is its quality",Query_Slot,null,Neu
+Does it has DualSim feature?,"Yes, DualSim feauture is there on this phone.",Query_Slot,null,Neu
+what is it's cost ?,it's of $C$ Euro.,Query_Slot,null,Neu
+"oh,It is too costly for me. Can you suggest some other phone in cheaper price?",Even though it is costly customers are prefering this phone as its performance is far superior to others,Slt_Info,Cost-less,Neg
+My budget restricts me to buy this phone,$M$ is also a good phone with high memory,Feedback,null,Neg
+ok can you book Oit for me,"Yes done,",Booking_Req,null,Neu
+Thanks a lot for your time,Welcome and thank you so much for choosing us,Gratitude,null,Pos
+141,141,141,141,141
+"Hello, I want to buy a new phone.","hello, what phone are you looking for?",Phn_SelReq,null,Neu
+I want to buy a phone with good secondary camera quality and less weight,"Sure, Model nova 2 by Huawei would be a good option for you",Slt_Info,"S_Camera-Good,Weight_g-Light",Neu
+What is its battery?,2950 mAH is its battery. It has long lasting battery life.,Query_Slot,null,Neu
+What color is it?,It's in Aurora Blue color.,Query_Slot,null,Neu
+what is its released year?,It came in 2017,Query_Slot,null,Neu
+What is its price?,It costs 330 Euro,Query_Slot,null,Neu
+It is too costly for me. Do you have something in less?,With great costs come great features. This phone open multiple applications simultaneously,Slt_Info,Cost-Less,Neg
+I have budget constraints,No problem then you can buy A57 by Oppo,Feedback,null,Neg
+What is its price?,It costs $C$ Euro,Query_Slot,null,Neu
+ok can you book it for me,Yes done,Booking_Req,null,Neu
+Thanks a lot for your time,Welcome and thank you so much for choosing us,Gratitude,null,Pos
+142,142,142,142,142
+I am looking for GPS Operated phone,"Hello, do you have any other requirements in your mind?",Phn_SelReq,GPS-Y,Neu
+Its cost should be under 300 Euro,"Sure, You can buy A59 by Oppo",Slt_Info,Cost- 300-,Neu
+What is its weight?,Its weight is 136 gms,Query_Slot,null,Neu
+That's cool. I hope it has good memory too,It has memory of 3 GB,Query_Slot,null,Pos
+Ah that seems less for me.Can you suggest some other affordable phone with higher memory?,3 GB is ideal for most users.,Slt_Info,"RAM-Good,Internal_RAM-Good",Neg
+I understand but I need more space for multitasking,"Yes, You can buy R7s by Oppo. It costs 260 Euro with 4 GB memory.",Feedback,null,Neg
+Sounds good to me. Pack this for me.,My pleasure . I will pack it for you and your reference no is 2012-06,Booking_Req,null,Pos
+Thanks a ton for your time and help,Welcome . Do visit is again.,Gratitude,null,Pos
+143,143,143,143,143
+I wanna buy a phone which fulfills all my requirements.,"Good Morning,What are your basic needs?",Phn_SelReq,null,Neu
+My first requirement is that I need a phone which has an excellent camera.,Nowadays R9 Plus by Oppo is one of the best options for all those people who wanna have a very good camera and especially for clicking selfies.,Slt_Info,"P_Camera-Good,S_Camera-Good",Neu
+How much memory does it offer?,It has an internal RAM of 64 GB RAM,Query_Slot,null,Neu
+And how about the primary Camera?,The primary one is 16 MP.,Query_Slot,null,Neu
+oh that seems less..What other phones do you have if I want more storage?,It has expandable memory feature. Extra memory slot is provided in this phone,Slt_Info,"RAM-Good,Internal_RAM-Good",Neg
+How much is it for?,It’s for 550 Euro,Query_Slot,null,Neu
+Does it also has Dual SIM option?,"Yup, it also has Dual SIM slot",Confirm_Q,Sim-D,Neu
+"Okay, can you pack this phone?","Sure, Booking confirmed How will you pay?",Booking_Req,null,Neu
+It was nice talking to you. Thanks a lot for your help.,My pleasure. Contact us for any query.,Gratitude,null,Pos
+144,144,144,144,144
+"Hi, I am looking for a phone",What kind of features were you looking for?,Phn_SelReq,null,Neu
+"I want a android operating smart phone, with good battery life.",This model Galaxy C9 Pro by Samsung will meet your requirements,Slt_Info,"OS-And,Battery-Good",Neu
+Looks nice. How’s the battery life?,It depends how you use it. It lasts from one to three days. It's battery is 4000 mAh,Query_Slot,null,Neu
+what is its price?,Its price is 620 Euro. It has many great features.,Query_Slot,null,Neu
+"Oh, that's too costly for me. Do you have something under 220 Euro?",For few dollars don't leave this phone. It is trending these days. It has many features which sets it apart from other phone,Slt_Info,Price-220-,Neg
+I understand but my pocket does not allow that,Model Xperia Z2 Tablet LTE by Sony is also a good phone and its price is also 350 Euro,Feedback,null,Neg
+"okay, I will buy it.",Thanks for buying this great phone.,Booking_Req,null,Neu
+Thanks for help,My pleasure,Gratitude,null,Pos
+145,145,145,145,145
+"Hi, I am in need of a good phone","Hello, sure what features you want in your phone?",Phn_SelReq,null,Neu
+I want to buy a black colorlight weight symbian phone,"Hello , Satio (Idou) by Sony Ericsson meets your requirements.",Slt_Info,"Color-Black,OS-Sym,Weight_g-Light",Neu
+How's the camera quality of this phone?,It is very good. It has 12 MP primary camera and VGA secondary camera,Query_Slot,null,Neu
+oh it is quite less compared to other phone. I want a mobile with higher MP,you don’t need a huge number of megapixels to get some great photographs. Even a modest 6 megapixel camera will result in some very good pictures. So don’t buy into the hype about having a huge number of megapixels in your camera.,Slt_Info,"P_Camera-Good,S_Camera-Good",Neg
+What is its cost?,It is 180 Euro,Query_Slot,null,Neu
+Ok book this one for me,"Yeah Sure, Completing the booking process . Its done.",Booking_Req,null,Neu
+Thanks for helping me.,You are welcome,Gratitude,null,Pos
+146,146,146,146,146
+"Hi, I want to buy a mobile.","Hello,What make of mobile phone do you want Smartphone or Non-Smartphone?",Phn_SelReq,null,Neu
+I am looking high internal RAM with small display size,"Sure, Model Mi Note 2 by Xiomi will be a good option for you.",Slt_Info,"Internal_RAM-High,Display_Size-Small",Neu
+What is its price?,Its cost is 610 Euro,Query_Slot,null,Neu
+Its too costly for me. Can you suggest any other phone in my budget,This is a very good phone. Comapny has added many great features in it.,Slt_Info,Cost-Less,Neg
+I have a really tight budget. Kindly suggest some other phone,"Ok, then you can go for Model V5s by Vivo Phone. Its cost is only 280 Euro",Feedback,null,Neg
+Sounds perfect. I will buy it.,"Okay, i am booking this phone for you",Booking_Req,null,Pos
+It was nice interacting with you. Thanks for your patience and help.,You are welcome.Its my job and I am happy to serve my customer.,Gratitude,null,Pos
+147,147,147,147,147
+"Good Morning, I am looking for a phone","Hello, any specific model you are looking for?",Phn_SelReq,null,Neu
+"Hi, I want to buy Samsung phone with good battery life.","Sure, Galaxy J7 Max by Samsung is a very good phone.",Slt_Info,"Brand-Samsung,Battery-Good",Neu
+What is its display size?,It is 386 pixel,Query_Slot,null,Neu
+Oh that's too big. I don't feel comfortable carrying big phone.,"The screen of this phone hits the basics: It’s high resolution, gets really bright, and has vibrant colors. Video quality is very good in this phone",Slt_Info,Display_Size-Small,Neg
+what is its primary camera?,It has 13 MP primary camera picture quality.,Query_Slot,null,Neu
+What is its cost?,Its cost is 250. It has got very good resposnse from our customers,Query_Slot,null,Neu
+That's cool. I will take it. Can I pay it by card?,Thanks a lot. Yes we take card payment also. Your booking reference number is 2012_12,Booking_Req,null,Pos
+Thanks for your help.,My pleasure,Gratitude,null,Pos
+148,148,148,148,148
+I am looking for a new phone. Can you suggest some?,"ofcourse, do you have specific features for the same?",Phn_SelReq,null,Neu
+"Yes, RAM storage and picture quality should be good as I like clicking pics. One more thing its OS should be Android","Definitely, I would suggest Model Galaxy C9 Pro by Samsung for the same. It has good picture quality and its internal RAM is also 64 GB.",Slt_Info,"P_Camera-Good,S_Camera-Good,RAM-Good,OS-And",Neu
+Does Radio works on it?,"Sorry, it does not support Radio.",Query_Slot,null,Neu
+Oh I often listen to Radio. This phone does not have.I want radio to work on my phone.,"If you leave aside radio, this phone is superb. The screen is incredible, the cameras are respectable, and the software is clean and fast.",Feedback,null,Neg
+What is its memory?,It's 6 GB but it is expandable. There is extra slot for memory card. We can provide you with that,Query_Slot,null,Neu
+"Sounds good. Pack this for me,","Great, I am confirming your booking and your reference number is 2012_13",Booking_Req,null,Pos
+Thanks a ton.,My pleasure and thank you for visiting us.,Gratitude,null,Pos
+149,149,149,149,149
+"Good Evening, I want to buy a phone",Any specific model you are looking for?,Phn_SelReq,null,Neu
+"Yes, I want to buy a multiSim mobile.","Sure, we have many multiSim mobiles in our store. Is there any other specific features you are looking for?",Slt_Info,Sim-M,Neu
+GPS and Radio should work on it.,Okay Galaxy S5 Neo by Samsung meets your requirements.,Slt_Info,"GPS-Y,Radio-Y",Neu
+What is its cost?,It is 350 Euro.,Query_Slot,null,Neu
+Sorry this phone is not in my budget.It is a bit costly. Can you recommend some other phone in less cost?,This phone is very very fast. It’s paired with both fast RAM and capacious storage.,Slt_Info,Cost-Less,Neg
+But I have limited money.,Then Model Galaxy S4 mini I9195I by Samusng is also a very good phone and it is not very costly also.,Feedback,null,Neg
+Sounds perfect. Book this for me.,"Fantastic, I am booking your order.",Booking_Req,null,Pos
+Thank you so much for all your help.,You are always welcome.,Gratitude,null,Pos
+150,150,150,150,150
+"Hello , can you help me in selecting a phone ?",Sure. Can i know what are your requirements?,Phn_SelReq,null,Neu
+I want to buy Model Iconia Tab A501 by AcerPhone.,Sorry this phone is not available in our store. Do you want some other phone?,Slt_Info,"Company-Acer,Model-Iconia Tab A501",Neu
+I am looking for an affordable phone. It should be under 200 Euro.,Model Liquid Z520 by Acer suits your requirements.,Slt_Info,Cost-200-,Neu
+Does it has dualsim?,"No, it is a single sim phone",Query_Slot,null,Neu
+"oh, i don't want single sim phone. I want affordable dualsim phone",The point with single sim phone is that you can get better battery and performance that is why the expensive phones like apple and pixel are still single sim.,Slt_Info,Sim-D,Neg
+What color is it available?,It's available in black color.,Query_Slot,null,Neu
+"Okay, I will buy it then.","perfect choice, i am booking it for you. Your order number is 2012_15",Booking_Req,null,Neu
+Thanks a lot for teaching me its operation.,My pleasure.You are always welcome,Gratitude,null,Pos
+151,151,151,151,151
+"Hi, I want to buy a phone","Sure, Is there any other specific features you want in your phone?",Phn_SelReq,null,Neu
+My requirements are dualsim phone with good battery life,"okay, do you have any budget constraints?",Slt_Info,"Battery-Good,Sim-D",Neu
+I want a cellphone under 350 Euro,Model Iconia Tab A3 by Acer will be perfect for you.,Slt_Info,Cost-350-,Neu
+What is its OS?,It is Android,Query_Slot,null,Neu
+I don't want And OS phone,It's in great demand and has got good rating as well.,Slt_Info,OS- Non And,Neg
+I like Mic. Can you suggest some other phone which works on Mic OS,Model Lumia 640 XL LTE Dual SIM by Microsoft phone will be a perfect choice.,Feedback,OS-Mic,Neg
+What is its cost?,Its price is 280 Euro,Query_Slot,null,Neu
+"Okay, can you pack this phone?",Ok booking confirmed,Booking_Req,null,Neu
+Thanks for help,"Welcome, it's my pleasure",Gratitude,null,Pos
+152,152,152,152,152
+"Hello, I want to buy a best selling model phone.",Definitely I will help you in choosing one. Do you have any specific requirements?,Phn_SelReq,null,Neu
+"Yes, i need a phone with DualSim in less cost",You can take Model Moto E3 Power by Motorola,Slt_Info,"Sim-D,Cost-Less",Neu
+What is its memory?,It's 2 GB Ram and 16 GB Internal RAM.,Query_Slot,null,Neu
+That is too less. Can you suggest a phone with 64 GB Internal Ram and being widely used.,This phone is selling like hot cake. It has got expandable memory slot.,Slt_Info,Internal_RAM-64,Neg
+I need 64 GB phone only,Then you should buy Model Moto Maxx by Motorola. It has very good picture quality also,Feedback,null,Neg
+What is its cost?,Its 300 Euro,Query_Slot,null,Neu
+Sounds good to me. I will take it.,Perfect choice. I will pack it for you. Your reference number is 2012_19.,Booking_Req,null,Pos
+Thanks a lot for your patience and time.,It's my job and I love doing it.,Gratitude,null,Pos
+153,153,153,153,153
+"Hi, can you please help me in selecting a phone?","Yeah Sure, can i know what kind of phone you need?",Phn_SelReq,null,Neu
+I want to buy a cell with 16MP or more primary camera,DROID Turbo by Motorola is very good for camera .,Slt_Info,P_Camera-16+,Neu
+How much does it cost ?,it will cost 290 Euro,Query_Slot,null,Neu
+Does it uses Sym OS?,"No, it works on Android operating system",Query_Slot,null,Neu
+I am not sure about this OS. I want a phone in Sym OS only.,DROID Turbo by Motorola is giving very good response. It is being widely used for a fast web browsing and very handy for reading mails,Slt_Info,OS-Sym,Neg
+Okay book this model for me.,Yes done,Booking_Req,null,Neu
+Thanks for helping me.,Welcome and thank you so much for shopping with us.,Gratitude,null,Pos
+154,154,154,154,154
+"Hello, I want to buy a new phone.","hello, what phone are you looking for?",Phn_SelReq,null,Neu
+I want to buy a phone with small display size and good camera quality,"Sure, Model F1 by Oppo would be a good option for you",Slt_Info,"P_Camera-Good,S_Camera-Good,Display_Size-Small",Neu
+What is its battery?,2500 mAh is its battery. Your phone will last for long.,Query_Slot,null,Neu
+What color is it?,It's in White color.,Query_Slot,null,Neu
+What is its price?,It costs 230 Euro,Query_Slot,null,Neu
+It is too costly for me. Do you have something in less?,It is being preferred by most of our customers,Slt_Info,Cost-Less,Neg
+My pocket does not allow me,"okay no problem, You can buy Model Eluga Ray X by Panasonic",Feedback,null,Neg
+What is its price?,It costs 130 Euro,Query_Slot,null,Neu
+ok can you book it for me,Yes done,Booking_Req,null,Neu
+Thanks a lot for your time,Welcome and thank you so much for choosing us,Gratitude,null,Pos
+155,155,155,155,155
+"Hi,I want to buy a phone.","Sure, any specific model you are looking for?",Phn_SelReq,null,Neu
+I want a DualSim Android phone,Model Galaxy C7 by Samsung is a good phone.,Slt_Info,"Sim-D,OS-And",Neu
+is it so ?,"yeah, its rating is also very good priced at 450 Euro",Confirm,null,Neu
+but it is out of my budget,You will not regret with the great features it come,Slt_Info,Cost-Less,Neg
+Ok please complete the booking process.,It's done. Thank for buying.,Booking_Req,null,Neu
+Thanks a lot for your time,Welcome and thank you so much for choosing us,Gratitude,null,Pos
+156,156,156,156,156
+I wanna buy a phone which fulfills all my requirements.,What are your basic needs?,Phn_SelReq,null,Neu
+I want to buy a Oppo phone,R11 Plus by Oppo is a very good model,Slt_Info,Brand-Oppo,Neu
+what are its specification?,It has 64 GB internal RAM and has a front camera of 20 MP and back camera of Dual. Its operating system is And.,Query_Slot,null,Neu
+I don't want dual camera phone,Dual camera phone is in great demand these days,Slt_Info,P_Camera-Non Dual,Neg
+It may be in demand but i would prefer non dual phone,"A77 by Oppo comes with additional features. It has options for long screen shot, eye protection changing to a warmer color temperature",Feedback,null,Neg
+it looks good.,Also it has a battery capacity of 3200 mAH. And it costs only 330 Euro.,Feedback,null,Pos
+Ok book this one for me,"Yeah Sure, Completing the booking process . Its done. Your Ref no. is 1212_24",Booking_Req,null,Neu
+Thanks for helping me.,You are always Welcome,Gratitude,null,Pos
+157,157,157,157,157
+"Hello , can you help me in selecting a phone ?",Sure. Can i know what are your requirements?,Phn_SelReq,null,Neu
+I want to buy a white color multisim phone for my son.,"Hello, sure we have white color phone. Is there any features you want in your phone?",Slt_Info,"Color-White,Sim-M",Neu
+"I have budget constraints, it should be under 300 Euro","No problem, R1S by Oppo is a good phone in the market meeting all your requirements.",Slt_Info,Cost-300-,Neu
+Does GPS works on it?,Yes GPS works on it.,Query_Slot,null,Neu
+What is its weight?,Its weight is 140 gms,Query_Slot,null,Neu
+oh that's very light. I want a heavy phone,Light phone is handy and you can carry it anywhere without bearing its weight.,Slt_Info,Weight_g-Heavy,Neg
+What is its price?,It is 290 Euro.,Query_Slot,null,Neu
+"Perfect, I will take it. Kindly gift wrap it.","Sure, I will gift wrap it.",Booking_Req,null,Neu
+Thanks a ton,My pleasure.,Gratitude,null,Pos
+158,158,158,158,158
+"Hi, I want to buy a reliable phone.","Hello, Sure we have many phones available in our store. Do you have any specific requirements?",Phn_SelReq,null,Neu
+"Yes, Phone should have good battery and storage.",Signature Touch (2015) by Vertu has very good battery life of 3160mAH and RAM of 4 GB.,Slt_Info,"Battery-Good,RAM-Good,Internal_RAM-Good",Neu
+What is its color?,It's Jet Calf in color.,Query_Slot,null,Neu
+oh ! But I am looking for Titanium grey color phone,"Jet Calf
+ color is very easy to maintain. It has been preferred by many of our customers. This phone is getting very good review.",Slt_Info,Color-Titanium grey,Neg
+What is its cost?,Price is 9000 Euro.,Query_Slot,null,Neu
+Ok book this one for me,"Yeah Sure, Completing the booking process . Its done. Your Ref no. is 1212_26",Booking_Req,null,Neu
+Thanks for helping me.,Welcome anytime,Gratitude,null,Pos
+159,159,159,159,159
+"Hello, I want a good phone for my office use","Sure, is ther any other features you want in your phone?",Phn_SelReq,null,Neu
+"Yes, battery should lasts long as I travel a lot.","Well, then Elife E8 by Gionee will be perfect for you as it has screen size of 490 Pixel and battery lasts for two days",Slt_Info,"Battery-Good,Display_Size-Big",Neu
+What is its weight?,It is 210 gms,Query_Slot,null,Neu
+"oh,that's a bit heavy. Can you suggest some other phone with light weight","Sir, it's not that heavy and this phone is getting very good review",Slt_Info,Weight_g-Light,Neg
+Yes I understand your point but still I would prefer light weight phone,Then you should go for Marathon M4 by Gionee. It is light weight and also has large screen size,Feedback,null,Neg
+What is its color?,It's available in black.,Query_Slot,null,Neu
+I will take it then,"Sure, I am booking this for you",Booking_Req,null,Neu
+Thannks a ton. You have been very helpful.,My pleasure,Gratitude,null,Pos
+160,160,160,160,160
+"Hey, I want to buy a phone",Any specific phone you want?,Phn_SelReq,null,Neu
+I want to buy Xiaomi phone,Okay Mi 5c By Xiaomi cell is being preferred by youngsters these days.,Slt_Info,Brand-Xiaomi,Neu
+How is the camera quality?,Primary camera is 12 MP and secondary camera is 8 MP.,Query_Slot,null,Neu
+That's very good. What is its display screen size?,It is 428 pixel,Query_Slot,null,Neu
+what is its color?,It's black.,Query_Slot,null,Neu
+"oh, I want it in gold.",Black looks stylish and many customers are prefering black over other color,Slt_Info,Color-Gold,Neg
+"Perfect, I will take it. Kindly gift wrap it.","Sure, I will gift wrap it.",Booking_Req,null,Pos
+Thanks a ton,You are always welcom.My pleasure.,Gratitude,null,Pos
+161,161,161,161,161
+"Hello, I want a phone with small dispaly size as I don't feel comfortable carrying big phone","Sure, is ther any other features you want in your phone?",Phn_SelReq,Display_Size-Small,Neu
+"Yes, battery should lasts long as I travel a lot.","Well, then Blade A2 Plus by ZTE will be perfect for you as it has screen size of 401 Pixel and battery lasts for two days",Slt_Info,Battery-Good,Neu
+What is its weight?,It is 189 gms,Query_Slot,null,Neu
+"oh,that's a bit heavy. Can you suggest some other phone with light weight","Sir, it's not that heavy and this phone is getting very good review",Slt_Info,Weight_g-Light,Neg
+Yes I understand your point but still I would prefer light weight phone,Then you should go for nubia Z11 mini S by ZTE. It is light weight and also has small screen size,Feedback,null,Neg
+What is its color?,It's available in black color,Query_Slot,null,Neu
+I will take it then,"Sure, I am booking this for you and your reference number is 1212_27",Booking_Req,null,Neu
+Thanks a ton. You have been very helpful.,My pleasure,Gratitude,null,Pos
+162,162,162,162,162
+"Hey, I want to buy a phone",Any specific phone you want?,Phn_SelReq,null,Neu
+I want to buy Samsung mobile,"Galaxy J7 Max
+by Samsung mobile is very much in demand these days",Slt_Info,Brand-Samsung,Neu
+How is the camera quality?,Front camera is 13 MP and back camera is 13 MP.,Query_Slot,null,Neu
+That's very good. What is its display screen size?,It is 386 pixel,Query_Slot,null,Neu
+what is its color?,It's white,Query_Slot,null,Neu
+"oh, I want it in white",Black looks stylish and many customers are prefering this over other,Slt_Info,Color-White,Neg
+"okay I take your point, gift wrap it.","Sure, I will gift wrap it. Your booking is confirmed",Booking_Req,null,Neu
+Thanks a ton,My pleasure.,Gratitude,null,Pos
+163,163,163,163,163
+"Hi, I am looking for a good phone","Hello, what are your requirements for the same?",Phn_SelReq,null,Neu
+I want to buy a phone with 64 GB internal RAM and price under 800 Euro,Xperia XZ Premium is a very good phone with 64 GB internal RAM,Slt_Info,"Internal_RAM-64,Cost-800-",Neu
+What about the Radio?,"Sorry, radio does not work on this phone.",Query_Slot,null,Neu
+Oh I can't buy this phone. I want a phone in which radio works.,Though radio does not work but you can stream music and podcasts on this phone,Slt_Info,Radio-Y,Neg
+Sorry I can't take this phone. Streaming music and podcasts consumes more data so I would rather prefer phone with radio facility,Okay no problem you can buy MS1 by Sharp mobile.,Feedback,null,Neg
+ok can you book it for me,Yes done,Booking_Req,null,Neu
+Thanks for help,Welcome and thank you so much for shopping with us.,Gratitude,null,Pos
+164,164,164,164,164
+I am in urgent need of a phone,What type of Phone you want?,Phn_SelReq,null,Neu
+I want a light weight phone with the internal RAM of 64 GB.,"Sure, X7 by Vivo meets your requirements. It has 64 GB RAM and 151 gms weight.",Slt_Info,"Weight_g- Light,Internal_RAM-64GB",Neu
+Sounds good. Does it support Radio?,"Sorry, Radio does not work on this phone.",Query_Slot,null,Pos
+"My bad luck,do you have some other brand phone with same feature?","If you leave Radio Jack aside , this phone is really good",Slt_Info,Radio-Y,Neg
+Does it has DualSim?,Yes it has DualSim.,Confirm_Q,Sim-D,Neu
+"Okay, can you pack this phone?",Ok booking confirmed,Booking_Req,null,Neu
+Thanks for help,Welcome,Gratitude,null,Pos
+165,165,165,165,165
+I wanna buy a phone which fulfills all my requirements.,What are your basic needs?,Phn_SelReq,null,Neu
+Brand should be Lenovo,You can buy A6600 Plus by Lenovo,Slt_Info,Brand-Lenovo,Neu
+How much storage does it offer?,It has 2 GB RAM and 16 GB Internal RAM,Query_Slot,null,Neu
+And how about the Primary Camera?,The primary camera is 8 MP,Query_Slot,null,Neu
+"Oh, that’s great. How much is the price?",The price is 130 Euro,Query_Slot,null,Neu
+What other phones do you have if I want more storage?,ZUK Edge by Lenovo has 64 GB internal RAM,Slt_Info,Internal_Ram-Good,Neu
+How much is it for?,It’s for 450 Euro,Query_Slot,null,Neu
+"Oh no, that’s very expensive, help me with a cost-effective phone which has got both good camera and good storage.","If you overlook the price, this phone is in great demand these days. Its battery will last long and it runs smoothly. It will not hang",Slt_Info,Cost-Less,Neg
+"Okay, can you pack this phone?",Ok booking confirmed,Booking_Req,null,Neu
+Thanks for help,Welcome,Gratitude,null,Pos
+166,166,166,166,166
+"Hey, I want to gift a phone to my brother","Lovely, Any specific features you are looking for in your phone?",Phn_SelReq,null,Neu
+"yes, I want a big display size GPS operated phone",G6 by LG has display size of 564 Pixel and is widely used for GPS.,Slt_Info,"Display_Size-Big,GPS-Y",Neu
+What is its price?,It's 750 Euro.,Query_Slot,null,Neu
+Unfortunately that's too costly for me. Do you have something in less?,"At this price you will definitely get a better possesor, more ram and more storage",Slt_Info,Cost-Less,Neg
+"Yes, but i can't spend that much on my phone",You can buy V20 by LG. It also has display screen of 513 Pixel and price is also 560 Euro,Feedback,null,Neg
+What is its color?,it's titan,Query_Slot,null,Neu
+what is its weight?,It is 174 gms,Query_Slot,null,Neu
+Sounds good to me. Please book it for me,"Sure, I am booking it for you",Booking_Req,null,Pos
+Thanks for all your time.,My pleasure.,Gratitude,null,Pos
+167,167,167,167,167
+"Good Evening, I am looking for a trending phone","sure, please tell me your model no or requirements",Phn_SelReq,null,Neu
+I need to have a phone that has high memory and good battery life.,M3 Max by Meizu will be a good choice. Its internal RAM is 64 GB.,Slt_Info,"RAM-Good,Internal_RAM-Good,Battery-Good",Neu
+What is its color?,It is Champagne Gold.,Query_Slot,null,Neu
+Whta is its weight?,It is 189 gms.,Query_Slot,null,Neu
+"Oh,that's a bit on heavier side. Do you have something in light weight?",Most of the good phone has weight around this only,Slt_Info,Weight_g-Light,Neg
+Yeah but I don't find comfortable to keep heavy phone in my pocket,Then Pro 6s by Meizu will be a perfect choice for you with good memory.,Feedback,null,Neg
+What is its price?,It is 430 Euro. It's a new phone in the market. You will love it.,Query_Slot,null,Neu
+"Okay, I will take this phone.","great choice , I am booking it for you.",Booking,null,Neu
+thanks a ton,My pleasure,Gratitude,null,Pos
+168,168,168,168,168
+"Hey, I want to buy a phone.","Sure, any speciifc requirements you have for the phone?",Phn_SelReq,null,Neu
+I want a tripel sim phone.,Liquid X2 by Acer is a triple sim phone.,Slt_Info,Sim-T,Neu
+what is its camera quality?,it's 13 MP for Primary and 13 MP for Secondary,Query_Slot,null,Neu
+What is its color?,It's black in color.,Query_Slot,null,Neu
+I don't like black color. Do you have in some other color?,It is available in black only and this phone is selling like hot cake.Don't leave this phone just for the color.,Slt_Info,Color-Non Black,Neg
+what is its cost?,its cost is 230 euro,Query_Slot,null,Neu
+"Okay, I will take this phone.","great choice , I am booking it for you.",Booking_Req,null,Neu
+You are a very good salesman. Thanks a lot,My pleasure,Gratitude,null,Pos
+169,169,169,169,169
+I am looking for a good phone,"Sure, any specific features you have in your mind?",Phn_SelReq,null,Neu
+I want a 2017 released phone with good memory,"Sure, Is the all requirement ?",Slt_Info,"Released_Yr-2017,RAM-Good,Internal_RAM-Good",Neu
+I want in black color.,"Great , Aurora by blackberry is a good phone",Slt_Info,Color,Neu
+What is its OS,It's Android.,Query_Slot,null,Neu
+I want iOS phone.,Its an user friendly OS where you can easily get new and updated thousands of apps.,Slt_Info,OS-iOS,Neg
+I have always used iOS so I don't want to switch to any other OS,iPhone 7 Plus by Apple can be a good option,Feedback,null,Neg
+What color is it available in your store/?,It is avilable in jet black.,Query_Slot,null,Neu
+"Okay, I will book blue phone","great, I am booking your order",Booking_Req,null,Neu
+Thanks a lot.,My pleasure.,Gratitude,null,Pos
+170,170,170,170,170
+"Good evening, I am looking for a good phone","Sure, Any specific model or features you are looking for?",Phn_SelReq,null,Neu
+I am looking for a Samsung phone in which Radio works,Galaxy J3 (2017) by Samsung is a good option.,Slt_Info,"Brand-Samsung,Radio-Y",Neu
+What is its internal Ram storage?,It is 16 GB RAM.,Query_Slot,null,Neu
+I want a Samsung phone with more internal RAM space,It has the facility of expandable memory.,Slt_Info,Internal_RAM-Good,Neu
+But I am not comfortable with external memory card.,Okay then Galaxy C7 Pro by Samsung has 64 GB internal RAM and 4 GB RAM.,Feedback,null,Neg
+"Lovely, what is its cost?",it is 420 Euro.,Query_Slot,null,Pos
+Book it for me.,"Sure, I am booking it for you.",Booking_Req,null,Neu
+Thanks dear,You are welcome.I am happy to help. Do visit us again.,Gratitude,null,Pos
+171,171,171,171,171
+I need to buy a phone,"Yes, We will asssist you in buying phone. Can you please tell what kind of phone you are looking?",Phn_SelReq,null,Neu
+Phone which is good for selfie and high battery capacity,"Ok, we have excellent phone for such, Do have any other requirement also?",Slt_info,"S_Camera-Good,battery-Good",Neu
+No thats all.,You can buy Galaxy J7 Prime by Samsung which has 8 MP,Confirm,null,Neu
+what about primary camera ?,It is also 13 MP.,Query_Slot,null,Neu
+Oh much lesssss!,It's Quality is very good and clear.,Feedback,null,Neg
+I want atleast 15 MP primary phone,Then you should try Galaxy C9 Pro by Samsung,Slt_Info,P_Camera-15+,Neg
+what is it's both camera ?,It's back camera is 16 MP & front camera is 16 MP,Query_Slt,null,Neu
+It sounds great.,Yes it is one of the best phone for camera.,Feedback,null,Pos
+Ok can you book it for me?,"Yeah , Booking done, Thanks for buying with us",Booking_Req,null,Neu
+Thanks for assistance.,"Welcome , Please visit again.",Gratitude,null,Pos
+172,172,172,172,172
+"Good Evening, I want to buy a cell Phone","Sure, any specific model you are looking for?",Phn_SelReq,null,Neu
+I want to buy a HTC phone,One X10 by HTC is a very good phone.,Slt_Info,Brand-HTC,Neu
+What is its battery?,Its battery is 4000 mAH.It lasts for for than 24 hrs.,Query_Slot,null,Neu
+What is its cost?,It is 330 Euro.,Query_Slot,null,Neu
+My budget is more. Do you have expensive phone with more benefits?,At 330 Euro this phone also has fingerprint sensor.,Slt_Info,Cost-Expensive,Neg
+But higher priced phone will have more additional features with good operating system,U11 by HTC price is 750 Euro.,Feedback,null,Neg
+What is its color?,Its color is Amazing Silver,Query_Slot,null,Pos
+I will take it.,"cool, I am booking it for you.",Booking_Req,null,Neu
+I am very happy today. Thanks a lot,My pleasure. You are always welcome,Gratitude,null,Pos
+173,173,173,173,173
+"Hi, I want to buy a new phone.",Any specific feature are you looking for ?,Phn_SelReq,null,Neu
+I want 128 GB internal RAM phone.,Hero CDMA by HTC has 128 GB internal RAM,Slt_Info,Internal_RAM-128,Neu
+What is its color?,Its color is Silver,Query_Slot,null,Neu
+"oh, I am not fond of silver color. Do you have it in blue color.",Silver colour is different and is not common,Slt_Info,Color-Blue,Neg
+True but somehow i have aversion towards Silver color.,"Same model we have in silver only. But, You can buy nova 2 plus by Huawei. Its internal RAM is also 128 GB.",Feedback,null,Neg
+"Lovely, What is its color?",It's Aurora Blue.,Query_Slot,null,Pos
+What is its price?,It is 380 Euro.,Query_Slot,null,Neu
+"Cool, I will take it.","Great, I am booking it for you.",Booking_Req,null,Neu
+Thanks a lot,My pleasure. Welcome,Gratitude,null,Pos
+174,174,174,174,174
+"Hello, I am in urgent need of a good phone.","Sure, you are at right place. What kind of phone are you looking for?",Phn_SelReq,null,Neu
+I don't have much requirement. Camera quality is my primary focus.,Moto X Play Dual SIM by Motorola is a good phone for camera.,Slt_Info,"P_Camera-Good,S_Camera-Good",Neu
+What is its primary and secondary camera quality?,It is 21 MP-Primary and 5 MP-Secondary,Query_Slot,null,Neu
+"oh, I take too many selfie so I want higher quality secondary phone i.e 12 MP+.",This phone's picture quality is very good.,Slt_Info,S_Camera-12+,Neg
+True but my friend have suggested to go for phone with 12 MP secondary camera,R9s Plus by Oppo has 16 MP for both primary and secondary camera.,Feedback,null,Neg
+What is its price?,It is 570 Euro,Query_Slot,null,Neu
+I will buy it.,"Great, I am booking it for you.",Booking_Req,null,Neu
+Thank you for your time,You are welcome.I am happy to help you,Gratitude,null,Pos
+175,175,175,175,175
+"Hi, I want to buy a phone","Sure, is there any specific requirements you have?",Phn_SelReq,null,Neu
+I want 2017 released HTC phone.,U11 by HTC is very good phone in the market. It is getting very good response from the public,Slt_Info,"Released_Yr-2017,Brand-HTC",Neu
+What is its cost?,It is 750 Euro.,Query_Slot,null,Neu
+I am looking for a phone which is less that 500 Euro,Buy this phone it comes with a sapphire glass screen for extra protection against scratches and it has a space for microsd card also,Slt_Info,Cost-500-,Neu
+Yeah but I have limited money so can't afford it,U Play by HTC price is only 470 Euro but its internal RAM is 32 GB only,Feedback,null,Neg
+I have no problem with the storage. I will buy it.,"No problem, i am booking it for you.",Booking_Req,null,Neu
+Thanks a lot,You are always welcome.It's my pleasure to serve you.,Gratitude,null,Pos
+176,176,176,176,176
+"Hello, I am in search of a good phone.",You are at the right place. Any specific phone you need?,Phn_SelReq,null,Neu
+"It should be MultiSim, GPS operated, less weight phone","Sure, many phones are available at our store. Elife S5.5 by Gionee will be a good choice",Slt_Info,"Sim-M,GPS-Y,Weight_g-Light",Neu
+"Great, what is its ReleasedYear and ReleasedMonth?",It is February 2014,Query_Slot,null,Neu
+"oh, that's an old phone. Do you have 2017 released phone?",Even though it is old but this phone is still very much in demand and its price has also decreased,Slt_Info,Released_Yr-2017,Neg
+What is its cost?,Its cost is 270 Euro,Query_Slot,null,Neu
+What is its weight,It is 133 gms. It's a light weight smartphone.,Query_Slot,null,Neu
+"Okay, I like this phone. Pack it for me.","Good choice, I am booking it for you.",Booking_Req,null,Neu
+Thanks a lot for your time,Welcome always.,Gratitude,null,Pos
+177,177,177,177,177
+"Hi, I want to buy a phone","Yes, please tell your model no or requirements",Phn_SelReq,null,Neu
+"Actually, I am not restricted to any particular model but i need to have a phone that have high memory.",Elife E8 by Gionee will be a good choice for you.,Slt_Info,"RAM-Good,Internal_RAM-Good",Neu
+What is its memory?,It is 64 GB internal Ram.,Query_Slot,null,Neu
+"Superb, What is its cost?",It is 480 Euro,Query_Slot,null,Neu
+"Unfortunately, that's too costly for me. Do you have 64 GB internal memory phone with lower price?",Cost is bit high but it has many features which sets it apart from other mobile,Slt_Info,"Internal_RAM-64 GB,Cost-Less",Neg
+That is good to know but can't afford it,S9 by Gionee has memory of 64 GB and its price is 370 Euro,Feedback,null,Neg
+What is its color?,Black is its color.,Query_Slot,null,Neu
+I will take it.,"Nice, I am booking it for you.",Booking_Req,null,Neu
+Thanks a ton,My pleasure,Gratitude,null,Pos
+178,178,178,178,178
+"Hi, I am interested in buying a phone.","Good Evening, any specific feature you want in your phone",Phn_SelReq,null,Neu
+"Yes, it should be light weight and should have small screen",Zenfone 5 A500KL by Asus is a light weight phone with small screen size,Slt_Info,"Weight_g-Light,Display_Size-Small",Neu
+Is it a DualSim phone?,"Sorry, it's a single sim phone.",Query_Slot,null,Neu
+"I don't want single sim.Can you recommend DualSim , light weight and small screen phone?",Specifically for dualsim don't leave this phone because it is really good performance wise,Slt_Info,Sim-D,Neg
+But I require DualSim phone,You can take Zenfone 2 Laser ZE550KL by Asus,Feedback,null,Neg
+What is its price?,its price 220 Euro.,Query_Slot,null,Neu
+Lovely it is under my budget. I will buy it.,"Thanks, I am booking it for you. Your reference number is 2012-44",Booking_Req,null,Pos
+Thank you so much,You are most welcome,Gratitude,null,Pos
+179,179,179,179,179
+"Good Evening, I am in urgent need of a phone.","Good evening, any specific model model are you looking for?",Phn_SelReq,null,Neu
+I don't have any specific mobile in my mind. You suggest me a good phone,Desire 10 Pro by HTC is a very good phone. It's very much in demand these days.,Slt_Info,null,Neu
+What is its memory?,It is 64 GB internal RAM.,Query_Slot,null,Neu
+What is its price?,It is 460 Euro,Query_Slot,null,Neu
+But my budget is less around 300 Euro. Can you suggest in lower range?,It is very good phone. At less price company has tried to incorporate many features,Slt_Info,Cost-300-,Neg
+But my budget is limited,Desire 10 Lifestyle by HTC is also a very good phone.It's price is 260 Euro.,Feedback,null,Neg
+What is its color?,Its color is also unique. It is Stone Black,Query_Slot,null,Neu
+"Lovely, I will buy it.","Great choice sir, I am booking it for you.",Booking_Req,null,Neu
+Thanks a ton,My pleasure.,Gratitude,null,Pos
+180,180,180,180,180
+"Hello, I want a good phone.","Good morning, what type of phone you want?",Phn_SelReq,null,Neu
+I want an apple phone.,"Sure, iPhone 7 Plus by Apple is getting very good response.",Slt_Info,Brand-Apple,Neu
+What is its price?,It is 900 Euro.,Query_Slot,null,Neu
+It is very costly. Do you have phone under 700 Euro?,Price of this phone has decreased because of it many customers are buying it.,Slt_Info,Cost-700-,Neg
+But I can't go beyond 700 Euro,iPhone 6s by Apple is 620 Euro.,Feedback,null,Neg
+What is its color?,It is space Gray color,Query_Slot,null,Neu
+What is its internal RAM,It is 16 GB.,Query_Slot,null,Neu
+I will take it .,"yes, I am booking it for you.",Booking_Req,null,Neu
+Thanks a lot.,My pleasure,Gratitude,null,Pos
+181,181,181,181,181
+I wanna buy a phone which fulfills all my requirements.,What are your basic needs?,Phn_SelReq,null,Neu
+Camera should be excellent and it should be in White color,Have a look at Honor Note 8 by Huawei,Slt_Info,"P_Camera-Good,S_Camera-Good,Color-White",Neu
+How much storage does it offer?,It has 4 GB RAM and 32 GB internal RAM,Query_Slot,null,Neu
+And how about the Camera?,The camera Quality is 13 MP primary and 5 MP secondary,Query_Slot,null,Neu
+Can you suggest a phone with 128 GB internal RAM,32 GB itself is an impressive amount of RAM. 128 won't be of much use,Slt_Info,Internal RAM-128,Neu
+"Ah its less,I I need more storage",M2017 by Gionee is a good phone,Feedback,null,Neg
+How much storage does it offer?,It has got the storage of $R$ GB RAM and $IR$ GB internal RAM.,Query_Slot,null,Neu
+How much is it for?,It’s for $C$ Euro,Query_Slot,null,Neu
+"Okay, can you pack this phone?",Ok booking confirmed.,Booking_Req,null,Neu
+Thanks for help,Welcome,Gratitude,null,Pos
+182,182,182,182,182
+"hi, i want a fantastic phone","hello, any specific model you want?",Phn_SelReq,null,Neu
+I want LG phone with more space,"Sure, G6 by LG is a good phone. It has 32 GB internal RAM",Slt_Info,"Brand-LG,RAM-Good,Internal_RAM-Good",Neu
+What is its diaplay size?,It is 564 pixel,Query_Slot,null,Neu
+Oh that's too big. Show me a phone with small display size,It is very good for multitasking and good for video watching,Slt_Info,Display_Size-Small,Neg
+what is its battery?,It is 3300 mAH,Query_Slot,null,Neu
+What is its cost?,It is 750 Euro,Query_Slot,null,Neu
+"Okay, can you pack this phone?",Ok I am booking it for you.,Booking_Req,null,Neu
+Thanks for help,Welcome,Gratitude,null,Pos
+183,183,183,183,183
+"Hi, I want a phone.","Sure,which brand mobile you want?",Phn_SelReq,null,Neu
+I want to buy a blackberry phone,Aurora by BlackBerry is a good phone to use.,Slt_Info,Brand-BlackBerry,Neu
+What is its camera quality?,It is 13 MP Primary and 8 MP Secondary.,Query_Slot,null,Neu
+"But, I want 16 MP Primary",This phone's camera is fast and reliable.,Slt_Info,P_Camera-16,Neg
+Still i would go for higher MP phone,"Okay, DTEK60 by BlackBerry has 21 MP and 8 MP camera for Primary and secondary camera",Feedback,null,Neg
+"Cool, what is its memory?",It is 4 GB RAM and 32 GB internal RAM.,Query_Slot,null,Neu
+What is its cost?,Its cost is 530 EURO,Query_Slot,null,Neu
+"Cool, I will purchase it.","Great choice, I am booking your order.",Booking_Req,null,Pos
+Thanks a lot,Welcome and it my pleasure,Gratitude,null,Pos
+184,184,184,184,184
+"Good Evening, I am looking for best android smartphone","Sure, any special feature you are looking for?",Phn_SelReq,OS-And,Neu
+"Nothing in Particular, I want a 2017 released phone which is heavily in demand",S10 by Gionee is trending these days,Slt_Info,Released_Yr-2017,Neu
+What is its color?,It is Cherry Gold color,Query_Slot,null,Neu
+"oh,I can't maintain Cherry Gold color. Do you have in blue or black color?",We have back cover for the phone so it will keep your phone new,Slt_Info,Color-Black&Blue,Neg
+I take your point but still I would go for Black or Blue,Okay then M6s Plus by Gionee also in great demand these days,Feedback,null,Neg
+What is its price?,It is 460 Euro,Query_Slot,null,Neu
+What is its battery capacity?,It is 6020 mAH,Query_Slot,null,Neu
+Is it DualSim phone?,Yes it is,Confirm_Q,Sim-D,Neu
+"Okay , i think i will buy it","Great, I am booking it for you.",Booking_Req,null,Neu
+Thanks a lot for helping me in choosing a good phone,"My pleasure, I love suggesting good phone. Do visit us again",Gratitude,null,Pos
+185,185,185,185,185
+I want a technologically advanced mobile phone,"Good Evening, we have many variety. Any specific model you are looking for?",Phn_SelReq,null,Neu
+I want an apple phone that fits my budget,what is your budget? Do you have any other requirements?,Slt_Info,Brand-Apple,Neu
+It should be under 650 Euro,iPhone SE by Apple will fit your budget. It is 440 Euro,Slt_Info,Cost-650-,Neu
+What is its storage,It is 32 GB internal RAM,Query_Slot,null,Neu
+That will not fulfill my need. I need a phone with more space at least 64 GB internal RAM,In Apple you won'rt get 64 GB phone at price less than 650 Euro. This phone only suits your need,Slt_Info,Internal_RAM--64,Neg
+I will take it,"nice, I am booking your order",Booking_Req,null,Neu
+Thanks a lot for your help,My pleasure.,Gratitude,null,Pos
+186,186,186,186,186
+"Hello , I want to buy a phone",Sure. May i know what are your requirements?,Phn_SelReq,null,Neu
+"Yes, i need a GPS operated phone with less weight",You can take $M$,Slt_Info,"GPS-Y,Weight_g-Light",Neu
+how much ?,It costs only $C$ EURO.,Query_Slot,null,Neu
+whats is its battery?,It's $B$ mAH,Query_Slot,null,Neu
+"oh , but this is less",It will last for one day.,Feedback,null,Neg
+"Ok , can you please book it for me",Yeah Sure done.,Booking_Req,null,Neu
+Thank you Bot,You are most welcome .,Gratitude,null,Pos
+187,187,187,187,187
+"Hey, I need phone info.","Yes, what are your requirements?",Phn_Info,null,Neu
+It should be HTC company with less weight,Is the all requirement ?,Slt_Info,"Brand-HTC,Weight_g-Light",Neu
+"Yes, it should be may 2017 released phone",KEYone by BlackBerry is February 2017 released phone,Slt_Info,"Released_Yr-2017,Released_Month-May",Neu
+What is its battery capacity,It has battery capacity of 3505 mAH,Query_Slot,null,Neu
+but i need 4000mAH minimum,3505 mAH also lasts for 48 hrs.,Slt_Info,Battery-4000+,Neg
+I can buy it. Book it for me,Yeah Sure done.,Booking_Req,null,Neu
+"OK,Thanks for information.",You are most welcome,Gratitude,null,Pos
+188,188,188,188,188
+I need to buy a phone.,"Sure, any specific phone you are looking for?",Phn_SelReq,null,Neu
+Phone with good primary camera and high battery capacity,"Ok, we have phones available meeting your specifications, Do have any other requirement also?",Slt_info,"P_Camera-good,Battery-Good",Neu
+No thats all.,You can buy A1 Plus by Gionee which has Dual MP Primary Camera,Confirm,null,Neu
+what about secondary camera ?,It is also 20 MP.,Query_Slot,null,Neu
+What is its Released Year?,It is February 2017,Query_Slot,null,Neu
+"oh, but I want a 2016 released phone",This phone is still very much in demand and company has slashed its price also,Slt_Info,Released_Yr-2016,Neg
+But I want a 2016 released phone with good camera and battery,Then you should try M2017 by Gionee,Feedback,null,Neg
+what is it's both camera ?,It's back camera is Dual MP & front camera is 8 MP Secondary,Query_Slt,null,
+It sounds great.,Yes it is one of the best phone for camera.,Feedback,null,Pos
+Ok can you book it for me?,"Yeah , Booking done, Thanks for buying with us",Booking_Req,null,Neu
+Thanks for assistance.,"Welcome , Please visit again.",Gratitude,null,Pos
+189,189,189,189,189
+"Good Evening, I am looking for a trending phone","sure, please tell me your model no or requirements",Phn_SelReq,null,Neu
+I need to have a phone that has high memory and good battery life.,S10 by Gionee will be a good choice. Its internal RAM is 64 GB.,Slt_Info,"RAM-Good,Internal_RAM-Good,Battery-Good",Neu
+What is its color?,It is Cherry Gold,Query_Slot,null,Neu
+Whta is its weight?,It is 178 gms.,Query_Slot,null,Neu
+That's a bit on heavier side. Do you have something in light weight?,Most of the good phone has weight around this only,Slt_Info,Weight_g-Light,Neg
+Yeah but I don't find comfortable to keep heavy phone in my pocket,Then S8 by Gionee will be a perfect choice for you with good memory.,Feedback,null,Neg
+What is its price?,It is 450 Euro. It's a new phone in the market. You will love it.,Query_Slot,null,Neu
+"Okay, I will take this phone.","great choice , I am booking it for you",Booking,null,Neu
+thanks a ton,My pleasure,Gratitude,null,Pos
+190,190,190,190,190
+"Hello , can you help me in selecting a phone ?",Sure. Can i know what are your requirements?,Phn_SelReq,null,Neu
+I want a white colored dualsim phone.,Desire 830 by HTC is a double sim phone.,Slt_Info,"Color-White,Sim-D",Neu
+what is its camera quality?,it's 13 MP for primary and 4 MP for secondary,Query_Slot,null,Neu
+What is its weight?,It's weight is 156 gms,Query_Slot,null,Neu
+It's a bit heavy. I want lighter phone,It's not that heavy and also this is also a limited edition phone and is selling like hot cake. You should buy this phone only,Slt_Info,Weight_g-Light,Neg
+But I don't feel comfortable carrying heavy phone,You can buy Desire 626G+ by HTC,Feedback,null,Neg
+what is its cost?,its cost is 250 euro,Query_Slot,null,Neu
+"Okay, I will take this phone.","great choice , I am booking it for you.",Booking_Req,null,Neu
+You are a very good salesman. Thanks a lot,You are most welcome. My pleasure,Gratitude,null,Pos
+191,191,191,191,191
+"Hello, I am in search of a good phone.",You are at the right place. Any specific phone you need?,Phn_SelReq,null,Neu
+it should have big display and high memory.,"Ok , Do you have any other requirements ?",Slt_Info,"Display_Size-Big,Memory-Good",Neu
+"No,I want high memory phne","Okay, you can buy P8max by Huawei which has internal Ram of 64 GB and display size 326 pixel.",Confirm,null,Neu
+What is its Primary Camera?,It is 13 MP.,Query_Slot,null,Neu
+Oh I don't want this phone. My need is 16 MP or more camera phone,Its picture quality is very good.,Slt_Info,P_Camera-16+,Neg
+But still I would go for 16 MP+ camera phone,Okay then nova 2 plus by Huawei is perfect for you.,Feedback,null,Neg
+What is its cost?,Its cost is 380 Euro,Query_Slot,null,Neu
+What is its weight,It is 169 gms. It's a light weight smartphone.,Query_Slot,null,Neu
+"Okay, I like this phone. Pack it for me.","Good choice, I am booking it for you.",Booking_Req,null,Neu
+Thanks a lot for your time,Welcome always.,Gratitude,null,Pos
+192,192,192,192,192
+"Hi, I want to buy a phone","Yes, please tell your model no or requirements",Phn_SelReq,null,Neu
+It should be Samsung company and good memory,Galaxy S8 by Samsung will be a good choice for you.,Slt_Info,"Brand-Samsung,RAM-Good,Internal_RAM-Good",Neu
+What is its memory?,It is 4 GB RAM and 64 GB internal Ram.,Query_Slot,null,Neu
+"Superb, What is its cost?",It is 700 Euro,Query_Slot,null,Neu
+"Unfortunately, that's too costly for me. Do you phone with same specification at lower price?",Cost is bit high because of its additional features. Camera is also superb,Slt_Info,Cost-Less,Neg
+That is good to know but can't afford it,Galaxy C7 Pro by Samsung price is 420 Euro,Feedback,null,Neg
+What is its color?,Gold is its color.,Query_Slot,null,Neu
+I will take it.,"Nice, I am booking it for you. Your reference number is 2012-43",Booking_Req,null,Neu
+Thanks a ton,My pleasure,Gratitude,null,Pos
+193,193,193,193,193
+"hi,can you help me in buying a phone ?","Hey, sure , what kind of phone do you need?",Phn_SelReq,null,Neu
+it should have less weight and better battery capacity,Galaxy J7 (2016) by Samsung is one of the best phone for camera as well as battery and its weight is also less,Slt_Info,"Weight_g-Light,Battery-Good",Neu
+how much does it cost ?,it cost 230 Euro,Query_Slot,null,Neu
+what is it's color ?,The color of this phone is white,Query_Slot,null,Neu
+"oh , is it possible in Gold?",This model has strong features but available in white only.,Slt_Info,Color-Gold,Neg
+but I like Gold,You can take Galaxy C7 by Samsung,Feedback,null,Neg
+what is it's cost ?,it's of 450 Euro.,Query_Slot,null,Neu
+ok can you book it for me,Yes done,Booking_Req,null,Neu
+Thanks for help,Welcome and thank you so much for shopping with us.,Gratitude,null,Pos
+194,194,194,194,194
+"hi, I want to buy a new phone","hello, what kind of phone do you want?",Phn_SelReq,null,Neu
+It should have OS android and dual sim features,"Sure, is there other features you want in your phone?",Slt_Info,"OS-And,SIM-D",Neu
+"No, that's it",Xperia XA Dual by Sony meets your requirements,Confirm,null,Neu
+what is its cost?,It cost Rs 250 Euro.,Query_Slot,null,Neu
+what color is it?,The color of the phone is white,Query_Slot,null,Neu
+"Oh, is it possible to get in chrome color?",This model is available in white only and is widely preferred by people,Slt_Info,Color-Chrome,Neg
+but I would prefer in chrome,You can go for Xperia Z5 Premium Dual by Sony,Feedback,null,Neg
+what's the price?,it costs 510 Euro,Query_Slot,null,Neu
+"Okay, Can you book it for me?","Sure, I am booking it for you.",Booking_Req,null,Neu
+Thanks a lot,Welcome and do visit us again,Gratitude,null,Pos
+195,195,195,195,195
+"Hey, I am looking for a good phone","Hi, What sort of phone are you looking for?",Phn_SelReq,null,Neu
+It should be 2017 released phone with good RAM and high primary camera quality,V5 Plus by Vivo meets your requirements,Slt_Info,"Released_Yr-2017,RAM-Good,P_Camera-Good",Neu
+What is the price?,It is of 280 Euro,Query_Slot,null,Neu
+I hope it has DualSim,"Yes , this phone has dual sim.",Confirm_Q,Sim-D,Neu
+What about the Radio?,Sorry it does not support Radio,Query_Slot,null,Neu
+Oh but I often listen to Radio,"You can listen music through wynk,hungama and podcasts",Slt_Info,Radio-Y,Neg
+But i would prefer radio feature in my new phone,"Okay, then V5s by Vivo is a good option",Feedback,null,Neg
+What is the cost?,It's 280 Euro,Query_Slot,null,Neu
+ok can you book it for me,Yes done,Booking_Req,null,Neu
+Thanks for help,Welcome and thank you so much for shopping with us.,Gratitude,null,Pos
+196,196,196,196,196
+"Hey, can you help me in buying a new phone?","hello, what type of phone you want to purchase?",Phn_SelReq,null,Neu
+I want to buy a gray color phone with good secondary camera.,Redmi 3 Pro by Xiaomi meets your requirements.,Slt_Info,"Color-Gray,S_Camera-Good",Neu
+Does it has good camera ?,"Yes , picture quality is very good of this phone. 13 MP is its primary camera",Query_Slot,null,Neu
+I hope it has DualSim feature in it.,"Yes, DualSim feauture is there on this phone.",Query_Slot,null,Neu
+what is it's cost ?,it's of 250 Euro.,Query_Slot,null,Neu
+oh 240 Euro is too costly for me. Can you suggest some other phone in cheaper price?,Even though it is costly customers are prefering this phone as it does not need any maintainance,Slt_Info,Cost-Less,Neg
+My budget restricts me to buy this phone,Mi Max by Xiaomi is also a good phone,Feedback,null,Neg
+ok can you book it for me,Yes done,Booking_Req,null,Neu
+Thanks a lot for your time,Welcome and thank you so much for choosing us,Gratitude,null,Pos
+197,197,197,197,197
+"Hello, I want to buy a new phone.","hello, what phone are you looking for?",Phn_SelReq,null,Neu
+I want to buy a light weight phone with good camera quality,"Sure, Blade V8 by ZTE would be a good option for you",Slt_Info,"P_Camera-Good,S_Camera-Good,Weight_g-Light",Neu
+What is its battery?,2730 mAH is its battery. Your phone will last for long.,Query_Slot,null,Neu
+What color is it?,It's in rose gold color.,Query_Slot,null,Neu
+what is its released year?,It came in 2017,Query_Slot,null,Neu
+What is its price?,It costs 250 Euro,Query_Slot,null,Neu
+I want in higher range. My budget is 400 plus,At this price you are getting a very good deal.,Slt_Info,Cost-400+,Neg
+But I don't want to buy this phone I want in higher range.,No problem then you can buy Axon 7 Max by ZTE,Feedback,null,Neg
+What is its price?,It costs 500 Euro,Query_Slot,null,Neu
+ok can you book it for me,Yes done,Booking_Req,null,Neu
+Thanks a lot for your time,Welcome and thank you so much for choosing us,Gratitude,null,Pos
+198,198,198,198,198
+"Hi, I want to buy a new phone.",Any specific feature are you looking for ?,Phn_SelReq,null,Neu
+I want 64 GB internal RAM phone.,Axon 7 Max by ZTE has 64 GB internal RAM,Slt_Info,Internal_RAM-64,Neu
+What is its color?,Its color is gold,Query_Slot,null,Neu
+"oh, I am not fond of gold color. Do you have in some other color.",Gold colour is in great demand these days.,Slt_Info,Color-Non Blue,Neg
+True but somehow i have aversion towards gold color.,"Same model we have in gold only. But, You can buy nubia Z11 mini S by ZTE. Its internal RAM is also 64 GB.",Feedback,null,Neg
+"Lovely, What is its color?",It's black,Query_Slot,null,Neu
+What is its price?,It is 270 Euro.,Query_Slot,null,Neu
+"Cool, I will take it.","Great, I am booking it for you",Booking_Req,null,Pos
+Thanks a lot,My pleasure. Welcome,Gratitude,null,Pos
+199,199,199,199,199
+"Hi, can you please help me in selecting a phone?","Yeah Sure, May I know what kind of phone you need?",Phn_SelReq,null,Neu
+I want to buy a GPS operated phone with 15MP primary camera,Mi Note 2 by Xiaomi is very good for camera .,Slt_Info,"GPS-Y,P_Camera-15",Neu
+How is camera quality?,22.5 MP for primary camera and 8 MP for secondary camera,Query_Slot,null,Neu
+How much does it cost ?,it will cost 610 Euro.,Query_Slot,null,Neu
+What is its memory?,It is 4 GB RAM and 64 GB for internal RAM,Query_Slot,null,Neu
+"oh, that seems little less.I want a GPS operated phone with higher memory",But it is getting very good response.,Slt_Info,"RAM-Good,Internal_RAM-Good",Neg
+I understand but I will face storage problem,Then I would recommend Mi Mix by Xiaomi,Feedback,null,Neg
+Okay book this model for me.,Yes done,Booking_Req,null,Neu
+Thanks for helping me.,Welcome and thank you so much for shopping with us.,Gratitude,null,Pos
+200,200,200,200,200
+"Hello, I want to buy a new phone.","hello, what phone are you looking for?",Phn_SelReq,null,Neu
+"Yes, i need a phone with double sim in less cost",You can take Galaxy C9 Pro by Samsung,Slt_Info,"Sim-D,Cost-Less",Neu
+What is its battery?,4000 mAh is its battery. Your phone will last for long.,Query_Slot,null,Neu
+What color is it?,It's in gold color.,Query_Slot,null,Neu
+what is its released year?,It came in 2016,Query_Slot,null,Neu
+"oh,I want latest mobile phone",That will cost you more. This phone is giving very good performance,Slt_Info,Released_Yr-Latest,Neg
+Yeah but still I would go for latest phone,"Sure, then you can buy Galaxy C7 Pro by Samsung",Feedback,null,Neg
+What is its price?,It is 420 Euro.,Query_Slot,null,Neu
+ok can you book it for me,"Yes sure,your booking is done",Booking_Req,null,Neu
+Thanks a lot for your time,Welcome and thank you so much for choosing us,Gratitude,null,Pos
+201,201,201,201,201
+"Hi,I want to buy a phone.","Sure, any specific model you are looking for?",Phn_SelReq,null,Neu
+I want a DualSim phone in which radio works,Yes we have one latest phone Noir Z8 by QMobile . Youngeters are preferring this over many,Slt_Info,"Sim-D,Radio-Y",Neu
+is it so ?,"yeah, its rating is also very good priced at 240 Euro",Confirm,null,Neu
+but I want Samsung company phone,This mobile performance is very good. Try it once.,Slt_Info,Brand-Samsung,Neg
+it looks good enough.,"Yup, it has also a special feature Hands-Free Speaker.",Feedback,null,Pos
+Ok please complete the booking process.,It's done.Thank for buying.,Booking_Req,null,Neu
+Thanks a lot for your time,Welcome and thank you so much for choosing us,Gratitude,null,Pos
+202,202,202,202,202
+"I need to buy a phone, am i at right place?","Yes, We will asssist you in buying phone. Can you please tell what kind of phone you are looking?",Phn_SelReq,null,Neu
+I want to buy Xperia Arc S by Sony Ericsson,It is not available in our store. You can buy newly launched phone Xperia XA1 Ultra by Sony,Slt_Info,"Brand-Sony Ericsson,Model-Xperia Arc S",Neu
+What is its battery?,2700 mAh is its battery.,Query_Slot,null,Neu
+oh I want at least 3500 mAH battery capacity for my phone. Can you suggest me a phone with 3500 mAH battery?,2700 mAH is good enough to lasts for a day.,Slt_Info,Battery-3500+,Neg
+But I travel a lot so need high power battery phone,Galaxy Tab 3 10.1 P5220 by Samsung phone's battery is 6800 mAH,Feedback,null,Neg
+What color is it available?,It's available in white color.,Query_Slot,null,Neu
+What is its price?,It is 290 Euro.,Query_Slot,null,Neu
+"Okay, I will buy it then.","Great choice, i am booking it for you.",Booking_Req,null,Neu
+Thanks a lot for your help.,My pleasure.,Gratitude,null,Pos
+203,203,203,203,203
+I wanna buy a phone which fulfills all my requirements.,What are your basic needs?,Phn_SelReq,null,Neu
+I want to buy a light weight phone with good performance,Galaxy S7 active by Samsung is a light weight phone,Slt_Info,Weight_g-Light,Neu
+what are its specification?,It has 4 GB memory and has a front camera and back camera of 12 and 5 MP. Android is its operating system.,Query_Slot,null,Neu
+I am not sure about this phone. I don't want android OS phone. Do you have some other company phone which does not have android operating system?,Its screen size is also very big for video watching.,Slt_Info,Brand-Non And,Neg
+it looks good.,Also it has a battery capacity of 4000mAH. .,Feedback,null,Pos
+Ok book this one for me,"Yeah Sure, Completing the booking process . Its done.",Booking_Req,null,Neu
+Thanks for helping me.,Welcome and thanks for visiting us.,Gratitude,null,Pos
+204,204,204,204,204
+"Hello , can you help me in selecting a phone ?",Sure. May i know what are your requirements?,Phn_SelReq,null,Neu
+I want to buy a gold color phone with good camera for my son.,"Hello, sure we have gold color phone. Is there any features you want in your phone?",Slt_Info,"Color-Gold,P_Camera-Good,S_Camera-Good",Neu
+"I have budget constraints, it should be under 400 Euro.","No problem, Model A77 by Oppo is a good phone in the market meeting all your requirements.",Slt_Info,Cost-400-,Neu
+What is its Display Size?,It is 401 Pixel,Query_Slot,null,Neu
+"oh , but I want a phone which has small Display Size.",This is a fantastic phone with medium display size. It is the average size,Slt_Info,Display_Size-Small,Neg
+But still I am not comfortable with this big Display Size phone,Model A57 by Oppo is getting good response from people and it meets all your requirements.,Feedback,null,Neg
+What is its price?,It is 260 Euro,Query_Slot,null,Neu
+"Perfect, I will take it. Kindly gift wrap it.","Sure, I will gift wrap it.",Booking_Req,null,Pos
+Thanks a ton,My pleasure.,Gratitude,null,Pos
+205,205,205,205,205
+I am looking for a good phone,"Sure, any specific features you have in your mind?",Phn_SelReq,null,Neu
+I want a small display size phone with good memory,"Sure, Is the all requirement ?",Slt_Info,"Display_Size-Small,RAM-Good,Internal_RAM-Good",Neu
+"Yes, my main priority is display size","Great , Lumia 650 by Microsoft is a good phone",Feedback,null,Neu
+What is its OS,It's Mic,Query_Slot,null,Neu
+"Oh, I don't have much idea about Mic. I would prefer android phone.",The operating system stands out through its real-time microkernel and its multi- processor ability.,Slt_Info,OS-And,Neg
+My previous phone was Android so I feel comfortable with And phone,Galaxy C9 Pro by Samsung can be a good option,Feedback,null,Neg
+What color is it available in your store/?,Its available in gold,Query_Slot,null,Neu
+"Okay, I will book this phone","great, I am booking your order",Booking_Req,null,Neu
+Thanks a lot.,My pleasure.,Gratitude,null,Pos
+206,206,206,206,206
+"Good evening, I am looking for a good phone","Sure, Any specific model or features you are looking for?",Phn_SelReq,null,Neu
+I am looking for a silver color BlackBerry phone,You can buy Porsche Design P'9982 by BlackBerry,Slt_Info,"Brand-BlackBerry,Color-Silver",Neu
+What is its primary camera?,It is 8 MP,Query_Slot,null,Neu
+I want a blackberry phone with better camera with at least 10 MP primary camera,It's camera image is good and also it's internal RAM is 64 GB.,Slt_Info,P_Camera-10+,Neu
+But I would prefer a phone with better primary camera,Aurora by BlackBerry has 32 GB internal RAM and 4 GB RAM with primary camera of 13 MP. But it is avilable in black color,Feedback,null,Neg
+No problem I will adjust with the color. what is its cost?,it is 250 Euro.,Query_Slot,null,Neu
+Book it for me.,"Sure, I am booking it for you.",Booking_Req,null,Neu
+Thanks dear,You are welcome.I am happy to help. Do visit us again.,Gratitude,null,Pos
+207,207,207,207,207
+"Hi, I am looking for a mobile","Hello, Any specific company mobile you have in mind?",Phn_SelReq,null,Neu
+"Hey, I am looking for a Asus mobile","Sure, it is available in our store. Any model you want in Asus?",Slt_Info,Brand-Asus,Neu
+camera should be superb,You should buy Zenpad 3S 10 Z500KL by Asus,Slt_Info,"P_Camera-Good,S_Camera-Good",Neu
+What is its price?,It is 500 Euro,Query_Slot,null,Neu
+oh its little costly. I can't afford it. Show me less cost phone,Asus brand is taking over market. It's in great demand,Slt_Info,Cost-Less,Neg
+I don't have that much money,At less cost you can buy Zenfone 3s Max ZC521TL by Asus. It is available in gold color in our store,Feedback,null,Neg
+What is its price?,It is 230 Euro,Query_Slot,null,Neu
+What is its battery?,It is 5000mAH,Query_Slot,null,Neu
+"Fine, i will take it.",I am booking it for you,Booking_Req,null,Neu
+Thanks a ton,Welcome always.My pleasure.,Gratitude,null,Pos
+208,208,208,208,208
+"Good Evening, I want to buy a cell Phone","Sure, any specific model you are looking for?",Phn_SelReq,null,Neu
+I want to buy an apple ipad,iPad Pro 10.5 by Apple is a very good iPad.,Slt_Info,Brand-Apple,Neu
+What is its battery?,Its battery is 304mAH.,Query_Slot,null,Neu
+What is its cost?,It is 730 Euro.,Query_Slot,null,Neu
+o God that's way too expensive. My budget is lttle less somewhere around 450 Euro,Though it is a bit costly but it is a pad with amazing features.,Slt_Info,Cost-450-,Neg
+I will then have to take loan and I am not infavor of taking loan.,iPad 9.7 price is 390 Euro.,Feedback,null,Neg
+What is its color?,Its color is silver,Query_Slot,null,Pos
+I will take it.,"cool, your booking reference number is 2020_208",Booking_Req,null,Neu
+I am very happy today. Thanks a lot,My pleasure. You are always welcome,Gratitude,null,Pos
+209,209,209,209,209
+"Good Evening, I am looking for a trending phone","Ssure, please tell me your model no or requirements",Phn_SelReq,null,Neu
+Show me a phone wih good memory and battery,Zenfone AR ZS571KL by Asus will be a good choice. Its internal RAM is $IR$ GB.,Slt_Info,"RAM-Good,Internal_RAM-Good,Battery-Good",Neu
+What is its color?,It is black.,Query_Slot,null,Neu
+Whta is its weight?,It is 170 gms.,Query_Slot,null,Neu
+That's a bit on heavier side. Do you have something in light weight?,It's the average weight of most of the mobiles,Slt_Info,Weight_g-Light,Neg
+What is its price?,It is 800 Euro. You will love this phone.,Query_Slot,null,Neu
+"Okay, I will take this phone.","great choice , I am booking it for you.",Booking,null,Pos
+thanks a ton,My pleasure,Gratitude,null,Pos
+210,210,210,210,210
+"Hey, I want to buy a phone.","Sure, any speciifc requirements you have for the phone?",Phn_SelReq,null,Neu
+I want a latest phone under 350 Euro,Zenfone 3s Max ZC521TL by Asus is a latest phone priced at 230 Euro,Slt_Info,"Released_Yr-Latest,Cost-350-",Neu
+what is its camera quality?,it's 13 MP for primary and 8 MP for secondary.,Query_Slot,null,Neu
+That is too less.I want 16 MP primary camera,Don't go on MP. It's camera quality is very good,Slt_Info,P_Camera-16,Neg
+I would still prefer high MP phone.,You can buy One X10 by HTC,Feedback,null,Neg
+what is its cost?,its cost is 330 euro,Query_Slot,null,Neu
+"Okay, I will take this phone.","great choice , I am booking it for you.",Booking_Req,null,Neu
+You are a very good salesman. Thanks a lot,My pleasure,Gratitude,null,Pos
+211,211,211,211,211
+I am looking for a good phone,"Sure, any specific features you have in your mind?",Phn_SelReq,null,Neu
+I want a grey color phone with radio facility,"Sure, Is the all requirement ?",Slt_Info,"Color-Grey,Radio-Y",Neu
+I want a dualsim phone.,"Great , $M$ is a good phone",Slt_Info,Sim-D,Neu
+What is its OS,It's $OS$.,Query_Slot,null,Neu
+Sorry I don't want android phone this time.,Its an user friendly OS where you can easily get new and updated thousands of apps.,Slt_Info,OS-Non And,Neg
+My previous was Android. This time I want to try other OS,$M$ can be a good option but it is not available in grey color,Feedback,null,Neg
+What color is it available in your store/?,$Co$,Query_Slot,null,Neu
+"Okay, I will book black phone","great, I am booking your order.",Booking_Req,null,Neu
+Thanks a lot.,My pleasure.,Gratitude,null,Pos
+212,212,212,212,212
+"Hi, show me a nice phone with good features.","Sure, We have many good models available at our store. Any features are you looking for in your phone?",Phn_SelReq,null,Neu
+Show me a good light weight mobile,Honor 9 by Huawei is a very good phone. It's light weight also.,Slt_Info,Weight_g-Light,Neu
+What is its price?,Price is 500 Euro.,Query_Slot,null,Neu
+"oh, it's way too costly. Show me a mobile with cost around 340?",It is one of the best mobiles when it comes to video shooting. It is a bit costly because of its good camera capability.,Slt_Info,Cost-340-,Neg
+Yes I understand that but my budget is restricted. Do you have phone under 320 Euro?,MediaPad M3 Lite 8 by Huawei can be a good option.,Feedback,null,Neg
+"Lovely, How much is its cost?",it is 330 Euro.,Query_Slot,null,Pos
+Kindly book it for me.,"Sure, I will do that right now.",Booking_Req,null,Neu
+Thanks dear,You are welcome.I am happy to help. Do visit us again.,Gratitude,null,Pos
+213,213,213,213,213
+"hi,can you help me in buying a phone ?","Hey, sure , what kind of phone do you need?",Phn_SelReq,null,Neu
+it should have BIG display size and battery capacity,nova 2 by Huawei is one of the best known phone for camera as well as battery,Slt_Info,"Display_Size-Big,Battery-Good",Neu
+how much does it cost ?,it costs 330 Euro,Query_Slot,null,Neu
+what is it's color ?,The color of Aurora Blue,Query_Slot,null,Neu
+"oh , is it possible in Gold?",This model has strong features but available in $Co$ only.,Slt_Info,Color-Gold,Neg
+but I like Gold,Then you can take Honor 9 by Huawei,Feedback,null,Neg
+what is it's cost ?,it's 500 Euro,Query_Slot,null,Neu
+ok can you book it for me,Yes done.,Booking_Req,null,Neu
+Thanks for help,Welcome and thank you so much for shopping with us.,Gratitude,null,Pos
+214,214,214,214,214
+"hi, I want to buy a new phone","hello, what kind of phone do you want?",Phn_SelReq,null,Neu
+It should have OS Bla and multi sim features,Leap by BlackBerry is one of the best phone suited to your need.,Slt_Info,"OS-Bla,Sim-M",Neu
+what is its cost?,Its cost is 170 Euro.,Query_Slot,null,Neu
+What is its display size,It is 294 Pixel,Query_Slot,null,Neu
+"Oh,that's very small. I don't want small display size phone","Though display size is small, picture quality is very good",Slt_Info,Display_Size-Big,Neg
+I watch lots of videos so would prefer bigger display size phone,You can go for Porsche Design P'9982 by BlackBerry,Feedback,null,Neg
+what's the price?,it costs 390 Euro,Query_Slot,null,Neu
+"Okay, I will book this model","Sure, I am booking it for you",Booking_Req,null,Neu
+Thanks a lot,Welcome and do visit us again,Gratitude,null,Pos
+215,215,215,215,215
+"Hey, I am looking for a good phone","Hi, What sort of phone are you looking for?",Phn_SelReq,null,Neu
+It should be gps phone with good memory and high camera quality,S10 by Gionee is a good phone.,Slt_Info,"GPS-Y,RAM-Good,Internal_RAM-Good,P_Camera-Good,S_Camera-Good",Neu
+What is the price?,It is of 380 Euro,Query_Slot,null,Neu
+Does it has DualSim?,"Yes , this phone has dual sim.",Confirm_Q,Sim-D,Neu
+What is its released year?,Its released year is 2017,Query_Slot,null,Neu
+Oh I want 2016 released phone,This mobile's price has decreased so grab this opportunity,Slt_Info,Released_Yr-2016,Neg
+I understand but I want 2016 released phone as I will get good phone for less price,"Okay, then S9 by Gionee is a good option",Feedback,null,Neg
+What is the cost?,It's 370 Euro,Query_Slot,null,Neu
+ok can you book it for me,Yes done,Booking_Req,null,Neu
+Thanks for help,Welcome and thank you so much for shopping with us.,Gratitude,null,Pos
+216,216,216,216,216
+"Hey, can you help me in buying a new phone?","hello, what type of phone you want to purchase?",Phn_SelReq,null,Neu
+I want to buy a phone under 400 Euro with good memory backup.,S9 by Gionee phone is in great demand these days.,Slt_Info,"Cost-400-,RAM-Good,Internal_RAM-Good",Neu
+What about its camera ?,Picture quality is very good of this phone. It is dual for primary and 13 MP for secondary camera,Query_Slot,null,Neu
+I hope it has DualSim feature in it.,"Yes, DualSim feauture is there on this phone.",Confirm_Q,Sim-D,Neu
+what is its Display Size ?,it's of 401 Pixel,Query_Slot,null,Neu
+Oh that's big. I want small display size phone.,It has clear screen and big screen is very good for video watching,Slt_Info,Display_Size-Small,Neg
+ok book this for me.,Yes done,Booking_Req,null,Neu
+Thanks a lot for your time,Welcome and thank you so much for choosing us,Gratitude,null,Pos
+217,217,217,217,217
+"Hello, I want to buy a new phone.","hello, what phone are you looking for?",Phn_SelReq,null,Neu
+I want to buy a phone with good camera quality and less weight,"Sure,Pixel by Google would be a good option for you",Slt_Info,"P_Camera-Good,S_Camera-Good,weight_g-Light",Neu
+What is its battery?,2770 mAH is its battery. Your phone will last for long.,Query_Slot,null,Neu
+What color is it?,It's in Quite Black color.,Query_Slot,null,Neu
+what is its released year?,It came in 2016,Query_Slot,null,Neu
+What is its price?,It costs 770 Euro,Query_Slot,null,Neu
+It is too costly for me. Do you have something in less?,This phone is very good. Don't leave it for price.,Slt_Info,Cost-Less,Neg
+I have budget constraints,No problem then you can buy Pro Slate 12 by HP,Feedback,null,Neg
+What is its price?,It costs 490 Euro,Query_Slot,null,Neu
+ok can you book it for me,Yes done,Booking_Req,null,Neu
+Thanks a lot for your time,Welcome and thank you so much for choosing us,Gratitude,null,Pos
+218,218,218,218,218
+"I need to buy a phone, am i at right place?","Yes, We will asssist you in buying phone. Can you please tell what kind of phone you are looking?",Phn_SelReq,null,Neu
+I want a good phone for superb selfie and high battery capacity. Secondary camera quality should be good. I click lots of pics,"Ok, we have excellent phone meeting your requirements. Do have any other requirement also?",Slt_info,"S_Camera-good,Battery-Good",Neu
+That's it,You can buy U Ultra by HTC which has 16 MP secondary camera,Confirm,null,Neu
+what is its primary camera ?,It is 13 MP.,Query_Slot,null,Neu
+13 MP seems less. Show me a phone with atleast 16 MP primary camera,It's Quality is very good and clear.,Slt_Info,P_Camera-16+,Neg
+Show me a phone with 16 MP or so ?,Then you should try Desire 10 Pro by HTC,Feedback,null,Neg
+what is its both camera ?,It's back camera is 20 MP & front camera is 13 MP,Query_Slt,null,Neu
+Ok can you book it for me?,"Yeah , Booking done, Thanks for buying with us",Booking_Req,null,Neu
+Thanks for assistance.,"Welcome , Please visit again.",Gratitude,null,Pos
+219,219,219,219,219
+I want greatest mobile phone,"Good Evening, we have many variety. Any specific model you are looking for?",Phn_SelReq,null,Neu
+I want to buy a LeEco phone.,what is your budget? Do you have any other requirements?,Slt_Info,Brand-LeEco,Neu
+It should be under 350 Euro,Le Pro 3 AI Edition by LeEco will fit your budget. It is 280 Euro,Slt_Info,Cost-350-,Neu
+What is its storage,It is 4 GB RAM and 32 GB internal RAM,Query_Slot,null,Neu
+oh that is quite less. Show me a phone with more space,This phone has memory card slot. It will increase your storage,Feedback,null,Neg
+"okay, I want at least 64 GB internal RAM and OS should be Android",Le Max by LeEco is a good phone,Slt_Info,"Internal_RAM-64,OS-And",Neg
+What is its price?,It is 350 Euro.,Query_Slot,null,Neu
+I will take it,"nice, I am booking it for you.",Booking_Req,null,Neu
+Thanks a lot for your help,My pleasure.,Gratitude,null,Pos
+220,220,220,220,220
+"Hey, I need phone info.","Yes, Please tell your specifications",Phn_Info,null,Neu
+Phone should have big display size,Is the all requirement ?,Slt_Info,Display_Size-Big,Neu
+"And Yes, preferable color should be White",G6 by LG is in Mystic white with internal RAM memory of 32 GB,Slt_Info,Color-White,Neu
+What is its battery capacity,It has battery capacity of 3300 mAH,Query_Slot,null,Neu
+but I need 4000mAH minimum,This phone's review is very good battery wise,Slt_Info,Battery-4000+,Neg
+Okay then I will buy it.,Okay I am booking it for you.,Booking_Req,null,Neu
+"OK,Thanks for information.",You are most welcome,Gratitude,null,Pos
+221,221,221,221,221
+"Good Evening, I am in urgent need of a phone.","Good evening, any specific model are you looking for?",Phn_SelReq,null,Neu
+I don't know much about it. You suggest me a latest phone,E2 by Meizu is a very good phone. It's very much in demand these days.,Slt_Info,Released_Yr-Latest,Neu
+What is its memory?,It is 16 GB internal RAM.,Query_Slot,null,Neu
+What is its price?,It is 210 Euro,Query_Slot,null,Neu
+oh that's a bit on expensive side.My budget is less around 300 Euro. Can you suggest in less price?,With great price comes many features.You will not regret a penny for this phone.,Slt_Info,Cost-300-,Neg
+But my budget is limited.,M5c by Meizu is a very good phone. At less price company has tried to incorporate many features. Its price is 140 Euro,Feedback,null,Neg
+What is its color?,Its color is also unique. It is black,Query_Slot,null,Neu
+"Lovely, I will buy it.","Great choice, I am booking it for you.",Booking_Req,null,Neu
+Thanks a ton,My pleasure.,Gratitude,null,Pos
+222,222,222,222,222
+"Hello, I want a good phone.","Good morning, what type of phone you want?",Phn_SelReq,null,Neu
+I want to buy a Motorola phone.,"Sure, Moto E4 Plus by Motorola is getting very good response.",Slt_Info,Brand-Motorola,Neu
+What is its price?,It is 190 Euro.,Query_Slot,null,Neu
+"Sorry I can't buy this , It is very costly. Do you have phone under 160 Euro?",Price of this phone has decreased because of it many customers are buying it.Earlier it was costlier,Slt_Info,Cost-160-,Neg
+But I can't go beyond 160 Euro,Moto E4 by Motorola is 150 Euro.,Feedback,null,Neg
+What is its color?,It is Iron Grey color,Query_Slot,null,Neu
+What is its internal RAM,It is 16 GB.,Query_Slot,null,Neu
+I will take it .,I am booking it for you.,Booking_Req,null,Neu
+Thanks a lot.,My pleasure,Gratitude,null,Pos
+223,223,223,223,223
+I wanna buy a phone which fulfills all my requirements.,What are your basic needs?,Phn_SelReq,null,Neu
+Released year should be 2017 and it should be in gold color,see this phone Eluga i3 Mega by Panasonic,Slt_Info,"Released_Yr-2017,Color-Gold",Neu
+How much storage does it offer?,It has 3 GB RAM and 16 GB internal RAM,Query_Slot,null,Neu
+"oh,it seems less to me.Can you suggest a phone with 64GB internal RAM",16 GB itself is an impressive amount of RAM. 64 won't be of much use,Slt_Info,Internal_RAM-64,Neg
+How much is it for?,It’s for 115 Euro,Query_Slot,null,Neu
+"Okay, can you pack this phone?",Ok booking confirmed.,Booking_Req,null,Neu
+Thanks for help,Welcome,Gratitude,null,Pos
+224,224,224,224,224
+"hi, i am in need of a new phone","hello, what kind of phone you want?",Phn_SelReq,null,Neu
+I want gps operated phone with more 15 MP secondary camera,"Sure, Galaxy C7 Pro by Samsung is a good phone. It has 16 MP.",Slt_Info,"GPS-Y,S_Camera-15+",Neu
+What is its Display_Size?,It is 386 Pixel,Query_Slot,null,Neu
+oh that seems less.Do you have higher display size?,This size is good enough to watch videos and movies,Slt_Info,Display_Size-Big,Neg
+what is its battery?,It is 3300 mAH,Query_Slot,null,Neu
+What is its color?,It is gold in color.,Query_Slot,null,Neu
+"Okay, can you pack this phone?",Ok booking confirmed.,Booking_Req,null,Neu
+Thanks for help,You are most welcome,Gratitude,null,Pos
+225,225,225,225,225
+"Hi, I want a phone.","Sure,which brand mobile you want?",Phn_SelReq,null,Neu
+I want to buy a Vivo phone,V3Max by Vivo is a good phone to use.,Slt_Info,Brand-Vivo,Neu
+What is its camera quality?,It is 13 MP Primary and 8 MP Secondary.,Query_Slot,null,Neu
+"But, I want higher quality secondary camera phone more than 12 MP. 8 MP seems very less.",The 8 megapixel rear-facing camera takes good selfie.,Slt_Info,S_Camera-12+,Neg
+Still I would go for higher MP phone,"Okay, V5s by Vivo has very good camera quality",Feedback,null,Neg
+"Cool, what is its memory?",It is 4 GB RAM and 64 GB internal RAM.,Query_Slot,null,Neu
+What is its cost?,Its cost is 280 EURO,Query_Slot,null,Neu
+"Cool, I will purchase it.","Great choice, I am booking your order.",Booking_Req,null,Pos
+Thanks a lot,My pleasure,Gratitude,null,Pos
