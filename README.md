@@ -10,10 +10,10 @@ Data:  Deviation adapted Virtual Agent (DevAV) Dialogue-Corpus
 
 
 
-The proposed system contains three sub-modules namely : 
-						### 1) Natural Language Understanding (NLU) \
-                                                ### 2) Dynamic Goal adapted Dialogue Manager (DM) \
-                                                ### 3) Natural Langauage Generator (NLG)
+The proposed system contains three sub-modules namely : \
+				  <code >	<b> 1) Natural Language Understanding (NLU) <\b> \
+                                                <b> 2) Dynamic Goal adapted Dialogue Manager (DM) <\b> \
+                                                <b> 3) Natural Langauage Generator (NLG) <\b> 
 
 The pipline structure is as follows : (User Response) NLU --> DM --> NLG (Agent Response)
 
