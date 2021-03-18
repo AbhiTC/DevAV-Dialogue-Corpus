@@ -7,8 +7,8 @@ The primary task of any goal-oriented dialogue agent is to accomplish a user's t
 
 The proposed system contains three sub-modules namely : 
 						1) Natural Language Understanding (NLU)
-                                              2) Dynamic Goal adapted Dialogue Manager (DM)
-                                              3) Natural Langauage Generator (NLG)
+                                                2) Dynamic Goal adapted Dialogue Manager (DM)
+                                                3) Natural Langauage Generator (NLG)
 
 The pipline structure is as follows : (User Response) NLU --> DM --> NLG (Agent Response)
 
