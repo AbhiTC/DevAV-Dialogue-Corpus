@@ -1,0 +1,19 @@
+
+Intent = ['Salutation', 'Sp','Inform-Feedback', 'Confirm' 'Request', 'Result',Done']
+Slot  =  ['Brand','Model','Battery','Ram','P_Camera','S_Camera','Radio','Display_Size','Status','Sim','GPS','OS','Color','IRam','Weight','RY','RM','Price']
+
+The final value of hyper parameters are as follows :
+
+{Hyperparameters :
+{"num_ep_run": 50000,
+"train_freq": 100,
+"max_round_num": 20,
+"success_rate_threshold": 0.3,
+"learning_rate": 1e-3,
+"batch_size": 32,
+"dqn_hidden_size": 70,
+"gamma": 0.9,
+"max_mem_size": 50000,
+"epsilon_init": 0.99,
+"min_epsilon": 0.05,
+} }
