@@ -19,12 +19,12 @@ The pipline structure is as follows : (User Response) NLU --> DM --> NLG (Agent 
 
 
 
-The dialogue corpus (DevVA) contains a total of 1000 dialogues (25 sample conversations + 975 grounded dialogue conversations). It includes a total of 8335 utterances, seven categories, and 18 slots. We have utilized a subset of GSMAreana [2] as the knowledge base for the corpus creation, which contains 2697 unique phone samples and 18 attributes (slots).
+The dialogue corpus (DevVA) contains a total of 1000 dialogues (25 sample conversations + 975 grounded dialogue conversations). It includes a total of 8335 utterances, seven categories, and 18 slots. We have utilized a subset of GSMAreana [1] as the knowledge base for the corpus creation, which contains 2697 unique phone samples and 18 attributes (slots).
 
 
 **1)** In NLU, there are two sub-modules named a) Intent and Slot tagger and b )Sentiment classifier for predicting users response schematic. \
-     * Intent and Slot tagger: We have utilized the joint BERT Model [1] as our IC/STM module, which achieves the accuracy of 93.11% and 87.39% for intent and slot, respectively. 
-     * We experimented with different models such as LSTM, BiLSTM, pre-trained BERT, and pre-trained XLNet, and found that the XLNet is performing best (accuracy - 96.68%) among these models. So, we integrated the pre-trained XLNet fine-tuned on the corpus (DevVA) as the Sentiment Classieir (SC) module.
+     **a) Intent and Slot tagger**: We have utilized the joint BERT Model [2] as our IC/STM module, which achieves the accuracy of 93.11% and 87.39% for intent and slot, respectively.  \
+     **b) Sentiment Classifier** : We experimented with different models such as LSTM, BiLSTM, pre-trained BERT, and pre-trained XLNet, and found that the XLNet is performing best (accuracy - 96.68%) among these models. So, we integrated the pre-trained XLNet fine-tuned on the corpus (DevVA) as the Sentiment Classieir (SC) module.
 
 **2)** Dynamic Goal adapted Dialogue Manager (DM): DM consists of mainly two layers: i) Goal Manager and ii) Dialogue Policy Learner. Goal Manager (GM) tracks discrepancy (goal deviation) for the current dialogue state and formulates a new goal as the observed discrepancy and dialogue state. The dialogue policy with architecture as Fig 4 is optimized using a Reinforcement learning algorithm (DQN). Also, the training loop has been shown in Fig 7. For more details, please see the paper and the GDM Incorporated DPL algorithm.
 
@@ -41,6 +41,6 @@ The dialogue corpus (DevVA) contains a total of 1000 dialogues (25 sample conver
     
 ### References :
 
-1. Bert for joint intent classification and slot filling 2019 https://arxiv.org/abs/1902.10909
-2. Baichoo A. Kaggle GSMArean; 2017 https://www.kaggle.com/arwinneil/gsmarena-phone-dataset
+1. Baichoo A. Kaggle GSMArean; 2017 https://www.kaggle.com/arwinneil/gsmarena-phone-dataset
+2. Bert for joint intent classification and slot filling 2019 https://arxiv.org/abs/1902.10909
 
