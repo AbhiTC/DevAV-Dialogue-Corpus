@@ -9,8 +9,6 @@ Data:  Deviation adapted Virtual Agent (DevAV) Dialogue-Corpus
       Domain : Sales Domain, Annotated Tag : Intent Slot and User Sentiment 
 
 
-First Release  : 200 Dialogues annotated with intent , slot and user sentiment
-
 Citation 
 
       Details will be provided soon.
