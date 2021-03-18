@@ -11,9 +11,9 @@ Data:  Deviation adapted Virtual Agent (DevAV) Dialogue-Corpus
 
 
 The proposed system contains three sub-modules namely : 
-						##1) Natural Language Understanding (NLU)
-                                                ##2) Dynamic Goal adapted Dialogue Manager (DM)
-                                                ##3) Natural Langauage Generator (NLG)
+						## 1) Natural Language Understanding (NLU)
+                                                ## 2) Dynamic Goal adapted Dialogue Manager (DM)
+                                                ## 3) Natural Langauage Generator (NLG)
 
 The pipline structure is as follows : (User Response) NLU --> DM --> NLG (Agent Response)
 
@@ -31,19 +31,16 @@ The dialogue corpus (DevVA) contains a total of 1000 dialogues (25 sample conver
 3) For NLG, the proposed system utilizes a template-based NLG system with an average of 4 response templates per action.
 
 
-
-
-
-###Citation 
+### Citation 
 
       Details will be provided soon.
 
-###For more deatails, please contact: 
+### For more deatails, please contact: 
 
     abhisektiwari2014@gmail.com
     
-###References :
+### References :
 
-1. Bert for joint intent classification and slot filling 2019 
+1. Bert for joint intent classification and slot filling 2019 https://arxiv.org/abs/1902.10909
 2. Baichoo A. Kaggle GSMArean; 2017 https://www.kaggle.com/arwinneil/gsmarena-phone-dataset
 
